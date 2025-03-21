@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentControl" height="680" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="220" left="240" width="285" height="200" zIndex="0" text="$IAT/Page.SectionCtrl">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch1" top="63" left="139" width="131" height="33" zIndex="0" mouseDownText="$IAT/Page.Disable" text="$IAT/Page.Enable" />
+        <Widget xsi:type="widgets.brease.Label" id="Label1" top="63" left="9" width="142" height="33" zIndex="1" text="$IAT/Page.Section" fontSize="20px" bold="true" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="40" left="590" width="360" height="590" zIndex="1" text="$IAT/Page.MachineCtrl">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Label" id="Label6" top="43" left="29" width="101" height="77" zIndex="0" breakWord="true" multiLine="true" text="$IAT/Page.Process" fontSize="20px" bold="true" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton1" top="123" left="149" width="110" height="33" zIndex="1" text="Stop" cornerRadius="8px" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton2" top="53" left="149" width="110" height="33" zIndex="2" text="Start" cornerRadius="8px" />
+        <Widget xsi:type="widgets.brease.Label" id="Label7" top="233" left="29" width="100" height="33" zIndex="3" text="$IAT/Page.Tracking" fontSize="20px" bold="true" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton3" top="303" left="149" width="110" height="33" zIndex="4" text="Stop" cornerRadius="8px" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton4" top="233" left="149" width="110" height="33" zIndex="5" text="Start" cornerRadius="8px" />
+        <Widget xsi:type="widgets.brease.Label" id="Label8" top="413" left="39" width="100" height="77" zIndex="6" breakWord="true" multiLine="true" text="$IAT/Page.AntiSlosh" fontSize="20px" bold="true" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton5" top="483" left="149" width="110" height="33" zIndex="7" text="Stop" cornerRadius="8px" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton6" top="413" left="149" width="110" height="33" zIndex="8" text="Start" cornerRadius="8px" />
+        <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse1" top="53" left="289" width="35" height="35" zIndex="9" backColor="rgba(34, 139, 34, 1)" visible="false" />
+        <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse2" top="233" left="289" width="35" height="35" zIndex="10" backColor="rgba(34, 139, 34, 1)" visible="false" />
+        <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse3" top="413" left="299" width="35" height="35" zIndex="11" backColor="rgba(34, 139, 34, 1)" visible="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="295" left="-155" width="474" height="83" zIndex="2" text="$IAT/Page.SuperTrakControl" textColor="rgba(255, 138, 0, 1)" textAlign="center" rotation="270deg" fontSize="48px" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="270" left="1020" width="170" height="180" zIndex="3" text="$IAT/Page.Jog" visible="false">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="23" left="29" width="110" height="33" zIndex="0" text="$IAT/Page.JogPos" cornerRadius="8px" />
+        <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton2" top="83" left="29" width="110" height="33" zIndex="1" text="$IAT/Page.JogNeg" cornerRadius="8px" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

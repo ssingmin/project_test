@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.6.57 SP?>
+<Package PackageType="PagesPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">MainPage</Object>
+    <Object Type="Package">Documentation</Object>
+    <Object Type="Package">SDM</Object>
+    <Object Type="Package">Video</Object>
+    <Object Type="Package">Temperature</Object>
+    <Object Type="Package">Control</Object>
+    <Object Type="Package">STAlarm</Object>
+    <Object Type="Package">STAlarm2</Object>
+    <Object Type="Package">STAlarm3</Object>
+    <Object Type="Package">MpAlarmX</Object>
+    <Object Type="Package">ParID</Object>
+    <Object Type="Package">ShuttleConfig</Object>
+    <Object Type="Package">AntiSloshConfig</Object>
+  </Objects>
+</Package>

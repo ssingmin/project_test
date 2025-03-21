@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="0" />
+        <Property ID="Message" Value="Motor supply voltage out of range" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="4" />
+        <Property ID="Message" Value="Excessive coil current" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="5" />
+        <Property ID="Message" Value="High Temperature" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[3]">
+        <Property ID="Name" Value="7" />
+        <Property ID="Message" Value="Gateway network error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[4]">
+        <Property ID="Name" Value="8" />
+        <Property ID="Message" Value="Excessive coil current (I²T)" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[5]">
+        <Property ID="Name" Value="9" />
+        <Property ID="Message" Value="Coil(s) unresponsive; check connections" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[6]">
+        <Property ID="Name" Value="11" />
+        <Property ID="Message" Value="Coil driver(s) shut down" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[7]">
+        <Property ID="Name" Value="14" />
+        <Property ID="Message" Value="Encoder calibration required" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[8]">
+        <Property ID="Name" Value="15" />
+        <Property ID="Message" Value="Excessive pallet following error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[9]">
+        <Property ID="Name" Value="16" />
+        <Property ID="Message" Value="Unrecognized pallet(s) detcted" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[10]">
+        <Property ID="Name" Value="19" />
+        <Property ID="Message" Value="Two pallets in collision deadlook" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[11]">
+        <Property ID="Name" Value="20" />
+        <Property ID="Message" Value="Pallet lost position feedback" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[12]">
+        <Property ID="Name" Value="21" />
+        <Property ID="Message" Value="Encoder read error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[13]">
+        <Property ID="Name" Value="22" />
+        <Property ID="Message" Value="Coil driver error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[14]">
+        <Property ID="Name" Value="23" />
+        <Property ID="Message" Value="Conflicting pallets detected" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[15]">
+        <Property ID="Name" Value="24" />
+        <Property ID="Message" Value="PLC interface heartbeat timeout" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[16]">
+        <Property ID="Name" Value="25" />
+        <Property ID="Message" Value="Encoder communication error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[17]">
+        <Property ID="Name" Value="26" />
+        <Property ID="Message" Value="Disabled pallet arrived" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[18]">
+        <Property ID="Name" Value="27" />
+        <Property ID="Message" Value="Abnormal condition detected" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[19]">
+        <Property ID="Name" Value="28" />
+        <Property ID="Message" Value="Section disabled through configuration software" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[20]">
+        <Property ID="Name" Value="30" />
+        <Property ID="Message" Value="Hardware initialization error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[21]">
+        <Property ID="Name" Value="31" />
+        <Property ID="Message" Value="Fatal abnormal condition detected" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[22]">
+        <Property ID="Name" Value="w0" />
+        <Property ID="Message" Value="Application warning" />
+      </Group>
+      <Group ID="[23]">
+        <Property ID="Name" Value="w2" />
+        <Property ID="Message" Value="License not present" />
+      </Group>
+      <Group ID="[24]">
+        <Property ID="Name" Value="w4" />
+        <Property ID="Message" Value="Thermal sensor malfunction" />
+      </Group>
+      <Group ID="[25]">
+        <Property ID="Name" Value="w5" />
+        <Property ID="Message" Value="High Temperature" />
+      </Group>
+      <Group ID="[26]">
+        <Property ID="Name" Value="w6" />
+        <Property ID="Message" Value="Pallet position is uncertain at destination" />
+      </Group>
+      <Group ID="[27]">
+        <Property ID="Name" Value="w7" />
+        <Property ID="Message" Value="Gateway network warning" />
+      </Group>
+      <Group ID="[28]">
+        <Property ID="Name" Value="w8" />
+        <Property ID="Message" Value="Excessive coil current (I²T)" />
+      </Group>
+      <Group ID="[29]">
+        <Property ID="Name" Value="w11" />
+        <Property ID="Message" Value="Pallet position correction was required" />
+      </Group>
+      <Group ID="[30]">
+        <Property ID="Name" Value="w12" />
+        <Property ID="Message" Value="Palled ID tag warning" />
+      </Group>
+      <Group ID="[31]">
+        <Property ID="Name" Value="w13" />
+        <Property ID="Message" Value="Dublicate pallet ID detected" />
+      </Group>
+      <Group ID="[32]">
+        <Property ID="Name" Value="w14" />
+        <Property ID="Message" Value="Two pallets in collision deadlock" />
+      </Group>
+      <Group ID="[33]">
+        <Property ID="Name" Value="w15" />
+        <Property ID="Message" Value="Counts out of range during Encoder handoff" />
+      </Group>
+      <Group ID="[34]">
+        <Property ID="Name" Value="w16" />
+        <Property ID="Message" Value="Consecutive encoder readings out of range" />
+      </Group>
+      <Group ID="[35]">
+        <Property ID="Name" Value="w17" />
+        <Property ID="Message" Value="Invalid region config" />
+      </Group>
+      <Group ID="[36]">
+        <Property ID="Name" Value="w18" />
+        <Property ID="Message" Value="Invalid parameter config" />
+      </Group>
+      <Group ID="[37]">
+        <Property ID="Name" Value="w19" />
+        <Property ID="Message" Value="Command failed" />
+      </Group>
+      <Group ID="[38]">
+        <Property ID="Name" Value="w20" />
+        <Property ID="Message" Value="Invalid syncronization zone configuration" />
+      </Group>
+      <Group ID="[39]">
+        <Property ID="Name" Value="w21" />
+        <Property ID="Message" Value="Encoder read warning" />
+      </Group>
+      <Group ID="[40]">
+        <Property ID="Name" Value="w22" />
+        <Property ID="Message" Value="Coil driver warning" />
+      </Group>
+      <Group ID="[41]">
+        <Property ID="Name" Value="w23" />
+        <Property ID="Message" Value="Parameter save required" />
+      </Group>
+      <Group ID="[42]">
+        <Property ID="Name" Value="w24" />
+        <Property ID="Message" Value="Pallet destination updated" />
+      </Group>
+      <Group ID="[43]">
+        <Property ID="Name" Value="w25" />
+        <Property ID="Message" Value="Encoder communication warning" />
+      </Group>
+      <Group ID="[44]">
+        <Property ID="Name" Value="w26" />
+        <Property ID="Message" Value="Disabled pallet arrived" />
+      </Group>
+      <Group ID="[45]">
+        <Property ID="Name" Value="w27" />
+        <Property ID="Message" Value="Too many pallets" />
+      </Group>
+      <Group ID="[46]">
+        <Property ID="Name" Value="w28" />
+        <Property ID="Message" Value="Reset required to activate configuration changes" />
+      </Group>
+      <Group ID="[47]">
+        <Property ID="Name" Value="w29" />
+        <Property ID="Message" Value="Excessive pallet settling time" />
+      </Group>
+      <Group ID="[48]">
+        <Property ID="Name" Value="w30" />
+        <Property ID="Message" Value="Controller health warning" />
+      </Group>
+      <Group ID="[49]">
+        <Property ID="Name" Value="w31" />
+        <Property ID="Message" Value="Abnormal condition detected" />
+      </Group>
+      <Group ID="[50]">
+        <Property ID="Name" Value="st0" />
+        <Property ID="Message" Value="Motor supply voltage out of range" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[51]">
+        <Property ID="Name" Value="st4" />
+        <Property ID="Message" Value="Excessive coil current" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[52]">
+        <Property ID="Name" Value="st5" />
+        <Property ID="Message" Value="High Temperature" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[53]">
+        <Property ID="Name" Value="st7" />
+        <Property ID="Message" Value="Gateway network error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[54]">
+        <Property ID="Name" Value="st8" />
+        <Property ID="Message" Value="Excessive coil current (I²T)" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[55]">
+        <Property ID="Name" Value="st9" />
+        <Property ID="Message" Value="Coil(s) unresponsive; check connections" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[56]">
+        <Property ID="Name" Value="st11" />
+        <Property ID="Message" Value="Coil driver(s) shut down" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[57]">
+        <Property ID="Name" Value="st14" />
+        <Property ID="Message" Value="Encoder calibration required" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[58]">
+        <Property ID="Name" Value="st15" />
+        <Property ID="Message" Value="Excessive pallet following error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[59]">
+        <Property ID="Name" Value="st16" />
+        <Property ID="Message" Value="Unrecognized pallet(s) detcted" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[60]">
+        <Property ID="Name" Value="st19" />
+        <Property ID="Message" Value="Two pallets in collision deadlook" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[61]">
+        <Property ID="Name" Value="st20" />
+        <Property ID="Message" Value="Pallet lost position feedback" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[62]">
+        <Property ID="Name" Value="st21" />
+        <Property ID="Message" Value="Encoder read error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[63]">
+        <Property ID="Name" Value="st22" />
+        <Property ID="Message" Value="Coil driver error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[64]">
+        <Property ID="Name" Value="st23" />
+        <Property ID="Message" Value="Conflicting pallets detected" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[65]">
+        <Property ID="Name" Value="st24" />
+        <Property ID="Message" Value="PLC interface heartbeat timeout" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[66]">
+        <Property ID="Name" Value="st25" />
+        <Property ID="Message" Value="Encoder communication error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[67]">
+        <Property ID="Name" Value="st26" />
+        <Property ID="Message" Value="Disabled pallet arrived" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[68]">
+        <Property ID="Name" Value="st27" />
+        <Property ID="Message" Value="Abnormal condition detected" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[69]">
+        <Property ID="Name" Value="st28" />
+        <Property ID="Message" Value="Section disabled through configuration software" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[70]">
+        <Property ID="Name" Value="st30" />
+        <Property ID="Message" Value="Hardware initialization error" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[71]">
+        <Property ID="Name" Value="st31" />
+        <Property ID="Message" Value="Fatal abnormal condition detected" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[72]">
+        <Property ID="Name" Value="stw0" />
+        <Property ID="Message" Value="Application warning" />
+      </Group>
+      <Group ID="[73]">
+        <Property ID="Name" Value="stw4" />
+        <Property ID="Message" Value="Thermal sensor malfunction" />
+      </Group>
+      <Group ID="[74]">
+        <Property ID="Name" Value="stw5" />
+        <Property ID="Message" Value="High Temperature" />
+      </Group>
+      <Group ID="[75]">
+        <Property ID="Name" Value="stw7" />
+        <Property ID="Message" Value="Gateway network warning" />
+      </Group>
+      <Group ID="[76]">
+        <Property ID="Name" Value="stw8" />
+        <Property ID="Message" Value="Excessive coil current (I²T)" />
+      </Group>
+      <Group ID="[77]">
+        <Property ID="Name" Value="stw11" />
+        <Property ID="Message" Value="Pallet position correction was required" />
+      </Group>
+      <Group ID="[78]">
+        <Property ID="Name" Value="stw12" />
+        <Property ID="Message" Value="Palled ID tag warning" />
+      </Group>
+      <Group ID="[79]">
+        <Property ID="Name" Value="stw13" />
+        <Property ID="Message" Value="Dublicate pallet ID detected" />
+      </Group>
+      <Group ID="[80]">
+        <Property ID="Name" Value="stw15" />
+        <Property ID="Message" Value="Counts out of range during Encoder handoff" />
+      </Group>
+      <Group ID="[81]">
+        <Property ID="Name" Value="stw16" />
+        <Property ID="Message" Value="Consecutive encoder readings out of range" />
+      </Group>
+      <Group ID="[82]">
+        <Property ID="Name" Value="stw17" />
+        <Property ID="Message" Value="Invalid region config" />
+      </Group>
+      <Group ID="[83]">
+        <Property ID="Name" Value="stw18" />
+        <Property ID="Message" Value="Invalid parameter config" />
+      </Group>
+      <Group ID="[84]">
+        <Property ID="Name" Value="stw19" />
+        <Property ID="Message" Value="Command failed" />
+      </Group>
+      <Group ID="[85]">
+        <Property ID="Name" Value="stw20" />
+        <Property ID="Message" Value="Invalid syncronization zone configuration" />
+      </Group>
+      <Group ID="[86]">
+        <Property ID="Name" Value="stw21" />
+        <Property ID="Message" Value="Encoder read warning" />
+      </Group>
+      <Group ID="[87]">
+        <Property ID="Name" Value="stw22" />
+        <Property ID="Message" Value="Coil driver warning" />
+      </Group>
+      <Group ID="[88]">
+        <Property ID="Name" Value="stw23" />
+        <Property ID="Message" Value="Parameter save required" />
+      </Group>
+      <Group ID="[89]">
+        <Property ID="Name" Value="stw24" />
+        <Property ID="Message" Value="Pallet destination updated" />
+      </Group>
+      <Group ID="[90]">
+        <Property ID="Name" Value="stw25" />
+        <Property ID="Message" Value="Encoder communication warning" />
+      </Group>
+      <Group ID="[91]">
+        <Property ID="Name" Value="stw26" />
+        <Property ID="Message" Value="Disabled pallet arrived" />
+      </Group>
+      <Group ID="[92]">
+        <Property ID="Name" Value="stw27" />
+        <Property ID="Message" Value="Too many pallets" />
+      </Group>
+      <Group ID="[93]">
+        <Property ID="Name" Value="stw28" />
+        <Property ID="Message" Value="Reset required to active configuration changes" />
+      </Group>
+      <Group ID="[94]">
+        <Property ID="Name" Value="stw29" />
+        <Property ID="Message" Value="Excessive pallet settling time" />
+      </Group>
+      <Group ID="[95]">
+        <Property ID="Name" Value="stw30" />
+        <Property ID="Message" Value="Controller health warning" />
+      </Group>
+      <Group ID="[96]">
+        <Property ID="Name" Value="stw31" />
+        <Property ID="Message" Value="Abnormal condition detected" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="4" ArVersion="F4.44">
+  <Aliases>
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleId="2" RoleName="Everyone" Access="0x015F" />
+      </ACL>
+      <ACL Id="2">
+        <ACE RoleId="2" RoleName="Everyone" Access="0x017F" />
+      </ACL>
+    </ACLAliases>
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="2" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="3" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="4" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="5" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="6" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="7" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="8" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="9" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="10" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="11" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="12" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="13" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="14" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="15" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+      <EngineeringUnit Id="16" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView AclId="2">
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables>
+        <Variable Name="gMpAxisBasic_0">
+          <Variable Name="JogPositive" />
+          <Variable Name="JogNegative" />
+        </Variable>
+      </GlobalVariables>
+      <Task Name="ST_Logic">
+        <Variable Name="AcknowledgeAll" />
+        <Variable Name="AcknowledgeSelectedSection" />
+        <Variable Name="AcknowledgeSelectedShuttle" />
+        <Variable Name="AcknowledgeSelectedTarget" />
+        <Variable Name="cmd_StartAntiSloshing" />
+        <Variable Name="cmd_StartPalletControl" />
+        <Variable Name="cmd_StartTracking" />
+        <Variable Name="cmd_StopAntiSloshing" />
+        <Variable Name="cmd_StopPalletControl" />
+        <Variable Name="cmd_StopTracking" />
+        <Variable Name="Config_ControlGainSetIndex" />
+        <Variable Name="Config_FilterWeightMoving" />
+        <Variable Name="Config_FilterWeightStationary" />
+        <Variable Name="Config_OffsetFromCenter" />
+        <Variable Name="Config_SetGain" />
+        <Variable Name="Config_SetPalletShelf" />
+        <Variable Name="Config_ShelfWidth" />
+        <Variable Name="ContainerHeight" />
+        <Variable Name="ContainerLength" />
+        <Variable Name="ContainerShape" />
+        <Variable Name="CountDown" />
+        <Variable Name="CountDownAlarm" />
+        <Variable Name="CountDownShuttle" />
+        <Variable Name="CountUp" />
+        <Variable Name="CountUpAlarm" />
+        <Variable Name="CountUpShuttle" />
+        <Variable Name="ErrorInfo">
+          <Variable Name="StControl">
+            <Variable Name="Error" />
+            <Variable Name="Warning" />
+            <Variable Name="ErrorText" />
+            <Variable Name="WarningText" />
+          </Variable>
+          <Variable Name="StSection" EnableArrayElements="True" />
+          <Variable Name="StTargetExt">
+            <Variable Name="StatusID" EnableArrayElements="True" />
+            <Variable Name="ErrorText" EnableArrayElements="True" />
+            <Variable Name="WarningText" EnableArrayElements="True" />
+            <Variable Name="TargetID" EnableArrayElements="True" />
+          </Variable>
+          <Variable Name="StPallet" AutomaticEnable="True">
+            <Variable Name="StatusID" EnableArrayElements="True" />
+            <Variable Name="ErrorText" EnableArrayElements="True" />
+            <Variable Name="WarningText" EnableArrayElements="True" />
+            <Variable Name="ShuttleID" EnableArrayElements="True" />
+          </Variable>
+          <Variable Name="StReadPnu_Region">
+            <Variable Name="StatusID" />
+            <Variable Name="ErrorText" />
+          </Variable>
+          <Variable Name="StWritePnu_Region">
+            <Variable Name="StatusID" />
+            <Variable Name="ErrorText" />
+          </Variable>
+          <Variable Name="HmiWriteParID">
+            <Variable Name="StatusID" />
+            <Variable Name="ErrorText" />
+          </Variable>
+          <Variable Name="HmiReadParID">
+            <Variable Name="StatusID" />
+            <Variable Name="ErrorText" />
+          </Variable>
+        </Variable>
+        <Variable Name="MpAlarmXCore_0" />
+        <Variable Name="MpAlarmXHistory_0" />
+        <Variable Name="RegionDisabled" />
+        <Variable Name="SaveFailed" />
+        <Variable Name="SaveHistory" />
+        <Variable Name="SaveSuccessful" />
+        <Variable Name="SelectedShuttle" />
+        <Variable Name="SelectedTarget" />
+        <Variable Name="StControl_0">
+          <Variable Name="ErrorReset" />
+        </Variable>
+        <Variable Name="StReadPnu_Region">
+          <Variable Name="ErrorReset" />
+          <Variable Name="Error" />
+        </Variable>
+        <Variable Name="StSection_" EnableArrayElements="True" />
+        <Variable Name="StTargetExt_" EnableArrayElements="True" />
+        <Variable Name="StWritePnu_Region">
+          <Variable Name="ErrorReset" />
+          <Variable Name="Error" />
+        </Variable>
+        <Variable Name="SuperTrakControl">
+          <Variable Name="Command">
+            <Variable Name="EnableAllSections" />
+          </Variable>
+          <Variable Name="Status">
+            <Variable Name="AllSectionsEnabled" />
+            <Variable Name="AntiSloshingEnabled" />
+            <Variable Name="TrackingEnabled" />
+            <Variable Name="PalletControl" />
+          </Variable>
+        </Variable>
+        <Variable Name="VisuAlarmSection" />
+        <Variable Name="VisuAlarmSectionText" />
+        <Variable Name="VisuSection" />
+        <Variable Name="VisuShuttle" />
+        <Variable Name="VisuTemp">
+          <Variable Name="Value" EnableArrayElements="True">
+            <Variable Name="Value[0]" EngineeringUnitId="1" />
+            <Variable Name="Value[1]" EngineeringUnitId="2" />
+            <Variable Name="Value[2]" EngineeringUnitId="3" />
+            <Variable Name="Value[3]" EngineeringUnitId="4" />
+            <Variable Name="Value[4]" EngineeringUnitId="5" />
+            <Variable Name="Value[5]" EngineeringUnitId="6" />
+            <Variable Name="Value[6]" EngineeringUnitId="7" />
+            <Variable Name="Value[7]" EngineeringUnitId="8" />
+            <Variable Name="Value[8]" EngineeringUnitId="9" />
+            <Variable Name="Value[9]" EngineeringUnitId="10" />
+            <Variable Name="Value[10]" EngineeringUnitId="11" />
+            <Variable Name="Value[11]" EngineeringUnitId="12" />
+            <Variable Name="Value[12]" EngineeringUnitId="13" />
+            <Variable Name="Value[13]" EngineeringUnitId="14" />
+            <Variable Name="Value[14]" EngineeringUnitId="15" />
+            <Variable Name="Value[15]" EngineeringUnitId="16" />
+          </Variable>
+          <Variable Name="Warning" EnableArrayElements="True" />
+          <Variable Name="Error" EnableArrayElements="True" />
+        </Variable>
+        <Variable Name="VisuWarningSectionText" />
+        <Variable Name="HmiReadPar" AutomaticEnable="True" />
+        <Variable Name="HmiReadParID_0" AutomaticEnable="True" />
+        <Variable Name="HmiWritePar" AutomaticEnable="True" />
+        <Variable Name="HmiWriteParID_0" AutomaticEnable="True" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

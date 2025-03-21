@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="LogoParIDHeader" height="60" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="8" left="15" width="110" zIndex="0" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="0" left="1080" width="70" height="60" zIndex="1" image="Media/SymbolLib/Diagnostic/Diagnostics.svg" pageId="SDMPage" imageHeight="60" imageWidth="60" cornerRadius="0px" backColor="rgba(255, 255, 255, 0)" style="transparent" />
+    <Widget xsi:type="widgets.brease.FlyOut" id="FlyOut1" top="0" left="550" width="500" height="450" zIndex="2" autoClose="true" buttonOffset="440" docking="top" image="Media/SymbolLib/Edit/Save.svg" buttonHeight="60" buttonWidth="60" imageHeight="50" imageWidth="50" buttonBorderStyle="none" buttonBackColor="rgba(255, 255, 255, 0)" backColor="rgba(217, 217, 217, 1)" style="transparent">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox1" top="70" left="30" width="200" zIndex="0" text="System layout" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox2" top="120" left="30" width="200" zIndex="1" text="Targets" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox3" top="170" left="30" width="200" zIndex="2" text="Regions" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox4" top="220" left="30" width="200" zIndex="3" text="Move configuration" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox5" top="270" left="30" width="200" zIndex="4" text="Global parameters" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox6" top="320" left="30" width="200" zIndex="5" text="Offsets" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox7" top="70" left="260" width="200" zIndex="6" text="Section parameters" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox8" top="120" left="260" width="200" zIndex="7" text="Control gains" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox9" top="170" left="260" width="200" zIndex="8" text="Encoder configuration" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox10" top="220" left="260" width="200" zIndex="9" text="IR Tag configuration" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox11" top="270" left="260" width="200" zIndex="10" text="Virtual IOs" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox12" top="320" left="260" width="200" zIndex="11" text="Position triggers" />
+        <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="378" left="30" width="110" zIndex="12" text="$IAT/Page.Save" cornerRadius="30px" />
+        <Widget xsi:type="widgets.brease.Label" id="Label1" top="380" left="160" width="220" zIndex="13" text="Save executed successfully" textColor="rgba(0, 192, 0, 1)" visible="false" />
+        <Widget xsi:type="widgets.brease.Label" id="Label2" top="380" left="160" width="220" zIndex="14" text="Save failed" textColor="rgba(192, 0, 0, 1)" visible="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="1160" width="110" height="60" zIndex="3" image="Media/BuRLogo.svg" />
+  </Widgets>
+</Content>

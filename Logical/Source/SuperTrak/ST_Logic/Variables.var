@@ -1,0 +1,254 @@
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Configuration*)
+VAR CONSTANT
+	CONFIG_ST_MAX_COMMANDS : USINT := 48; (*Maximum number of commands*)
+	CONFIG_ST_MAX_PALLETS : USINT := 24; (*Maximum number of shuttles*)
+	CONFIG_ST_MAX_SECTIONS : USINT := 4; (*Maximum number of sections*)
+	CONFIG_ST_MAX_SECTIONS_MINUS_ONE : USINT := CONFIG_ST_MAX_SECTIONS-1; (*Maximum number of sections minus one*)
+	CONFIG_ST_MAX_TARGETS : USINT := 48; (*Maximum number of targets*)
+	CONFIG_USED_TARGETS : USINT := 6; (*Used targets on the system*)
+	CONFIG_USED_TARGETS_MINUS_ONE : USINT := CONFIG_USED_TARGETS-1; (*Used targets on the system minus one*)
+	CONFIG_USED_SHUTTLES : USINT := 4; (*Used shuttles on the system*)
+	CONFIG_USED_SHUTTLES_MINUS_ONE : USINT := CONFIG_USED_SHUTTLES-1; (*Used shuttles on the system minus one*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Command variable*)
+VAR
+	SuperTrakControl : {REDUND_UNREPLICABLE} SuperTrakCtrlType := (0); (*Variable to control the SuperTrak system*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Function blocks*)
+VAR
+	StControl_0 : {REDUND_UNREPLICABLE} StControl; (*Function block to communicate to SuperTrak*)
+	StSection_ : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_ST_MAX_SECTIONS_MINUS_ONE] OF StSection; (*Function blocks to control SuperTrak sections*)
+	StPallet_ : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_SHUTTLES_MINUS_ONE] OF StPallet; (*Function block to control shuttles*)
+	StTargetExt_ : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_TARGETS_MINUS_ONE] OF StTargetExt; (*Function blocks to control SuperTrak targets*)
+	StAdvCmd_0 : {REDUND_UNREPLICABLE} StAdvCmd; (*Function block for AntiSloshing implementation*)
+	Target_TON : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_TARGETS] OF TON; (*Timer for shuttle control*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Function block parameters*)
+VAR
+	SuperTrakControlParameters : {REDUND_UNREPLICABLE} StControlParType; (*Parameters for StControl*)
+	SuperTrakSectionParameters : {REDUND_UNREPLICABLE} StSectionParType; (*Parameters for StSection*)
+	PalletControlParameters : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_SHUTTLES_MINUS_ONE] OF StPalletParType; (*Parameters for StPallet*)
+	StAdvCmdParameters : {REDUND_UNREPLICABLE} StAdvCmdParType; (*Parameters for AdvancedCommand Function Block*)
+	TargetControlParameters : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_TARGETS_MINUS_ONE] OF StTargetExtParType; (*Parameters for each StTargetExt*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Anti-Sloshing*)
+VAR
+	cmd_StartAntiSloshing : BOOL; (*Execute the Anti-Sloshing Sequence*)
+	cmd_StopAntiSloshing : BOOL; (*Stop the Anti-Sloshing Sequence*)
+	StopTime : TIME := T#1s; (*Time for Anti-Sloshing stillstand on target*)
+	ContainerShape : USINT; (*Container shape*)
+	ContainerLength : UINT; (*Lenght of the Anti-Sloshing container in mm*)
+	ContainerHeight : UINT; (*Fill height of the Anti-Sloshing container in mm*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Pallet-Control*)
+VAR
+	cmd_StartPalletControl : BOOL; (*Execute the PalletControl*)
+	cmd_StopPalletControl : BOOL; (*Stop the PalletControl*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Tracking*)
+VAR
+	cmd_StartTracking : BOOL; (*Start the Tracking fuciton*)
+	cmd_StopTracking : BOOL; (*Stop the Tracking fuction*)
+	StateCnc : USINT; (*State of the Tracking*)
+END_VAR
+VAR CONSTANT
+	EXPERT_MODE_START : USINT := 0; (*Start the Expert mode*)
+	EXPERT_MODE_EXECUTE : USINT := 1; (*Execute the Expert mode*)
+END_VAR
+VAR
+	SuperTrakBeginExtCtrlStatus : BOOL; (*Status for entering the expert mode*)
+	Position : DINT; (*Position of the axis to calculate shuttle position*)
+END_VAR
+VAR CONSTANT
+	SectionLength : ARRAY[1..CONFIG_ST_MAX_SECTIONS] OF DINT := [1000000,1030000,1000000,1030000]; (*Length of every section*)
+END_VAR
+VAR
+	CncUpdatePosition : DINT; (*Position of the shuttle on the section*)
+	CncUpdateSection : USINT; (*Section where the shuttle is located*)
+	CncUpdateAccel : REAL; (*Acceleration of the shuttle*)
+	CncUpdateVelocity : REAL; (*Velocity of the coupled axis*)
+	OldVelocity : REAL; (*Velocity to calculate the acceleration*)
+	SuperTrakPalletControlStatus : BOOL; (*Tracking status*)
+	CncStartTarget : USINT; (*Start Target for Cnc control*)
+	ControlledShuttle : USINT; (*ID of the controlled shuttle*)
+	CycleTime : REAL; (*Actual cycle time to calculate the acceleration*)
+	RTInfo_0 : RTInfo; (*FUB to read the actual cycle time*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Error handling*)
+VAR
+	ErrorInfo : InfoType; (*Error informations*)
+END_VAR
+VAR CONSTANT
+	ErrorTexts : ARRAY[0..31] OF STRING[80] := ['Motor supply voltage out of range','Not specified','License not present','Not specified','Excessive coil current','High temperature','Not specified','Gateway network error','Excessive coil current(I²T)','Excessive current loop error','Not specified','Coil driver(s) shut down',2('Not specified'),'Encoder calibration required','Excessive pallet following error','Unrecognized pallet(s) detected',2('Not specified'),'Two pallets in collision deadlock','Pallet lost position feedback','Encoder read error','Coil driver error','Conflicting pallets detected','PLC Interface Heartbeat Timeout','Encoder communication error','Disabled pallet arrived','Abnormal condition detected','Section disabled through configuration software','Too many pallets','Hardware initialization error','Fatal abnormal condition detected']; (*Error texts used in TrackMaster*)
+	WarningTexts : ARRAY[0..31] OF STRING[80] := [2('Application warning'),'License not present','Not specified','Thermal sensor malfunction','High temperature','Pallet position is uncertain at destination','Gateway network warning','Excessive coil current (I²T)','Coil(s) unresponsive; check connections','Not specified','Pallet position correction was required','Pallet ID tag warning','Duplicate Pallet ID detected','Two pallets in collision deadlock','Counts out of range during encoder handoff','Consecutive encoder readings out of range','Invalid region configuration','Invalid parameter configuration','Command failed','Invalid sync zone configuration','Encoder read warning','Coil driver warning','Parameter save required','Pallet destination updated','Encoder communication warning','Disabled pallet arrived','Too many pallets','Reset required to activate configuration changes','Excessive Pallet Settling Time','Controller health warning','Abnormal condition detected']; (*Warning texts used in TrackMaster*)
+END_VAR
+VAR
+	Counter : {REDUND_UNREPLICABLE} USINT; (*Counts the errors andn warnings*)
+	FaultBitCounter : USINT; (*Counts the error bit*)
+	FaultBit : USINT; (*Bit that is set to get the right information*)
+	WarningBit : USINT; (*Bit that is set to get the right information*)
+	VisuAlarmSection : USINT; (*Actual selected section on visu*)
+	VisuAlarmSectionText : ARRAY[0..23] OF STRING[80]; (*Alarm text that should be displayed in the table*)
+	VisuWarningSectionText : ARRAY[0..23] OF STRING[80]; (*Warning text that should be displayed in the table*)
+	AcknowledgeSelectedSection : BOOL; (*Acknowledge the selected section*)
+	AcknowledgeAll : BOOL; (*Acknowledge all error*)
+	CountDownAlarm : BOOL; (*Count down one section*)
+	CountUpAlarm : BOOL; (*Count up one section*)
+	AcknowledgeSelectedTarget : BOOL; (*Acknowledge the selected target*)
+	SelectedTarget : USINT; (*Selected target on the alarm page*)
+	AcknowledgeSelectedShuttle : BOOL; (*Acknowledge the selected shuttle*)
+	SelectedShuttle : USINT; (*Selected shuttle on the alarm page*)
+END_VAR
+VAR CONSTANT
+	HmiErrorTexts : ARRAY[0..15] OF STRING[80] := ['Not specified','An invalid section number was specified.','The specified parameter number was not recognized.','The specified task code was not recognized.','The requested operation is currently unavailable.','Not specified','The specified starting index is invalid.','The value to be written was outside of the valid range.','The requested number of elements is invalid.','Not specified','The command did not complete in a timely manner.','The request was denied due to a lack of permissions.',2('Not specified'),'The packet is malformed, or its length is incorrect.','An internal error occurred while processing the request.']; (*Error texts used in StHmi*)
+END_VAR
+VAR
+	ErrorCode : UINT; (*Error code from the StHmiReadParID or StHmiWriteParID FUB*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Read temperatures*)
+VAR
+	Temperatures : TemperaturesType; (*Temperatures of the SuperTrak*)
+	StartIndex : USINT; (*Counter variable*)
+	SectionID : USINT; (*Counter variable for the section*)
+END_VAR
+VAR CONSTANT
+	TemperatureID : UINT := 1570; (*ID for reading temperatures*)
+	WarningTemperature : REAL := 60; (*Max. temperature before warning*)
+	ErrorTemperature : REAL := 80; (*Max. temperature before error*)
+END_VAR
+VAR
+	CountDown : BOOL; (*Go to previous section*)
+	CountUp : BOOL; (*Go to next section*)
+	VisuSection : USINT; (*Section shown on Visu*)
+	VisuTemp : RealSectionType; (*Temperatures shown on Visu*)
+END_VAR
+VAR CONSTANT
+	MAX_SECTIONS : USINT := CONFIG_ST_MAX_SECTIONS; (*Number of sections*)
+END_VAR
+VAR
+	i : USINT; (*Counter variable*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Set Shuttle IDs*)
+VAR
+	StartTarget : USINT; (*Target where shuttles get IDs*)
+	IndexSetIDs : USINT; (*Counter*)
+	NumberOfShuttles : USINT; (*Number of shuttles on the SuperTrak*)
+	IDSet : BOOL; (*Flag if shuttles have IDs*)
+	ReleasedShuttles : USINT; (*Number of shuttles released from Wait target*)
+	WaitTarget : USINT; (*Stop before shuttles go back to start position*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Enable/Disable Region*)
+VAR
+	StWritePnu_Region : StWritePnu; (*Write the command to control the region*)
+	StWritePnuPar_Region : StWritePnuParType; (*Parameter for StWritePnu FUB to control the region*)
+	StReadPnu_Region : StReadPnu; (*Read the status of the region*)
+	StReadPnuPar_Region : StReadPnuParType; (*Parameter for StReadPnu FUB to read the status of the region*)
+END_VAR
+VAR CONSTANT
+	Region : UINT := 0; (*Command to disable the region*)
+END_VAR
+VAR
+	RegionStatus : UINT; (*Status of the region*)
+END_VAR
+VAR CONSTANT
+	RegionEnable : UINT := 7; (*Set the command to enable the region*)
+END_VAR
+VAR
+	RegionEnabled : BOOL; (*The region is enabled*)
+	RegionDisabled : BOOL; (*The region is disabled*)
+	TimerRegionEnable : TON; (*Time before resetting the write command to enable the section*)
+END_VAR
+VAR CONSTANT
+	Save_Parameter : UINT := 971; (*ParID to save commands*)
+	SaveValue : UDINT := 8; (*Value for saving region configuration*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Standstill check*)
+VAR
+	ShuttleInfo : ARRAY[0..127] OF SuperTrakPalletInfo_t; (*Actual shuttle information*)
+	PositionDelta : ARRAY[0..127] OF ShuttlePosition; (*Actual, previous position and actual section*)
+END_VAR
+VAR CONSTANT
+	PositionOffset : USINT := 100; (*Range where shuttle can be to be in standstill*)
+END_VAR
+VAR
+	ShuttlesStandstill : BOOL; (*All shuttles are not moving*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*mappAlarmX*)
+(* Function and Functionblocks *)
+VAR
+	MpAlarmXCore_0 : MpAlarmXCore;
+	MpAlarmXHistory_0 : MpAlarmXHistory;
+END_VAR
+(* Structures used for HMI connection *)
+VAR
+	WarningStrings1 : ARRAY[0..31] OF STRING[255] := ['stw0','stw1','stw2','stw3','stw4',2('stw5'),'stw7','stw8','stw9','stw10','stw11','stw12','stw13','stw14','stw15','stw16','stw17','stw18','stw19','stw20','stw21','stw22','stw23','stw24','stw25','stw26','stw27','stw28','stw29','stw30','stw31']; (*Array that contains the error names*)
+	ErrorStrings1 : ARRAY[0..31] OF STRING[255] := ['st0','st1','st2','st3','sz4','st5','st6','st7','st8','st9','st10','st11','st12','st13','st14','st15','st16','st17','st18','st19','st20','st21','st22','st23','st24','st25','st26','st27','st28','st29','st30','st31']; (*Array contains the warning names*)
+	WarningStrings : ARRAY[0..31] OF STRING[255] := ['w0','w1','w2','w3','w4','w5','w6','w7','w8','w9','w10','w11','w12','w13','w14','w15','w16','w17','w18','w19','w20','w21','w22','w23','w24','w25','w26','w27','w28','w29','w30','w31']; (*Array that contains the error names*)
+	ErrorStrings : ARRAY[0..31] OF STRING[255] := ['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31']; (*Array contains the warning names*)
+	counter : INT;
+	Index : {REDUND_UNREPLICABLE} USINT := 0; (*Index variable used in for loops*)
+	ErrorBitOnSection : ARRAY[0..CONFIG_ST_MAX_SECTIONS_MINUS_ONE] OF ErrorBitSectionType;
+	WarningBitSection : ARRAY[0..CONFIG_ST_MAX_SECTIONS_MINUS_ONE] OF ErrorBitSectionType;
+	SaveHistory : BOOL;
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Hmi interface for read / write ParIDs*)
+VAR
+	HmiLink : HMILinkType; (*Link between the Hmi FUBs*)
+	HmiControl_0 : HMIControl; (*HmiControl FUB to control all FUBs*)
+	HmiWriteParID_0 : HMIWriteParID; (*HmiWriteParID to write ParIDs from HMI*)
+	HmiReadParID_0 : HMIReadParID; (*HmiReadParID to read ParIDs from HMI*)
+	HmiWritePar : HMIWriteParType; (*Parameter structure for HmiWriteParID*)
+	HmiReadPar : HMIReadParType; (*Parameter structure for HmiReadParID*)
+	SaveSuccessful : BOOL; (*Parameter save successful*)
+	SaveFailed : BOOL; (*Parameter save failed*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Shuttle config*)
+VAR
+	CountUpShuttle : BOOL; (*Count up one shuttle*)
+	CountDownShuttle : BOOL; (*Count down one shuttle*)
+	VisuShuttle : UINT; (*Actual shuttle*)
+	Config_ShelfWidth : REAL; (*Shelf width of the shuttle*)
+	Config_OffsetFromCenter : REAL; (*Offset from center from the shuttle*)
+	Config_ControlGainSetIndex : USINT; (*Control gain of the shuttle*)
+	Config_FilterWeightMoving : REAL; (*Filter weight moving of the shuttle*)
+	Config_FilterWeightStationary : REAL; (*Filter weight stationary of the shuttle*)
+	Config_SetPalletShelf : BOOL; (*Set the shuttle shelf parameters*)
+	Config_SetGain : BOOL; (*Set the control gain settings*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Other variables*)
+VAR
+	ReadyToReset : BOOL;
+	Index2 : USINT;
+END_VAR

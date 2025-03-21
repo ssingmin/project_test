@@ -1,0 +1,24 @@
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Global variable for internal use*)
+VAR
+	gStLink : {REDUND_UNREPLICABLE} StLinkType := (0); (*StCom library communication variable*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Global variables for communication to/from SuperTrak*)
+VAR
+	gStCyclicControlData : {REDUND_UNREPLICABLE} ARRAY[0..499] OF USINT := [500(0)]; (*Cyclic control buffer (to SuperTrak)*)
+	gStCyclicStatusData : {REDUND_UNREPLICABLE} ARRAY[0..499] OF USINT := [500(0)]; (*Cyclic status buffer (from SuperTrak)*)
+	gStServiceChannelReqData : {REDUND_UNREPLICABLE} ARRAY[0..127] OF USINT := [128(0)]; (*Service channel request buffer (to SuperTrak)*)
+	gStServiceChannelResData : {REDUND_UNREPLICABLE} ARRAY[0..127] OF USINT := [128(0)]; (*Service channel response buffer (from SuperTrak)*)
+END_VAR
+(*Variables for axis handling*)
+VAR
+	gMpAxisBasic_0 : MpAxisBasic; (*MpAxisBasic FUB for controlling the axis*)
+	gMpAxisBasicParam : MpAxisBasicParType; (*Parameter for MpAxisBasic*)
+END_VAR
+(*Global status*)
+VAR
+	gAllSectionsEnabled : BOOL; (*Global status for SuperTrak enabled and ready*)
+END_VAR

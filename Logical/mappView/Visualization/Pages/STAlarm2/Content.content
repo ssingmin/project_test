@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentSTAlarmPage2" height="680" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="30" left="1090" width="170" height="30" zIndex="0" text="$IAT/Page.AcknowledgeAll" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="610" left="890" width="170" height="50" zIndex="1" pageId="STAlarmPage" text="Back" fontSize="32px" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton2" top="610" left="1090" width="170" height="50" zIndex="2" pageId="STAlarmPage3" text="Next" fontSize="32px" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton3" top="610" left="1090" width="170" height="50" zIndex="3" pageId="STAlarmPage3" text="Next" fontSize="32px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="50" left="580" width="100" height="30" zIndex="4" text="StTargetExt" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="350" left="600" width="70" height="30" zIndex="5" text="StPallet" bold="true" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton3" top="50" left="710" width="170" height="30" zIndex="6" text="$IAT/Page.AcknowledgeButton" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton4" top="350" left="710" width="170" height="30" zIndex="7" text="$IAT/Page.AcknowledgeButton" />
+    <Widget xsi:type="widgets.brease.Table" id="Table1" top="100" left="40" width="1200" height="220" zIndex="8" cellAlign="left center">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TableItem" id="TableItem3" zIndex="0" columnWidth="200" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" text="FUB instance" />
+        <Widget xsi:type="widgets.brease.TableItem" id="TableItem1" zIndex="1" columnWidth="1000" text="Error" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Table" id="Table2" top="400" left="40" width="1200" height="200" zIndex="9" cellAlign="left center">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TableItem" id="TableItem4" zIndex="0" columnWidth="200" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" text="FUB instance" />
+        <Widget xsi:type="widgets.brease.TableItem" id="TableItem2" zIndex="1" columnWidth="1000" text="Error" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="5.07.0" SubType="Binary" Description="SuperTrak control library" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Type declarations">StCom.typ</File>
+    <File Description="Variable declarations">StCom.var</File>
+    <File Description="Function declarations">StCom.fun</File>
+    <File>STComTexts.br</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="ArEventLog" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="AsIecCon" />
+    <Dependency ObjectName="runtime" />
+    <Dependency ObjectName="SuperTrak" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

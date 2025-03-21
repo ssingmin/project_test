@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="LogoHeader" height="60" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="1160" width="110" height="60" zIndex="0" image="Media/BuRLogo.svg" />
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="8" left="15" width="110" zIndex="1" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="0" left="1080" width="70" height="60" zIndex="2" image="Media/SymbolLib/Diagnostic/Diagnostics.svg" pageId="SDMPage" imageHeight="60" imageWidth="60" cornerRadius="0px" backColor="rgba(255, 255, 255, 0)" style="transparent" />
+  </Widgets>
+</Content>

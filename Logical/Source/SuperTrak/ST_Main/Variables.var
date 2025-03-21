@@ -1,0 +1,28 @@
+(********************************************************************
+ * Copyright ATS Automation Tooling Systems, Inc. 2015
+ * All rights reserved.
+ ********************************************************************
+ * Local variables
+ ********************************************************************)
+(*ServiceChannel Handling*)
+VAR
+	SuperTrakControlInterface : ARRAY[0..stMAX_CONTROL_IF_INDEX] OF SuperTrakControlInterface_t := [stMAX_CONTROL_IF_COUNT((0))];
+	ServiceChannelData : ServiceChannel_t := (0);
+	pResView : REFERENCE TO ServiceChannelHeader_t;
+	pReqView : REFERENCE TO ServiceChannelHeader_t;
+END_VAR
+(*SuperTrak Init Parameters*)
+VAR
+	ARSimIPAddress : STRING[15] := '127.0.0.1'; (*IP Adress of the ArSim*)
+	EthernetInterfaces : STRING[31] := 'IF3,IF4'; (*Existing Ethernet Interfaces on APC*)
+	StoragePath : STRING[127];
+END_VAR
+(*Insert your comment here.*)
+VAR
+	i : UINT := 0;
+	status : UINT := 0;
+	count : UINT := 0;
+	digitalInputFunction : ARRAY[0..7] OF UINT := [8(0)];
+	udintValue : UDINT;
+	uintValue : UINT;
+END_VAR

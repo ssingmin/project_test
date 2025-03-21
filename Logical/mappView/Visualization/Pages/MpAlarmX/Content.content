@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentAlarmX" height="680" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="275" left="-177" width="474" height="83" zIndex="0" text="$IAT/Page.mpAlarmX" textColor="rgba(255, 138, 0, 1)" textAlign="center" rotation="270deg" fontSize="48px" />
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="60" left="220" width="900" height="470" zIndex="1" itemsPerPage="0" paging="false" searchBox="false" borderStyle="solid" borderColor="rgba(0, 0, 0, 1)" backColor="rgba(255, 255, 255, 0)" headerBackColor="rgba(0, 0, 0, 1)" headerTextColor="rgba(255, 255, 255, 1)" cornerRadius="0px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" width="110" zIndex="0" columnType="state" text="State" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" width="170" zIndex="1" columnType="timestamp" text="Time" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem4" width="620" zIndex="2" text="Message" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="560" left="410" width="260" height="40" zIndex="2" text="Acknowledge selected Alarm" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="560" left="760" width="180" height="40" zIndex="3" text="Save Alarm History" />
+  </Widgets>
+</Content>

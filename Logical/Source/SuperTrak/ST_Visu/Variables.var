@@ -1,0 +1,53 @@
+(*Visualization program states*)
+VAR CONSTANT
+	visuSTEP_INITIALIZE : USINT := 0;
+	visuSTEP_GET_SECTION_COUNT : USINT := 1;
+	visuSTEP_GET_SECTION_ADDRS : USINT := 2;
+	visuSTEP_GET_SECTION_TYPES : USINT := 3;
+	visuSTEP_SETUP_SECTIONS : USINT := 10;
+	visuSTEP_RUN : USINT := 42;
+	visuSTEP_ERROR : USINT := 99;
+END_VAR
+(*SuperTrak section types*)
+VAR CONSTANT
+	SECTION_TYPE_1M : UINT := 0;
+	SECTION_TYPE_N180 : UINT := 1;
+	SECTION_TYPE_1M_LP : UINT := 2;
+	SECTION_TYPE_W180L : UINT := 3;
+	SECTION_TYPE_W180R : UINT := 4;
+END_VAR
+(*Miscellaneous constants*)
+VAR CONSTANT
+	W180_RADIUS : REAL := 418.75;
+END_VAR
+(*Miscellaneous variables*)
+VAR
+	angle : REAL := 0.0;
+	h : INT := 0;
+	i : UINT := 0;
+	position : REAL := 0.0;
+	result : UINT := 0;
+	visuStep : USINT := 0;
+END_VAR
+(*Visualization variables*)
+VAR
+	Data : RoboVisuData_t := (0); (*exported to Robotic Visualization*)
+	sectionCount : UINT := 0;
+	Section : ARRAY[0..63] OF SectionInfo_t; (*index = hSection*)
+	Pallet : ARRAY[0..127] OF SuperTrakPalletInfo_t := [128(0)];
+	sectionLookup : ARRAY[0..99] OF INT := [100(-1)]; (*index = user address, value = hSection*)
+	straightPalletPositionY : ARRAY[0..1] OF REAL := [2(0.0)];
+END_VAR
+(*Setup variables*)
+VAR
+	curveHSection : ARRAY[0..1] OF INT := [2(-1)];
+	curveSide : INT := 0;
+	curveType : UINT := 0;
+	modelIndex : INT := 0;
+	side : INT := 0;
+	sideLength : ARRAY[0..1] OF UINT := [2(0)];
+END_VAR
+(*SuperTrak service channel*)
+VAR
+	servChanResponseUINT : {REDUND_UNREPLICABLE} ARRAY[0..63] OF UINT;
+END_VAR

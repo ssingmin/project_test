@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html><head>
+<title>Conveyor Visualization</title>
+<style type="text/css"><!--
+
+dt
+{
+	float: left;
+	clear: left;
+	width: 12em;
+	font-weight: bold;
+	color: #464;
+	border-bottom: 1px dotted #464;
+}
+
+dd
+{
+	margin: 1ex 0 1ex 13em;
+}
+
+ol.spaced > li
+{
+	margin-bottom: 2ex;
+}
+
+li :first-child, td :first-child
+{
+	margin-top: 0;
+}
+
+li :last-child, td :last-child
+{
+	margin-bottom: 0;
+}
+
+table
+{
+	border-collapse: collapse;
+	page-break-inside: avoid;
+}
+
+td, th
+{
+	border: 1px solid black;
+	padding: 0.2ex 0.2em;
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+
+--></style>
+</head><body>
+<h1>Conveyor Visualization with B&R Scene Viewer</h1>
+
+<ol class="spaced">
+	<li>Start your conveyor controller (or simulation).</li>
+	<li>Start B&amp;R Scene Viewer.</li>
+	<li>In the "File" menu, select "Open". Then, select "Visualization.scn".</li>
+	<li>
+		<p>In the "PVI" menu, select "Options". Configure as follows:</p>
+
+<table>
+	<tr>
+		<td>IP address</td>
+		<td><i>(your controller's IP address)</i></td>
+	</tr>
+	<tr>
+		<td>Task Name</td>
+		<td>ST_Visu</td>
+	</tr>
+	<tr>
+		<td>Variable name</td>
+		<td>Data</td>
+	</tr>
+	<tr>
+		<td>Size</td>
+		<td>3072</td>
+	</tr>
+	<tr>
+		<td>Extra</td>
+		<td><i>(empty)</i></td>
+	</tr>
+	<tr>
+		<td>Additional connection parameters</td>
+		<td><i>(empty)</i></td>
+	</tr>
+	<tr>
+		<td>Timer mode</td>
+		<td>enabled</td>
+	</tr>
+	<tr>
+		<td>Refresh rate</td>
+		<td>25ms</td>
+	</tr>
+	<tr>
+		<td>Timing variable</td>
+		<td><i>(not applicable)</i></td>
+	</tr>
+</table>
+
+		<p>To connect to a local ARsim instance, specify the IP address "127.0.0.1".</p>
+	</li>
+
+	<li>
+		<p>In the "PVI" menu, select "Start PVI". The status bar should change from "OFFLINE" to "RUN", and the visualization should display the state of the system.</p>
+		<p>If the connection cannot be established, or the visualization does not function correctly, verify the following:</p>
+		<ul>
+			<li>The correct IP address was specified in PVI Options.</li>
+			<li>Networking is configured and cabled correctly.</li>
+			<li>Your controller is functioning correctly.</li>
+			<li>Your controller supports visualization.</li>
+		</ul>
+	</li>
+	<li>
+		<p>If desired, adjust the view. The controls are described in the Scene Viewer help file. The most frequently used controls are as follows:</p>
+		<dl>
+			<dt>Toggle Full Screen</dt>
+			<dd>Double-click the left mouse button.</dd>
+
+			<dt>Zoom</dt>
+			<dd>Rotate the mouse wheel.</dd>
+
+			<dt>Pan</dt>
+			<dd>Depress and hold the mouse wheel, and drag.</dd>
+
+			<dt>Rotate</dt>
+			<dd>Depress and hold Shift + mouse wheel, and drag.</dd>
+		</dl>
+	</li>
+</ol>
+
+</body></html>
+

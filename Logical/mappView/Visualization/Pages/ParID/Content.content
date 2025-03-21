@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ParIDContent" height="680" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label_ButtonHeader" top="266" left="-177" width="487" height="114" zIndex="0" multiLine="true" text="$IAT/Page.Configuration" wordWrap="true" textAlign="center" rotation="270deg" fontSize="48px" style="Title1" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="30" left="130" width="540" height="620" zIndex="1" text="$IAT/Page.WriteHeader">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Label" id="Label1" top="13" left="29" width="80" height="30" zIndex="0" text="Section" />
+        <Widget xsi:type="widgets.brease.Label" id="Label2" top="53" left="29" width="80" height="30" zIndex="1" text="ParID" />
+        <Widget xsi:type="widgets.brease.Label" id="Label3" top="93" left="30" width="90" height="30" zIndex="2" text="Start index" />
+        <Widget xsi:type="widgets.brease.Label" id="Label4" top="133" left="29" width="80" height="30" zIndex="3" text="Count" />
+        <Widget xsi:type="widgets.brease.Label" id="Label5" top="534" left="28" width="80" height="30" zIndex="4" text="Output" />
+        <Widget xsi:type="widgets.brease.Label" id="Label6" top="173" left="29" width="80" height="30" zIndex="5" text="UDINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label7" top="213" left="29" width="80" height="30" zIndex="6" text="UINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label8" top="253" left="29" width="80" height="30" zIndex="7" text="USINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label9" top="293" left="29" width="80" height="30" zIndex="8" text="DINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label10" top="333" left="28" width="80" height="30" zIndex="9" text="INT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label11" top="373" left="29" width="80" height="30" zIndex="10" text="SINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label12" top="454" left="28" width="80" height="30" zIndex="11" text="STRING" />
+        <Widget xsi:type="widgets.brease.Label" id="Label13" top="494" left="28" width="112" height="30" zIndex="12" text="STRING Size" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="13" left="169" width="250" height="30" zIndex="13" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="64" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="53" left="168" width="250" height="30" zIndex="14" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="10000" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput3" top="93" left="168" width="250" height="30" zIndex="15" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="1000" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput4" top="133" left="168" width="250" height="30" zIndex="16" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="1000" minValue="1" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput5" top="173" left="168" width="250" height="30" zIndex="17" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="4294967295" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput6" top="213" left="168" width="250" height="30" zIndex="18" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="65535" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput7" top="253" left="168" width="250" height="30" zIndex="19" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="255" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput8" top="293" left="168" width="250" height="30" zIndex="20" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="2147483647" minValue="-2147483648" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput9" top="333" left="168" width="250" height="30" zIndex="21" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="32767" minValue="-32768" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput10" top="373" left="168" width="250" height="30" zIndex="22" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="127" minValue="-128" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput11" top="494" left="169" width="250" height="30" zIndex="23" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" />
+        <Widget xsi:type="widgets.brease.TextInput" id="TextInput1" top="454" left="169" width="250" height="30" zIndex="24" maxLength="80" />
+        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="534" left="169" width="251" height="34" zIndex="25" backColor="rgba(0, 255, 0, 1)" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton1" top="174" left="429" width="100" height="30" zIndex="26" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton2" top="214" left="429" width="100" height="30" zIndex="27" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton3" top="254" left="429" width="100" height="30" zIndex="28" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton4" top="294" left="429" width="100" height="30" zIndex="29" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton5" top="334" left="429" width="100" height="30" zIndex="30" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton6" top="374" left="429" width="100" height="30" zIndex="31" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton7" top="454" left="429" width="100" height="30" zIndex="32" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="534" left="169" width="251" height="34" zIndex="33" backColor="rgba(255, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton15" top="534" left="429" width="100" height="30" zIndex="34" text="$IAT/Page.Reset" />
+        <Widget xsi:type="widgets.brease.Label" id="Label27" top="414" left="29" width="80" height="30" zIndex="35" text="REAL" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton17" top="414" left="430" width="100" height="30" zIndex="36" text="$IAT/Page.Write" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput16" top="414" left="170" width="249" height="30" zIndex="37" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':0},'imperial':{'decimalPlaces':2,'minimumIntegerDigits':0},'imperial-us':{'decimalPlaces':2,'minimumIntegerDigits':0}}" maxValue="2147483647" minValue="-2147483648" showUnit="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="30" left="700" width="540" height="620" zIndex="2" text="$IAT/Page.ReadHeader">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Label" id="Label14" top="13" left="29" width="80" height="30" zIndex="0" text="Section" />
+        <Widget xsi:type="widgets.brease.Label" id="Label15" top="53" left="29" width="80" height="30" zIndex="1" text="ParID" />
+        <Widget xsi:type="widgets.brease.Label" id="Label16" top="93" left="30" width="90" height="30" zIndex="2" text="Start index" />
+        <Widget xsi:type="widgets.brease.Label" id="Label17" top="133" left="29" width="80" height="30" zIndex="3" text="Count" />
+        <Widget xsi:type="widgets.brease.Label" id="Label18" top="534" left="28" width="80" height="30" zIndex="4" text="Output" />
+        <Widget xsi:type="widgets.brease.Label" id="Label19" top="173" left="29" width="80" height="30" zIndex="5" text="UDINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label20" top="213" left="29" width="80" height="30" zIndex="6" text="UINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label21" top="253" left="29" width="80" height="30" zIndex="7" text="USINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label22" top="293" left="29" width="80" height="30" zIndex="8" text="DINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label23" top="333" left="28" width="80" height="30" zIndex="9" text="INT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label24" top="373" left="29" width="80" height="30" zIndex="10" text="SINT" />
+        <Widget xsi:type="widgets.brease.Label" id="Label25" top="454" left="28" width="80" height="30" zIndex="11" text="STRING" />
+        <Widget xsi:type="widgets.brease.Label" id="Label26" top="494" left="28" width="112" height="30" zIndex="12" text="STRING Size" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput12" top="13" left="169" width="250" height="30" zIndex="13" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="10" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput13" top="53" left="168" width="250" height="30" zIndex="14" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="10000" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput14" top="93" left="168" width="250" height="30" zIndex="15" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="1000" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput15" top="133" left="168" width="250" height="30" zIndex="16" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="1000" minValue="1" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput22" top="494" left="169" width="250" height="30" zIndex="17" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="173" left="169" width="249" height="30" zIndex="18" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="4294967295" borderWidth="2px" borderStyle="solid" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="213" left="169" width="249" height="30" zIndex="19" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="65535" borderWidth="2px" borderStyle="solid" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="253" left="169" width="249" height="30" zIndex="20" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="255" borderWidth="2px" borderStyle="solid" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="293" left="169" width="249" height="30" zIndex="21" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="2147483647" minValue="-2147483648" borderWidth="2px" borderStyle="solid" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="333" left="169" width="249" height="30" zIndex="22" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="32767" minValue="-32768" borderWidth="2px" borderStyle="solid" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput6" top="373" left="169" width="249" height="30" zIndex="23" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="127" minValue="-128" borderWidth="2px" borderStyle="solid" />
+        <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="454" left="169" width="251" height="30" zIndex="24" value="" borderWidth="2px" borderColor="rgba(153, 153, 153, 1)" borderStyle="solid" textAlign="right" />
+        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="534" left="169" width="251" height="34" zIndex="25" backColor="rgba(0, 255, 0, 1)" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton8" top="174" left="429" width="100" height="30" zIndex="26" text="$IAT/Page.Read" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton9" top="214" left="429" width="100" height="30" zIndex="27" text="$IAT/Page.Read" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton10" top="254" left="429" width="100" height="30" zIndex="28" text="$IAT/Page.Read" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton11" top="294" left="429" width="100" height="30" zIndex="29" text="$IAT/Page.Read" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton13" top="374" left="429" width="100" height="30" zIndex="30" text="$IAT/Page.Read" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton14" top="454" left="429" width="100" height="30" zIndex="31" text="$IAT/Page.Read" />
+        <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="534" left="169" width="251" height="34" zIndex="32" backColor="rgba(255, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton16" top="534" left="429" width="100" height="30" zIndex="33" text="$IAT/Page.Reset" />
+        <Widget xsi:type="widgets.brease.Label" id="Label28" top="414" left="29" width="80" height="30" zIndex="34" text="REAL" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton18" top="415" left="429" width="100" height="30" zIndex="35" text="$IAT/Page.Read" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput7" top="414" left="169" width="249" height="30" zIndex="36" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':0},'imperial':{'decimalPlaces':2,'minimumIntegerDigits':0},'imperial-us':{'decimalPlaces':2,'minimumIntegerDigits':0}}" maxValue="2147483647" minValue="-2147483648" borderWidth="2px" borderStyle="solid" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton12" top="333" left="429" width="100" height="30" zIndex="37" text="$IAT/Page.Read" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentTemperatures" height="680" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="100" left="80" width="260" height="30" zIndex="0" text="Motor temperature - Left sensor 1" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="140" left="80" width="260" height="30" zIndex="1" text="Motor temperature - Left sensor 2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="180" left="80" width="260" height="30" zIndex="2" text="Motor temperature - Left sensor 3" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="220" left="80" width="260" height="30" zIndex="3" text="Motor temperature - Left sensor 4" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="260" left="80" width="260" height="30" zIndex="4" text="Motor temperature - Left sensor 5" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="300" left="80" width="260" height="30" zIndex="5" text="Electronics Temperature - Left" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="340" left="80" width="260" height="30" zIndex="6" text="Motor voltage - Left" />
+    <Widget xsi:type="widgets.brease.Label" id="Label10" top="400" left="80" width="260" height="30" zIndex="7" text="Motor temperature - Right sensor 1" />
+    <Widget xsi:type="widgets.brease.Label" id="Label11" top="440" left="80" width="260" height="30" zIndex="8" text="Motor temperature - Right sensor 2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label12" top="480" left="80" width="260" height="30" zIndex="9" text="Motor temperature - Right sensor 3" />
+    <Widget xsi:type="widgets.brease.Label" id="Label13" top="520" left="80" width="260" height="30" zIndex="10" text="Motor temperature - Right sensor 4" />
+    <Widget xsi:type="widgets.brease.Label" id="Label14" top="560" left="80" width="260" height="30" zIndex="11" text="Motor temperature - Right sensor 5" />
+    <Widget xsi:type="widgets.brease.Label" id="Label15" top="600" left="80" width="260" height="30" zIndex="12" text="Electronics Temperature - Right" />
+    <Widget xsi:type="widgets.brease.Label" id="Label16" top="640" left="80" width="260" height="30" zIndex="13" text="Motor voltage - Right" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="14" x1="80" x2="1200" y1="100" y2="100" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="15" x1="80" x2="1200" y1="140" y2="140" />
+    <Widget xsi:type="widgets.brease.Line" id="Line3" zIndex="16" x1="80" x2="1200" y1="180" y2="180" />
+    <Widget xsi:type="widgets.brease.Line" id="Line4" zIndex="17" x1="80" x2="1200" y1="220" y2="220" />
+    <Widget xsi:type="widgets.brease.Line" id="Line5" zIndex="18" x1="80" x2="1200" y1="260" y2="260" />
+    <Widget xsi:type="widgets.brease.Line" id="Line6" zIndex="19" x1="80" x2="1200" y1="300" y2="300" />
+    <Widget xsi:type="widgets.brease.Line" id="Line7" zIndex="20" x1="80" x2="1200" y1="340" y2="340" />
+    <Widget xsi:type="widgets.brease.Line" id="Line8" zIndex="21" x1="80" x2="1200" y1="380" y2="380" />
+    <Widget xsi:type="widgets.brease.Line" id="Line10" zIndex="22" x1="80" x2="1200" y1="400" y2="400" />
+    <Widget xsi:type="widgets.brease.Line" id="Line11" zIndex="23" x1="80" x2="1200" y1="440" y2="440" />
+    <Widget xsi:type="widgets.brease.Line" id="Line12" zIndex="24" x1="80" x2="1200" y1="480" y2="480" />
+    <Widget xsi:type="widgets.brease.Line" id="Line13" zIndex="25" x1="80" x2="1200" y1="520" y2="520" />
+    <Widget xsi:type="widgets.brease.Line" id="Line14" zIndex="26" x1="80" x2="1200" y1="560" y2="560" />
+    <Widget xsi:type="widgets.brease.Line" id="Line15" zIndex="27" x1="80" x2="1200" y1="600" y2="600" />
+    <Widget xsi:type="widgets.brease.Line" id="Line16" zIndex="28" x1="80" x2="1200" y1="640" y2="640" />
+    <Widget xsi:type="widgets.brease.Line" id="Line17" zIndex="29" x1="360" x2="360" y1="70" y2="710" />
+    <Widget xsi:type="widgets.brease.Line" id="Line18" zIndex="30" x1="640" x2="640" y1="70" y2="710" />
+    <Widget xsi:type="widgets.brease.Line" id="Line19" zIndex="31" x1="920" x2="920" y1="70" y2="710" />
+    <Widget xsi:type="widgets.brease.Label" id="Temperature" top="70" left="460" width="120" height="30" zIndex="32" text="$IAT/Page.Temperatures" />
+    <Widget xsi:type="widgets.brease.Label" id="Label18" top="70" left="760" width="80" height="30" zIndex="33" text="$IAT/Page.Warning" />
+    <Widget xsi:type="widgets.brease.Label" id="Label19" top="70" left="1040" width="80" height="30" zIndex="34" text="$IAT/Page.Error" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="100" left="920" width="280" height="40" zIndex="35" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="140" left="920" width="280" height="40" zIndex="36" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="180" left="920" width="280" height="40" zIndex="37" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="220" left="920" width="280" height="40" zIndex="38" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle5" top="260" left="920" width="280" height="40" zIndex="39" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle6" top="300" left="920" width="280" height="40" zIndex="40" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle7" top="340" left="920" width="280" height="40" zIndex="41" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle8" top="400" left="920" width="280" height="40" zIndex="42" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle9" top="440" left="920" width="280" height="40" zIndex="43" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle10" top="480" left="920" width="280" height="40" zIndex="44" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle11" top="520" left="920" width="280" height="40" zIndex="45" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle12" top="560" left="920" width="280" height="40" zIndex="46" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle13" top="600" left="920" width="280" height="40" zIndex="47" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle14" top="640" left="920" width="280" height="40" zIndex="48" borderWidth="3px" backColor="rgba(255, 0, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle15" top="100" left="640" width="280" height="40" zIndex="49" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle16" top="140" left="640" width="280" height="40" zIndex="50" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle17" top="180" left="640" width="280" height="40" zIndex="51" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle18" top="220" left="640" width="280" height="40" zIndex="52" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle19" top="260" left="640" width="280" height="40" zIndex="53" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle20" top="300" left="640" width="280" height="40" zIndex="54" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle21" top="340" left="640" width="280" height="40" zIndex="55" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle22" top="400" left="640" width="280" height="40" zIndex="56" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle23" top="440" left="640" width="280" height="40" zIndex="57" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle24" top="480" left="640" width="280" height="40" zIndex="58" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle25" top="520" left="640" width="280" height="40" zIndex="59" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle26" top="560" left="640" width="280" height="40" zIndex="60" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle27" top="600" left="640" width="280" height="40" zIndex="61" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle28" top="640" left="640" width="280" height="40" zIndex="62" borderWidth="3px" backColor="rgba(255, 255, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="100" left="360" width="280" height="30" zIndex="63" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="140" left="360" width="280" height="30" zIndex="64" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="180" left="360" width="280" height="30" zIndex="65" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="220" left="360" width="280" height="30" zIndex="66" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="260" left="360" width="280" height="30" zIndex="67" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput6" top="300" left="360" width="280" height="30" zIndex="68" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput7" top="340" left="360" width="280" height="30" zIndex="69" unit="{'metric':'2G','imperial':'2G','imperial-us':'2G'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput8" top="400" left="360" width="280" height="30" zIndex="70" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput9" top="440" left="360" width="280" height="30" zIndex="71" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput10" top="480" left="360" width="280" height="30" zIndex="72" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput11" top="520" left="360" width="280" height="30" zIndex="73" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput12" top="560" left="360" width="280" height="30" zIndex="74" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput13" top="600" left="360" width="280" height="30" zIndex="75" unit="{'metric':'CEL','imperial':'CEL','imperial-us':'CEL'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput14" top="640" left="360" width="280" height="30" zIndex="76" unit="{'metric':'2G','imperial':'2G','imperial-us':'2G'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput15" top="30" left="600" width="50" height="30" zIndex="77" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" maxValue="4" minValue="1" value="1" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="0" left="590" width="80" height="30" zIndex="78" text="Section" bold="true" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="30" left="670" width="100" height="30" zIndex="79" text="+" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="30" left="480" width="100" height="30" zIndex="80" text="-" />
+  </Widgets>
+</Content>

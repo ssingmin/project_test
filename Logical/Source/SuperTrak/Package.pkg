@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">ST_Logic</Object>
+    <Object Type="Program" Language="IEC" Description="Create the Service-Channel to the SuperTrak controller">ST_Main</Object>
+    <Object Type="Program" Language="IEC" Description="Connection to Scene Viewer">ST_Visu</Object>
+  </Objects>
+</Package>

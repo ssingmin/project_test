@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Page.Section">
+      <tuv xml:lang="de">
+        <seg>Abschnitte</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Sections</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Controls">
+      <tuv xml:lang="de">
+        <seg>Steuerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Controls</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Alarm">
+      <tuv xml:lang="de">
+        <seg>Alarm</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Energy">
+      <tuv xml:lang="de">
+        <seg>Leistung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Energy</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Docu">
+      <tuv xml:lang="de">
+        <seg>Dokumentation</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Documentation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.SDM">
+      <tuv xml:lang="de">
+        <seg>SDM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SDM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.State">
+      <tuv xml:lang="de">
+        <seg>Maschinen Status</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine Status</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Program">
+      <tuv xml:lang="de">
+        <seg>Demo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Demo</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.SectionCtrl">
+      <tuv xml:lang="de">
+        <seg>Abschnitt-Steuerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Section Control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.MachineCtrl">
+      <tuv xml:lang="de">
+        <seg>Maschinen-Steuerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine Control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.AlarmSel">
+      <tuv xml:lang="de">
+        <seg>Ausgewählten Alarm bestätigen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge Selected</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.AlarmAll">
+      <tuv xml:lang="de">
+        <seg>Alle bestätigen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge All</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Name">
+      <tuv xml:lang="de">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Timestamp">
+      <tuv xml:lang="de">
+        <seg>Zeitpunkt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Timestamp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Message">
+      <tuv xml:lang="de">
+        <seg>Nachricht</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Message</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Time">
+      <tuv xml:lang="de">
+        <seg>Prozesszeit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Process Time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Video">
+      <tuv xml:lang="de">
+        <seg>Video</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Video</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Disable">
+      <tuv xml:lang="de">
+        <seg>Aus</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Disable</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Enable">
+      <tuv xml:lang="de">
+        <seg>Ein</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Enable</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.SuperTrakControl">
+      <tuv xml:lang="de">
+        <seg>SuperTrak Steuerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SuperTrak Control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.General">
+      <tuv xml:lang="de">
+        <seg>Gesamt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>General</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Error">
+      <tuv xml:lang="de">
+        <seg>Fehler</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Estop">
+      <tuv xml:lang="de">
+        <seg>Not Aus ist gedrückt!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Emergency Stop is pressed!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Process">
+      <tuv xml:lang="de">
+        <seg>Standard</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Standard Use</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.AntiSlosh">
+      <tuv xml:lang="de">
+        <seg>Anti-Sloshing</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Anti-Sloshing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Tracking">
+      <tuv xml:lang="de">
+        <seg>Tracking</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tracking</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Temperatures">
+      <tuv xml:lang="de">
+        <seg>Temperatur</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Temperatures</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.SystemDiagnosticManager">
+      <tuv xml:lang="de">
+        <seg>System Diagnostic Manager</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>System Diagnostic Manager</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Warning">
+      <tuv xml:lang="de">
+        <seg>Warnung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Warning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Acknowledge">
+      <tuv xml:lang="de">
+        <seg>Quit.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ackn. req</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.AcknowledgeButton">
+      <tuv xml:lang="de">
+        <seg>Quittieren</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.AcknowledgeAll">
+      <tuv xml:lang="de">
+        <seg>Alle quittieren</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge all</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Control">
+      <tuv xml:lang="de">
+        <seg>Control</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.ReadTemp">
+      <tuv xml:lang="de">
+        <seg>Temp.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Read Temp.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.JogPos">
+      <tuv xml:lang="de">
+        <seg>Positiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Jog pos.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.JogNeg">
+      <tuv xml:lang="de">
+        <seg>Negativ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Jog neg.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Jog">
+      <tuv xml:lang="de">
+        <seg>Bewegung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Movement</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Fault">
+      <tuv xml:lang="de">
+        <seg>Fehler aufgetreten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fault occured</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.mpAlarmX">
+      <tuv xml:lang="de">
+        <seg>mpAlarmX</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>mpAlarmX</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.mpAlarmXHistory">
+      <tuv xml:lang="de">
+        <seg>mpAlarmXHistory</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>mpAlarmXHistory</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Write">
+      <tuv xml:lang="de">
+        <seg>Schreiben</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Write</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Read">
+      <tuv xml:lang="de">
+        <seg>Lesen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Read</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.ReadHeader">
+      <tuv xml:lang="de">
+        <seg>ParID lesen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Read ParID</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.WriteHeader">
+      <tuv xml:lang="de">
+        <seg>ParID schreiben</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Write ParID</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Configuration">
+      <tuv xml:lang="de">
+        <seg>Konfiguration</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Settings">
+      <tuv xml:lang="de">
+        <seg>Shuttle Einstellungen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Shuttle settings</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Set">
+      <tuv xml:lang="de">
+        <seg>Übernehmen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Velocity">
+      <tuv xml:lang="de">
+        <seg>Geschwindigkeit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Velocity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Acceleration">
+      <tuv xml:lang="de">
+        <seg>Beschleunigung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acceleration</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.ParID">
+      <tuv xml:lang="de">
+        <seg>ParID</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ParID</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Save">
+      <tuv xml:lang="de">
+        <seg>Speichern</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Reset">
+      <tuv xml:lang="de">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.AntiSloshConfig">
+      <tuv xml:lang="de">
+        <seg>Anti-Sloshing Einstellungen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Anti-Sloshing settings</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.ContainerSettings">
+      <tuv xml:lang="de">
+        <seg>Behälter Einstellungen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Container settings</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Rectangle">
+      <tuv xml:lang="de">
+        <seg>Rechteck</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Rectangle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Cylinder">
+      <tuv xml:lang="de">
+        <seg>Zylinder</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cylinder</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.ContainerShape">
+      <tuv xml:lang="de">
+        <seg>Form</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Shape</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.ContainerLength">
+      <tuv xml:lang="de">
+        <seg>Länge</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Length</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.ContainerHeight">
+      <tuv xml:lang="de">
+        <seg>Füllhöhe</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fill height</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

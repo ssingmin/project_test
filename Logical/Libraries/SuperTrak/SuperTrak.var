@@ -1,0 +1,191 @@
+(*
+Copyright ATS Automation Tooling Systems, Inc. 2015-2022
+All rights reserved.
+*)
+(*General*)
+VAR CONSTANT
+	stMAX_CONTROL_IF_COUNT : USINT := 4; (*maximum allowed cyclic control/status interfaces*)
+	stMAX_CONTROL_IF_INDEX : USINT := stMAX_CONTROL_IF_COUNT - 1;
+END_VAR
+(*Service Channel task codes*)
+VAR CONSTANT
+	scTASK_READ : USINT := 5; (*Read values from the conveyor*)
+	scTASK_WRITE : USINT := 6; (*Write values to the conveyor*)
+	scTASK_ARRAY_READ : USINT := 5; (*OBSOLETE alias for scTASK_READ*)
+	scTASK_ARRAY_WRITE : USINT := 6; (*OBSOLETE alias for scTASK_WRITE*)
+END_VAR
+(*Service Channel parameter numbers*)
+VAR CONSTANT
+	stPAR_CLEAR_FAULTS : UINT := 252;
+	stPAR_SAVE_PARAMETERS : UINT := 971;
+	stPAR_SECTION_COUNT : UINT := 1080;
+	stPAR_SECTION_ADDRESS : UINT := 1081;
+	stPAR_SECTION_TYPE : UINT := 1082;
+	stPAR_PARAM_ARRAY_LENGTH : UINT := 1092;
+	stPAR_PARAM_DATA_TYPE : UINT := 1093;
+	stPAR_LOGICAL_HEAD_SECTION : UINT := 1104;
+	stPAR_FLOW_DIRECTION : UINT := 1105;
+	stPAR_DEFAULT_SHELF_LENGTH : UINT := 1120;
+	stPAR_PALLET_GAP : UINT := 1121;
+	stPAR_DEFAULT_SHELF_OFFSET : UINT := 1122;
+	stPAR_USER_SENSOR_DISABLE_MASK : UINT := 1168;
+	stPAR_USER_SENSOR_ENABLE_MASK : UINT := 1169;
+	stPAR_DEFAULT_SENSOR_ENABLE_MASK : UINT := 1170;
+	stPAR_DIGITAL_INPUT_FUNCTION : UINT := 1200;
+	stPAR_DIGITAL_OUTPUT_FUNCTION : UINT := 1210;
+	stPAR_NETWORK_INPUT_FUNCTION : UINT := 1220;
+	stPAR_NETWORK_OUTPUT_FUNCTION : UINT := 1230;
+	stPAR_MAXIMUM_VELOCITY : UINT := 1250;
+	stPAR_MAXIMUM_ACCELERATION : UINT := 1251;
+	stPAR_DEFAULT_VELOCITY : UINT := 1252;
+	stPAR_DEFAULT_ACCELERATION : UINT := 1253;
+	stPAR_RECOVERY_VELOCITY : UINT := 1254;
+	stPAR_RECOVERY_ACCELERATION : UINT := 1255;
+	stPAR_LOAD_TARGET : UINT := 1270;
+	stPAR_PALLET_ID : UINT := 1321;
+	stPAR_PALLET_STATUS : UINT := 1328;
+	stPAR_PALLET_CONTROL_MODE : UINT := 1348;
+	stPAR_SECTION_INSTANT_POWER : UINT := 1390;
+	stPAR_SECTION_LOAD_POWER : UINT := 1391;
+	stPAR_SECTION_PEAK_POWER : UINT := 1392;
+	stPAR_SECTION_AVERAGE_POWER : UINT := 1394;
+	stPAR_SYSTEM_INSTANT_POWER : UINT := 1395;
+	stPAR_SYSTEM_LOAD_POWER : UINT := 1396;
+	stPAR_SYSTEM_PEAK_POWER : UINT := 1397;
+	stPAR_SYSTEM_AVERAGE_POWER : UINT := 1398;
+	stPAR_PLC_IF_OPTIONS : UINT := 1430;
+	stPAR_PLC_IF_SECTION_START : UINT := 1431;
+	stPAR_PLC_IF_SECTION_COUNT : UINT := 1432;
+	stPAR_PLC_IF_TARGET_START : UINT := 1433;
+	stPAR_PLC_IF_TARGET_COUNT : UINT := 1434;
+	stPAR_PLC_IF_COMMAND_COUNT : UINT := 1436;
+	stPAR_PLC_IF_NETWORK_IO_START : UINT := 1437;
+	stPAR_PLC_IF_NETWORK_IO_COUNT : UINT := 1438;
+	stPAR_PLC_IF_SYNC_ZONE_START : UINT := 1439;
+	stPAR_PLC_IF_SYNC_ZONE_COUNT : UINT := 1440;
+	stPAR_PLC_IF_MASTER_COUNT : UINT := 1442;
+	stPAR_PLC_IF_FOLLOWER_MAN_COUNT : UINT := 1443;
+	stPAR_PLC_IF_REVISION : UINT := 1444;
+	stPAR_PLC_IF_SERV_CHAN_SIZE : UINT := 1445;
+	stPAR_PLC_IF_FOLLOWER_COUNT : UINT := 1446;
+	stPAR_FIELDBUS_IF_ADDR_MODE : UINT := 1450;
+	stPAR_FIELDBUS_IF_IP_ADDRESS : UINT := 1451;
+	stPAR_FIELDBUS_IF_NETWORK_MASK : UINT := 1452;
+	stPAR_FIELDBUS_IF_GATEWAY_ADDR : UINT := 1453;
+	stPAR_FIELDBUS_IF_NAME : UINT := 1459;
+	stPAR_SYSTEM_FAULTS_ACTIVE : UINT := 1460;
+	stPAR_SECTION_FAULTS_ACTIVE : UINT := 1480;
+	stPAR_SECTION_PALLET_COUNT : UINT := 1502;
+	stPAR_PARAMETER_CHECKSUMS : UINT := 1505;
+	stPAR_CALIBRATED_SECTION_LEN : UINT := 1506;
+	stPAR_TARGET_PALLET_OFFSET : UINT := 1552;
+	stPAR_TARGET_DOCKED_HPALLET : UINT := 1553;
+	stPAR_HARDWARE_SENSORS : UINT := 1570;
+	stPAR_SOFTWARE_STARTUP_DONE : UINT := 1579;
+	stPAR_STORAGE_DEVICE_WEAR : UINT := 1591;
+	stPAR_CPU_TEMPERATURE : UINT := 1592;
+	stPAR_TARGET_SECTION : UINT := 1650;
+	stPAR_TARGET_POSITION : UINT := 1651;
+	stPAR_POSITION_OFFSET : UINT := 1660;
+END_VAR
+(*Service Channel error codes*)
+VAR CONSTANT
+	scERR_SUCCESS : UINT := 0; (*The operation completed successfully.*)
+	scERR_INVALID_SECTION : UINT := 1; (*An invalid section number was specified.*)
+	scERR_INVALID_PARAM : UINT := 2; (*The specified parameter number was not recognized.*)
+	scERR_INVALID_TASK : UINT := 3; (*The specified task code was not recognized.*)
+	scERR_TASK_UNAVAILABLE : UINT := 4; (*The requested operation is currently unavailable.*)
+	scERR_INVALID_INDEX : UINT := 6; (*The specified starting index is invalid.*)
+	scERR_INVALID_VALUE : UINT := 7; (*The value to be written was outside of the valid range.*)
+	scERR_INVALID_COUNT : UINT := 8; (*The requested number of elements is invalid.*)
+	scERR_INVALID_ARGUMENT : UINT := 9; (*An invalid argument was specified.*)
+	scERR_COMMAND_TIMEOUT : UINT := 10; (*The command did not complete in a timely manner.*)
+	scERR_UNAUTHORIZED : UINT := 11; (*The request was denied due to a lack of permissions.*)
+	scERR_BUFFER_SIZE : UINT := 13; (*The buffer size is insufficient.*)
+	scERR_INVALID_PACKET : UINT := 14; (*The packet is malformed, or its length is incorrect.*)
+	scERR_INTERNAL_ERROR : UINT := 15; (*An internal error occurred while processing the request.*)
+END_VAR
+(*Service Channel state codes*)
+VAR CONSTANT
+	scSTATE_RECV : USINT := 0; (*The service channel is idle and awaiting a request.*)
+	scSTATE_EXEC : USINT := 1; (*The service channel has received a request, and must begin processing it.*)
+	scSTATE_WAIT : USINT := 2; (*The service channel is processing a request.*)
+	scSTATE_SEND : USINT := 3; (*The service channel must transmit a response.*)
+	scSTATE_ERROR : USINT := 9; (*The service channel has encountered an unrecoverable error.*)
+END_VAR
+(*Service Channel timer control*)
+VAR CONSTANT
+	scTIMER_ABORT : UINT := 16#ffff;
+END_VAR
+(*Service Channel Type Codes*)
+VAR CONSTANT
+	scDATA_TYPE_BOOL : UINT := 16#0;
+	scDATA_TYPE_USINT : UINT := 16#0;
+	scDATA_TYPE_UINT : UINT := 16#1;
+	scDATA_TYPE_UDINT : UINT := 16#3;
+	scDATA_TYPE_ULINT : UINT := 16#7;
+	scDATA_TYPE_SINT : UINT := 16#10;
+	scDATA_TYPE_INT : UINT := 16#11;
+	scDATA_TYPE_DINT : UINT := 16#13;
+	scDATA_TYPE_LINT : UINT := 16#17;
+	scDATA_TYPE_REAL : UINT := 16#23;
+	scDATA_TYPE_LREAL : UINT := 16#27;
+END_VAR
+(*Direction constants*)
+VAR CONSTANT
+	stDIRECTION_LEFT : UINT := 0;
+	stDIRECTION_RIGHT : UINT := 1;
+END_VAR
+(*Control Interface connection types*)
+VAR CONSTANT
+	stCONNECTION_NONE : USINT := 0; (*Control interface is unused.*)
+	stCONNECTION_LOCAL : USINT := 1; (*Controlled by a local program.*)
+	stCONNECTION_POWERLINK : USINT := 2; (*Ethernet PowerLink*)
+	stCONNECTION_ETHERNETIP : USINT := 3; (*EtherNet/IP*)
+	stCONNECTION_PROFINET : USINT := 4; (*PROFINET*)
+	stCONNECTION_ETHERCAT : USINT := 5; (*EtherCAT*)
+	stCONNECTION_MODBUSTCP : USINT := 6; (*Modbus/TCP*)
+END_VAR
+(*IPv4 Configuration*)
+VAR CONSTANT
+	stIP_ADDR_MODE_NONE : USINT := 0; (*No configuration is specified.*)
+	stIP_ADDR_MODE_MANUAL : USINT := 1; (*The configuration is manually assigned.*)
+	stIP_ADDR_MODE_DHCP : USINT := 2; (*The configuration is automatically obtained via DHCP.*)
+	stIP_ADDR_MODE_BOOTP : USINT := 3; (*The configuration is automatically obtained via BOOTP.*)
+END_VAR
+(*Data File Indexes*)
+VAR CONSTANT
+	stDATA_FILE_SYSTEM_LAYOUT : UINT := 1;
+	stDATA_FILE_TARGETS : UINT := 2;
+	stDATA_FILE_REGIONS : UINT := 3;
+	stDATA_FILE_MOVE_CONFIG : UINT := 4;
+	stDATA_FILE_PARAMETERS : UINT := 5;
+	stDATA_FILE_OFFSETS : UINT := 6;
+	stDATA_FILE_SYNCZONES : UINT := 7;
+	stDATA_FILE_SYNCZONES_SANDBOX : UINT := 8;
+	stDATA_FILE_SECTION_PARAMS : UINT := 9;
+	stDATA_FILE_ACCESS_CONTROL : UINT := 10;
+	stDATA_FILE_CONTROL_GAIN : UINT := 11;
+	stDATA_FILE_ENCODER_CONFIG : UINT := 12;
+	stDATA_FILE_IR_TAG_CONFIG : UINT := 13;
+	stDATA_FILE_NETWORK_IO : UINT := 14;
+	stDATA_FILE_IO : UINT := 15;
+	stDATA_FILE_SIMULATION_CONFIG : UINT := 16;
+	stDATA_FILE_SYNC_GLOBAL_PARAMS : UINT := 17;
+	stDATA_FILE_SYNC_SERVOS : UINT := 18;
+	stDATA_FILE_SYNC_MASTER_PARAMS : UINT := 19;
+END_VAR
+(*Pallet control modes for SuperTrakPalletInfo_t.controlMode*)
+VAR CONSTANT
+	stPALLET_MODE_TRAJECTORY : USINT := 0; (*SuperTrak is controlling the pallet normally*)
+	stPALLET_MODE_CNC : USINT := 1; (*Pallet is controlled by CNC*)
+	stPALLET_MODE_CAM : USINT := 2; (*Pallet is controlled by Sync*)
+	stPALLET_MODE_EXTERNAL : USINT := 3; (*Pallet is controlled externally*)
+END_VAR
+(*ArEventLog constants for SuperTrakLog.tmx*)
+VAR CONSTANT
+	EVENT_ID_GENERIC_SUCCESS : DINT := 536870912; (*Severity = 0, C = 1, R = 0, Facility = 0, Code = 0*)
+	EVENT_ID_GENERIC_INFO : DINT := 1610612736; (*Severity = 1, C = 1, R = 0, Facility = 0, Code = 0*)
+	EVENT_ID_GENERIC_WARNING : DINT := -1610612736; (*Severity = 2, C = 1, R = 0, Facility = 0, Code = 0*)
+	EVENT_ID_GENERIC_ERROR : DINT := -536870912; (*Severity = 3, C = 1, R = 0, Facility = 0, Code = 0*)
+END_VAR

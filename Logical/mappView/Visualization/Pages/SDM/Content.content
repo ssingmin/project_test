@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="SDMContent" height="680" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.WebViewer" id="WebViewer1" top="0" left="240" width="870" height="680" zIndex="0" path="sdm/index.html" />
+    <Widget xsi:type="widgets.brease.Label" id="Label_ButtonHeader" top="266" left="-156" width="487" height="114" zIndex="1" multiLine="true" text="$IAT/Page.SystemDiagnosticManager" wordWrap="true" textAlign="center" rotation="270deg" fontSize="48px" style="Title1" />
+  </Widgets>
+</Content>
