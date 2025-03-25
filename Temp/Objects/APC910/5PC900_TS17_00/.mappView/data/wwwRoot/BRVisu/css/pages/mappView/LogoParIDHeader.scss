@@ -1,0 +1,283 @@
+@import "mixins.scss";
+#LogoParIDHeader_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#LogoParIDHeader_LanguageSelector1 {	@include elemTop(8);
+}
+#LogoParIDHeader_LanguageSelector1 {	@include elemLeft(15);
+}
+#LogoParIDHeader_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemWidth(110);
+	}
+}
+#LogoParIDHeader_LanguageSelector1 {	z-index: 0;
+}
+#LogoParIDHeader_NavigationButton1 {	@include elemTop(0);
+}
+#LogoParIDHeader_NavigationButton1 {	@include elemLeft(1080);
+}
+#LogoParIDHeader_NavigationButton1 {	@include elemAutoWidth(70);
+}
+#LogoParIDHeader_NavigationButton1 {	@include elemAutoHeight(60);
+}
+#LogoParIDHeader_NavigationButton1 {	z-index: 1;
+}
+#LogoParIDHeader_NavigationButton1 {	img {
+		@include imageHeight(60);
+	}
+}
+#LogoParIDHeader_NavigationButton1 {	svg {
+		@include imageHeight(60);
+	}
+}
+#LogoParIDHeader_NavigationButton1 {	img {
+		@include imageWidth(60);
+	}
+}
+#LogoParIDHeader_NavigationButton1 {	svg {
+		@include imageWidth(60);
+	}
+}
+#LogoParIDHeader_NavigationButton1 {	@include border-radius(0px);
+}
+#LogoParIDHeader_NavigationButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#LogoParIDHeader_FlyOut1 {	&.right {
+		@include elemTop(0);
+	}
+}
+#LogoParIDHeader_FlyOut1 {	&.left {
+		@include elemTop(0);
+	}
+}
+#LogoParIDHeader_FlyOut1 {	&.top {
+		@include elemLeft(550);
+	}
+}
+#LogoParIDHeader_FlyOut1 {	&.bottom {
+		@include elemLeft(550);
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .container {
+		@include elemWidth(500);
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .container {
+		@include elemHeight(450);
+	}
+}
+#LogoParIDHeader_FlyOut1 {	z-index: 2;
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton {
+		@include elemHeight(60);
+	}
+}
+#LogoParIDHeader_FlyOut1 {	@include elemHeight(60);
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton {
+		@include elemWidth(60);
+	}
+}
+#LogoParIDHeader_FlyOut1 {	@include elemWidth(60);
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton img {
+		@include imageHeight(50);
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton svg {
+		@include imageHeight(50);
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton img {
+		@include imageWidth(50);
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton svg {
+		@include imageWidth(50);
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton {
+		border-style: none;
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	:not(.disabled):not(.active):not(.checked).breaseFlyOutWrapper > .flyoutButton {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#LogoParIDHeader_FlyOut1_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .container {
+		background-color: rgba(217, 217, 217, 1);
+	}
+}
+#LogoParIDHeader_CheckBox1 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox1 {	@include elemTop(70);
+}
+#LogoParIDHeader_CheckBox1 {	@include elemLeft(30);
+}
+#LogoParIDHeader_CheckBox1 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox1 {	z-index: 0;
+}
+#LogoParIDHeader_CheckBox2 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox2 {	@include elemTop(120);
+}
+#LogoParIDHeader_CheckBox2 {	@include elemLeft(30);
+}
+#LogoParIDHeader_CheckBox2 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox2 {	z-index: 1;
+}
+#LogoParIDHeader_CheckBox3 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox3 {	@include elemTop(170);
+}
+#LogoParIDHeader_CheckBox3 {	@include elemLeft(30);
+}
+#LogoParIDHeader_CheckBox3 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox3 {	z-index: 2;
+}
+#LogoParIDHeader_CheckBox4 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox4 {	@include elemTop(220);
+}
+#LogoParIDHeader_CheckBox4 {	@include elemLeft(30);
+}
+#LogoParIDHeader_CheckBox4 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox4 {	z-index: 3;
+}
+#LogoParIDHeader_CheckBox5 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox5 {	@include elemTop(270);
+}
+#LogoParIDHeader_CheckBox5 {	@include elemLeft(30);
+}
+#LogoParIDHeader_CheckBox5 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox5 {	z-index: 4;
+}
+#LogoParIDHeader_CheckBox6 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox6 {	@include elemTop(320);
+}
+#LogoParIDHeader_CheckBox6 {	@include elemLeft(30);
+}
+#LogoParIDHeader_CheckBox6 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox6 {	z-index: 5;
+}
+#LogoParIDHeader_CheckBox7 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox7 {	@include elemTop(70);
+}
+#LogoParIDHeader_CheckBox7 {	@include elemLeft(260);
+}
+#LogoParIDHeader_CheckBox7 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox7 {	z-index: 6;
+}
+#LogoParIDHeader_CheckBox8 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox8 {	@include elemTop(120);
+}
+#LogoParIDHeader_CheckBox8 {	@include elemLeft(260);
+}
+#LogoParIDHeader_CheckBox8 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox8 {	z-index: 7;
+}
+#LogoParIDHeader_CheckBox9 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox9 {	@include elemTop(170);
+}
+#LogoParIDHeader_CheckBox9 {	@include elemLeft(260);
+}
+#LogoParIDHeader_CheckBox9 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox9 {	z-index: 8;
+}
+#LogoParIDHeader_CheckBox10 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox10 {	@include elemTop(220);
+}
+#LogoParIDHeader_CheckBox10 {	@include elemLeft(260);
+}
+#LogoParIDHeader_CheckBox10 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox10 {	z-index: 9;
+}
+#LogoParIDHeader_CheckBox11 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox11 {	@include elemTop(270);
+}
+#LogoParIDHeader_CheckBox11 {	@include elemLeft(260);
+}
+#LogoParIDHeader_CheckBox11 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox11 {	z-index: 10;
+}
+#LogoParIDHeader_CheckBox12 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_CheckBox12 {	@include elemTop(320);
+}
+#LogoParIDHeader_CheckBox12 {	@include elemLeft(260);
+}
+#LogoParIDHeader_CheckBox12 {	@include elemAutoWidth(200);
+}
+#LogoParIDHeader_CheckBox12 {	z-index: 11;
+}
+#LogoParIDHeader_MomentaryPushButton1 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_MomentaryPushButton1 {	@include elemTop(378);
+}
+#LogoParIDHeader_MomentaryPushButton1 {	@include elemLeft(30);
+}
+#LogoParIDHeader_MomentaryPushButton1 {	@include elemAutoWidth(110);
+}
+#LogoParIDHeader_MomentaryPushButton1 {	z-index: 12;
+}
+#LogoParIDHeader_MomentaryPushButton1 {	@include border-radius(30px);
+}
+#LogoParIDHeader_Label1 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_Label1 {	@include elemTop(380);
+}
+#LogoParIDHeader_Label1 {	@include elemLeft(160);
+}
+#LogoParIDHeader_Label1 {	@include elemAutoWidth(220);
+}
+#LogoParIDHeader_Label1 {	z-index: 13;
+}
+#LogoParIDHeader_Label1 {	& span {
+		color: rgba(0, 192, 0, 1);
+	}
+}
+#LogoParIDHeader_Label2 {	@include elemAutoHeight(30);
+}
+#LogoParIDHeader_Label2 {	@include elemTop(380);
+}
+#LogoParIDHeader_Label2 {	@include elemLeft(160);
+}
+#LogoParIDHeader_Label2 {	@include elemAutoWidth(220);
+}
+#LogoParIDHeader_Label2 {	z-index: 14;
+}
+#LogoParIDHeader_Label2 {	& span {
+		color: rgba(192, 0, 0, 1);
+	}
+}
+#LogoParIDHeader_Image1 {	@include elemTop(0);
+}
+#LogoParIDHeader_Image1 {	@include elemLeft(1160);
+}
+#LogoParIDHeader_Image1 {	@include elemAutoWidth(110);
+}
+#LogoParIDHeader_Image1 {	@include elemAutoHeight(60);
+}
+#LogoParIDHeader_Image1 {	z-index: 3;
+}

@@ -1,0 +1,27 @@
+@import "mixins.scss";
+#Header_NavigationButton1 {	@include elemTop(0);
+}
+#Header_NavigationButton1 {	@include elemLeft(0);
+}
+#Header_NavigationButton1 {	@include elemAutoWidth(80);
+}
+#Header_NavigationButton1 {	@include elemAutoHeight(60);
+}
+#Header_NavigationButton1 {	z-index: 0;
+}
+#Header_NavigationButton1 {	img {
+		@include imageHeight(60);
+	}
+}
+#Header_NavigationButton1 {	svg {
+		@include imageHeight(60);
+	}
+}
+#Header_NavigationButton1 {	img {
+		@include imageWidth(60);
+	}
+}
+#Header_NavigationButton1 {	svg {
+		@include imageWidth(60);
+	}
+}

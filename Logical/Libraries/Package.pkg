@@ -30,17 +30,17 @@
     <Object Type="Library" Language="binary" Description="The AsIO library makes it possible to determine the states and values of a data point and carry out forcing operations.">AsIO</Object>
     <Object Type="Library" Language="binary" Description="This library provides functions for enabling and disabling configuration or mapping modules.">AsIOMMan</Object>
     <Object Type="Library" Language="binary" Description="The DataObj library can be used to dynamically create, dynamically delete and copy data objects, etc. ">DataObj</Object>
-    <Object Type="Library" Language="Binary" Description="Core library for mapp components">MpBase</Object>
-    <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
-    <Object Type="Library" Language="Binary" Description="Communication library for mappView widgets">MpServer</Object>
     <Object Type="Library" Language="binary" Description="The AsArProf library is used to operate the AR Profiler from an application.">AsArProf</Object>
     <Object Type="Library" Language="Binary" Description="ATS SuperTrak G3 Conveyor Controller">SuperTrak</Object>
     <Object Type="Library" Language="Binary" Description="SuperTrak control library">StCom</Object>
-    <Object Type="Library" Language="binary" Description="[mapp Motion] Base library">McBase</Object>
+    <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
+    <Object Type="Library" Language="Binary" Description="Core library for mapp components">MpBase</Object>
     <Object Type="Library" Language="binary" Description="[mapp Motion] Axis library">MpAxis</Object>
-    <Object Type="Library" Language="binary" Description="[mapp Motion] Purely virtual axis library">McPureVAx</Object>
-    <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS parameter ID library">McAcpPar</Object>
-    <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS axis library">McAcpAx</Object>
     <Object Type="Library" Language="binary" Description="[mapp Motion] PLCopen axis library">McAxis</Object>
+    <Object Type="Library" Language="binary" Description="[mapp Motion] Base library">McBase</Object>
+    <Object Type="Library" Language="binary" Description="[mapp Motion] Purely virtual axis library">McPureVAx</Object>
+    <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS axis library">McAcpAx</Object>
+    <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS parameter ID library">McAcpPar</Object>
+    <Object Type="Library" Language="Binary" Description="Communication library for mappView widgets">MpServer</Object>
   </Objects>
 </Package>

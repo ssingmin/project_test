@@ -1,0 +1,27 @@
+@import "mixins.scss";
+#VideoContent_Label_ButtonHeader {	@include elemTop(290);
+}
+#VideoContent_Label_ButtonHeader {	@include elemLeft(-200);
+}
+#VideoContent_Label_ButtonHeader {	@include elemAutoWidth(550);
+}
+#VideoContent_Label_ButtonHeader {	@include elemAutoHeight(110);
+}
+#VideoContent_Label_ButtonHeader {	z-index: 0;
+}
+#VideoContent_Label_ButtonHeader {	@include text-alignment-all('center');
+}
+#VideoContent_Label_ButtonHeader {	@include rotate(270deg);
+}
+#VideoContent_Label_ButtonHeader {	font-size: 48px;
+}
+#VideoContent_VideoPlayer1 {	@include elemTop(30);
+}
+#VideoContent_VideoPlayer1 {	@include elemLeft(290);
+}
+#VideoContent_VideoPlayer1 {	@include elemWidth(807);
+}
+#VideoContent_VideoPlayer1 {	@include elemHeight(600);
+}
+#VideoContent_VideoPlayer1 {	z-index: 1;
+}

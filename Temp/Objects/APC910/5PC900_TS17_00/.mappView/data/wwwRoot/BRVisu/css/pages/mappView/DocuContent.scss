@@ -1,0 +1,25 @@
+@import "mixins.scss";
+#DocuContent_Label_ButtonHeader {	@include elemTop(276);
+}
+#DocuContent_Label_ButtonHeader {	@include elemLeft(-136);
+}
+#DocuContent_Label_ButtonHeader {	@include elemAutoWidth(388);
+}
+#DocuContent_Label_ButtonHeader {	@include elemAutoHeight(55);
+}
+#DocuContent_Label_ButtonHeader {	z-index: 0;
+}
+#DocuContent_Label_ButtonHeader {	@include rotate(270deg);
+}
+#DocuContent_Label_ButtonHeader {	font-size: 48px;
+}
+#DocuContent_PDFViewer1 {	@include elemTop(30);
+}
+#DocuContent_PDFViewer1 {	@include elemLeft(320);
+}
+#DocuContent_PDFViewer1 {	@include elemWidth(620);
+}
+#DocuContent_PDFViewer1 {	@include elemHeight(610);
+}
+#DocuContent_PDFViewer1 {	z-index: 1;
+}

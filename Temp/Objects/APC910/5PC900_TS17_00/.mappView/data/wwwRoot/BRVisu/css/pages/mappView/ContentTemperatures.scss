@@ -1,0 +1,781 @@
+@import "mixins.scss";
+#ContentTemperatures_Label1 {	@include elemTop(100);
+}
+#ContentTemperatures_Label1 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label1 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label1 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label1 {	z-index: 0;
+}
+#ContentTemperatures_Label2 {	@include elemTop(140);
+}
+#ContentTemperatures_Label2 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label2 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label2 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label2 {	z-index: 1;
+}
+#ContentTemperatures_Label3 {	@include elemTop(180);
+}
+#ContentTemperatures_Label3 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label3 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label3 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label3 {	z-index: 2;
+}
+#ContentTemperatures_Label4 {	@include elemTop(220);
+}
+#ContentTemperatures_Label4 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label4 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label4 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label4 {	z-index: 3;
+}
+#ContentTemperatures_Label5 {	@include elemTop(260);
+}
+#ContentTemperatures_Label5 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label5 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label5 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label5 {	z-index: 4;
+}
+#ContentTemperatures_Label6 {	@include elemTop(300);
+}
+#ContentTemperatures_Label6 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label6 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label6 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label6 {	z-index: 5;
+}
+#ContentTemperatures_Label7 {	@include elemTop(340);
+}
+#ContentTemperatures_Label7 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label7 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label7 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label7 {	z-index: 6;
+}
+#ContentTemperatures_Label10 {	@include elemTop(400);
+}
+#ContentTemperatures_Label10 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label10 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label10 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label10 {	z-index: 7;
+}
+#ContentTemperatures_Label11 {	@include elemTop(440);
+}
+#ContentTemperatures_Label11 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label11 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label11 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label11 {	z-index: 8;
+}
+#ContentTemperatures_Label12 {	@include elemTop(480);
+}
+#ContentTemperatures_Label12 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label12 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label12 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label12 {	z-index: 9;
+}
+#ContentTemperatures_Label13 {	@include elemTop(520);
+}
+#ContentTemperatures_Label13 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label13 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label13 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label13 {	z-index: 10;
+}
+#ContentTemperatures_Label14 {	@include elemTop(560);
+}
+#ContentTemperatures_Label14 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label14 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label14 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label14 {	z-index: 11;
+}
+#ContentTemperatures_Label15 {	@include elemTop(600);
+}
+#ContentTemperatures_Label15 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label15 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label15 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label15 {	z-index: 12;
+}
+#ContentTemperatures_Label16 {	@include elemTop(640);
+}
+#ContentTemperatures_Label16 {	@include elemLeft(80);
+}
+#ContentTemperatures_Label16 {	@include elemAutoWidth(260);
+}
+#ContentTemperatures_Label16 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label16 {	z-index: 13;
+}
+#ContentTemperatures_Line1 {	z-index: 14;
+}
+#ContentTemperatures_Line2 {	z-index: 15;
+}
+#ContentTemperatures_Line3 {	z-index: 16;
+}
+#ContentTemperatures_Line4 {	z-index: 17;
+}
+#ContentTemperatures_Line5 {	z-index: 18;
+}
+#ContentTemperatures_Line6 {	z-index: 19;
+}
+#ContentTemperatures_Line7 {	z-index: 20;
+}
+#ContentTemperatures_Line8 {	z-index: 21;
+}
+#ContentTemperatures_Line10 {	z-index: 22;
+}
+#ContentTemperatures_Line11 {	z-index: 23;
+}
+#ContentTemperatures_Line12 {	z-index: 24;
+}
+#ContentTemperatures_Line13 {	z-index: 25;
+}
+#ContentTemperatures_Line14 {	z-index: 26;
+}
+#ContentTemperatures_Line15 {	z-index: 27;
+}
+#ContentTemperatures_Line16 {	z-index: 28;
+}
+#ContentTemperatures_Line17 {	z-index: 29;
+}
+#ContentTemperatures_Line18 {	z-index: 30;
+}
+#ContentTemperatures_Line19 {	z-index: 31;
+}
+#ContentTemperatures_Temperature {	@include elemTop(70);
+}
+#ContentTemperatures_Temperature {	@include elemLeft(460);
+}
+#ContentTemperatures_Temperature {	@include elemAutoWidth(120);
+}
+#ContentTemperatures_Temperature {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Temperature {	z-index: 32;
+}
+#ContentTemperatures_Label18 {	@include elemTop(70);
+}
+#ContentTemperatures_Label18 {	@include elemLeft(760);
+}
+#ContentTemperatures_Label18 {	@include elemAutoWidth(80);
+}
+#ContentTemperatures_Label18 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label18 {	z-index: 33;
+}
+#ContentTemperatures_Label19 {	@include elemTop(70);
+}
+#ContentTemperatures_Label19 {	@include elemLeft(1040);
+}
+#ContentTemperatures_Label19 {	@include elemAutoWidth(80);
+}
+#ContentTemperatures_Label19 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label19 {	z-index: 34;
+}
+#ContentTemperatures_Rectangle1 {	@include elemTop(100);
+}
+#ContentTemperatures_Rectangle1 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle1 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle1 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle1 {	z-index: 35;
+}
+#ContentTemperatures_Rectangle1 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle1 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle2 {	@include elemTop(140);
+}
+#ContentTemperatures_Rectangle2 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle2 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle2 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle2 {	z-index: 36;
+}
+#ContentTemperatures_Rectangle2 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle2 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle3 {	@include elemTop(180);
+}
+#ContentTemperatures_Rectangle3 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle3 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle3 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle3 {	z-index: 37;
+}
+#ContentTemperatures_Rectangle3 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle3 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle4 {	@include elemTop(220);
+}
+#ContentTemperatures_Rectangle4 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle4 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle4 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle4 {	z-index: 38;
+}
+#ContentTemperatures_Rectangle4 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle4 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle5 {	@include elemTop(260);
+}
+#ContentTemperatures_Rectangle5 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle5 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle5 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle5 {	z-index: 39;
+}
+#ContentTemperatures_Rectangle5 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle5 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle6 {	@include elemTop(300);
+}
+#ContentTemperatures_Rectangle6 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle6 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle6 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle6 {	z-index: 40;
+}
+#ContentTemperatures_Rectangle6 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle6 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle7 {	@include elemTop(340);
+}
+#ContentTemperatures_Rectangle7 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle7 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle7 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle7 {	z-index: 41;
+}
+#ContentTemperatures_Rectangle7 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle7 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle8 {	@include elemTop(400);
+}
+#ContentTemperatures_Rectangle8 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle8 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle8 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle8 {	z-index: 42;
+}
+#ContentTemperatures_Rectangle8 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle8 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle9 {	@include elemTop(440);
+}
+#ContentTemperatures_Rectangle9 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle9 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle9 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle9 {	z-index: 43;
+}
+#ContentTemperatures_Rectangle9 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle9 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle10 {	@include elemTop(480);
+}
+#ContentTemperatures_Rectangle10 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle10 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle10 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle10 {	z-index: 44;
+}
+#ContentTemperatures_Rectangle10 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle10 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle11 {	@include elemTop(520);
+}
+#ContentTemperatures_Rectangle11 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle11 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle11 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle11 {	z-index: 45;
+}
+#ContentTemperatures_Rectangle11 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle11 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle12 {	@include elemTop(560);
+}
+#ContentTemperatures_Rectangle12 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle12 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle12 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle12 {	z-index: 46;
+}
+#ContentTemperatures_Rectangle12 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle12 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle13 {	@include elemTop(600);
+}
+#ContentTemperatures_Rectangle13 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle13 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle13 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle13 {	z-index: 47;
+}
+#ContentTemperatures_Rectangle13 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle13 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle14 {	@include elemTop(640);
+}
+#ContentTemperatures_Rectangle14 {	@include elemLeft(920);
+}
+#ContentTemperatures_Rectangle14 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle14 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle14 {	z-index: 48;
+}
+#ContentTemperatures_Rectangle14 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle14 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentTemperatures_Rectangle15 {	@include elemTop(100);
+}
+#ContentTemperatures_Rectangle15 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle15 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle15 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle15 {	z-index: 49;
+}
+#ContentTemperatures_Rectangle15 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle15 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle16 {	@include elemTop(140);
+}
+#ContentTemperatures_Rectangle16 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle16 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle16 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle16 {	z-index: 50;
+}
+#ContentTemperatures_Rectangle16 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle16 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle17 {	@include elemTop(180);
+}
+#ContentTemperatures_Rectangle17 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle17 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle17 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle17 {	z-index: 51;
+}
+#ContentTemperatures_Rectangle17 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle17 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle18 {	@include elemTop(220);
+}
+#ContentTemperatures_Rectangle18 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle18 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle18 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle18 {	z-index: 52;
+}
+#ContentTemperatures_Rectangle18 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle18 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle19 {	@include elemTop(260);
+}
+#ContentTemperatures_Rectangle19 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle19 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle19 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle19 {	z-index: 53;
+}
+#ContentTemperatures_Rectangle19 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle19 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle20 {	@include elemTop(300);
+}
+#ContentTemperatures_Rectangle20 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle20 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle20 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle20 {	z-index: 54;
+}
+#ContentTemperatures_Rectangle20 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle20 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle21 {	@include elemTop(340);
+}
+#ContentTemperatures_Rectangle21 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle21 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle21 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle21 {	z-index: 55;
+}
+#ContentTemperatures_Rectangle21 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle21 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle22 {	@include elemTop(400);
+}
+#ContentTemperatures_Rectangle22 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle22 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle22 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle22 {	z-index: 56;
+}
+#ContentTemperatures_Rectangle22 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle22 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle23 {	@include elemTop(440);
+}
+#ContentTemperatures_Rectangle23 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle23 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle23 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle23 {	z-index: 57;
+}
+#ContentTemperatures_Rectangle23 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle23 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle24 {	@include elemTop(480);
+}
+#ContentTemperatures_Rectangle24 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle24 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle24 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle24 {	z-index: 58;
+}
+#ContentTemperatures_Rectangle24 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle24 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle25 {	@include elemTop(520);
+}
+#ContentTemperatures_Rectangle25 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle25 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle25 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle25 {	z-index: 59;
+}
+#ContentTemperatures_Rectangle25 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle25 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle26 {	@include elemTop(560);
+}
+#ContentTemperatures_Rectangle26 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle26 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle26 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle26 {	z-index: 60;
+}
+#ContentTemperatures_Rectangle26 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle26 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle27 {	@include elemTop(600);
+}
+#ContentTemperatures_Rectangle27 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle27 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle27 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle27 {	z-index: 61;
+}
+#ContentTemperatures_Rectangle27 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle27 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_Rectangle28 {	@include elemTop(640);
+}
+#ContentTemperatures_Rectangle28 {	@include elemLeft(640);
+}
+#ContentTemperatures_Rectangle28 {	@include elemWidth(280);
+}
+#ContentTemperatures_Rectangle28 {	@include elemHeight(40);
+}
+#ContentTemperatures_Rectangle28 {	z-index: 62;
+}
+#ContentTemperatures_Rectangle28 {	border-width: 3px;
+}
+#ContentTemperatures_Rectangle28 {	background-color: rgba(255, 255, 0, 1);
+}
+#ContentTemperatures_NumericOutput1 {	@include elemTop(100);
+}
+#ContentTemperatures_NumericOutput1 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput1 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput1 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput1 {	z-index: 63;
+}
+#ContentTemperatures_NumericOutput2 {	@include elemTop(140);
+}
+#ContentTemperatures_NumericOutput2 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput2 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput2 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput2 {	z-index: 64;
+}
+#ContentTemperatures_NumericOutput3 {	@include elemTop(180);
+}
+#ContentTemperatures_NumericOutput3 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput3 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput3 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput3 {	z-index: 65;
+}
+#ContentTemperatures_NumericOutput4 {	@include elemTop(220);
+}
+#ContentTemperatures_NumericOutput4 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput4 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput4 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput4 {	z-index: 66;
+}
+#ContentTemperatures_NumericOutput5 {	@include elemTop(260);
+}
+#ContentTemperatures_NumericOutput5 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput5 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput5 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput5 {	z-index: 67;
+}
+#ContentTemperatures_NumericOutput6 {	@include elemTop(300);
+}
+#ContentTemperatures_NumericOutput6 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput6 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput6 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput6 {	z-index: 68;
+}
+#ContentTemperatures_NumericOutput7 {	@include elemTop(340);
+}
+#ContentTemperatures_NumericOutput7 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput7 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput7 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput7 {	z-index: 69;
+}
+#ContentTemperatures_NumericOutput8 {	@include elemTop(400);
+}
+#ContentTemperatures_NumericOutput8 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput8 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput8 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput8 {	z-index: 70;
+}
+#ContentTemperatures_NumericOutput9 {	@include elemTop(440);
+}
+#ContentTemperatures_NumericOutput9 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput9 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput9 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput9 {	z-index: 71;
+}
+#ContentTemperatures_NumericOutput10 {	@include elemTop(480);
+}
+#ContentTemperatures_NumericOutput10 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput10 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput10 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput10 {	z-index: 72;
+}
+#ContentTemperatures_NumericOutput11 {	@include elemTop(520);
+}
+#ContentTemperatures_NumericOutput11 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput11 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput11 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput11 {	z-index: 73;
+}
+#ContentTemperatures_NumericOutput12 {	@include elemTop(560);
+}
+#ContentTemperatures_NumericOutput12 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput12 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput12 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput12 {	z-index: 74;
+}
+#ContentTemperatures_NumericOutput13 {	@include elemTop(600);
+}
+#ContentTemperatures_NumericOutput13 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput13 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput13 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput13 {	z-index: 75;
+}
+#ContentTemperatures_NumericOutput14 {	@include elemTop(640);
+}
+#ContentTemperatures_NumericOutput14 {	@include elemLeft(360);
+}
+#ContentTemperatures_NumericOutput14 {	@include elemAutoWidth(280);
+}
+#ContentTemperatures_NumericOutput14 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput14 {	z-index: 76;
+}
+#ContentTemperatures_NumericOutput15 {	@include elemTop(30);
+}
+#ContentTemperatures_NumericOutput15 {	@include elemLeft(600);
+}
+#ContentTemperatures_NumericOutput15 {	@include elemAutoWidth(50);
+}
+#ContentTemperatures_NumericOutput15 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_NumericOutput15 {	z-index: 77;
+}
+#ContentTemperatures_Label8 {	@include elemTop(0);
+}
+#ContentTemperatures_Label8 {	@include elemLeft(590);
+}
+#ContentTemperatures_Label8 {	@include elemAutoWidth(80);
+}
+#ContentTemperatures_Label8 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Label8 {	z-index: 78;
+}
+#ContentTemperatures_Label8 {	@include font-weight-bold(true);
+}
+#ContentTemperatures_Button1 {	@include elemTop(30);
+}
+#ContentTemperatures_Button1 {	@include elemLeft(670);
+}
+#ContentTemperatures_Button1 {	@include elemAutoWidth(100);
+}
+#ContentTemperatures_Button1 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Button1 {	z-index: 79;
+}
+#ContentTemperatures_Button2 {	@include elemTop(30);
+}
+#ContentTemperatures_Button2 {	@include elemLeft(480);
+}
+#ContentTemperatures_Button2 {	@include elemAutoWidth(100);
+}
+#ContentTemperatures_Button2 {	@include elemAutoHeight(30);
+}
+#ContentTemperatures_Button2 {	z-index: 80;
+}

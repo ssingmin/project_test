@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIODiag/AsIODiag.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/SuperTrak/SuperTrak.fun
+$(AS_PROJECT_PATH)/Logical/Source/SuperTrak/ST_Main/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/SuperTrak/SuperTrak.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/SuperTrak/SuperTrak.var
+$(AS_PROJECT_PATH)/Logical/Global.var

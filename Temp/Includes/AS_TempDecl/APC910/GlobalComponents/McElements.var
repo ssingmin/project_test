@@ -1,0 +1,3 @@
+VAR
+	gAxis1 : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\projects\project_test\Physical\APC910\5PC900_TS17_00\mappMotion\Config_3.axis" #2"1" #3"1"*)
+END_VAR

@@ -1,0 +1,361 @@
+@import "mixins.scss";
+#ContentSTAlarmPage_MomentaryPushButton1 {	@include elemTop(210);
+}
+#ContentSTAlarmPage_MomentaryPushButton1 {	@include elemLeft(30);
+}
+#ContentSTAlarmPage_MomentaryPushButton1 {	@include elemAutoWidth(210);
+}
+#ContentSTAlarmPage_MomentaryPushButton1 {	@include elemAutoHeight(40);
+}
+#ContentSTAlarmPage_MomentaryPushButton1 {	z-index: 0;
+}
+#ContentSTAlarmPage_MomentaryPushButton1 {	span {
+		font-size: 24px;
+	}
+}
+#ContentSTAlarmPage_MomentaryPushButton2 {	@include elemTop(10);
+}
+#ContentSTAlarmPage_MomentaryPushButton2 {	@include elemLeft(810);
+}
+#ContentSTAlarmPage_MomentaryPushButton2 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage_MomentaryPushButton2 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_MomentaryPushButton2 {	z-index: 1;
+}
+#ContentSTAlarmPage_NavigationButton1 {	@include elemTop(610);
+}
+#ContentSTAlarmPage_NavigationButton1 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage_NavigationButton1 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage_NavigationButton1 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage_NavigationButton1 {	z-index: 2;
+}
+#ContentSTAlarmPage_NavigationButton1 {	span {
+		font-size: 32px;
+	}
+}
+#ContentSTAlarmPage_Table1 {	@include elemTop(280);
+}
+#ContentSTAlarmPage_Table1 {	@include elemLeft(15);
+}
+#ContentSTAlarmPage_Table1 {	@include elemWidth(1000);
+}
+#ContentSTAlarmPage_Table1 {	@include elemHeight(310);
+}
+#ContentSTAlarmPage_Table1 {	z-index: 3;
+}
+#ContentSTAlarmPage_Table1 {	.tableCells tbody tr td:not(.override) {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage_Table1 {	.tableCells tbody tr td:not(.override) > img {
+		@include image-align('left center');
+	}
+}
+#ContentSTAlarmPage_Table1 {	.tableHeader > .headerElement:not(.override) {
+		@include flex-position('left center');
+	}
+}
+#ContentSTAlarmPage_Table1 {	.tableHeader > .headerElement:not(.override) > span {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage_TableItem1 {	z-index: 0;
+}
+#ContentSTAlarmPage_TableItem2 {	z-index: 1;
+}
+#ContentSTAlarmPage_NumericOutput15 {	@include elemTop(230);
+}
+#ContentSTAlarmPage_NumericOutput15 {	@include elemLeft(610);
+}
+#ContentSTAlarmPage_NumericOutput15 {	@include elemAutoWidth(50);
+}
+#ContentSTAlarmPage_NumericOutput15 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_NumericOutput15 {	z-index: 4;
+}
+#ContentSTAlarmPage_Label8 {	@include elemTop(190);
+}
+#ContentSTAlarmPage_Label8 {	@include elemLeft(600);
+}
+#ContentSTAlarmPage_Label8 {	@include elemAutoWidth(80);
+}
+#ContentSTAlarmPage_Label8 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Label8 {	z-index: 5;
+}
+#ContentSTAlarmPage_Label8 {	@include font-weight-bold(true);
+}
+#ContentSTAlarmPage_Button1 {	@include elemTop(230);
+}
+#ContentSTAlarmPage_Button1 {	@include elemLeft(680);
+}
+#ContentSTAlarmPage_Button1 {	@include elemAutoWidth(100);
+}
+#ContentSTAlarmPage_Button1 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Button1 {	z-index: 6;
+}
+#ContentSTAlarmPage_Button2 {	@include elemTop(230);
+}
+#ContentSTAlarmPage_Button2 {	@include elemLeft(480);
+}
+#ContentSTAlarmPage_Button2 {	@include elemAutoWidth(100);
+}
+#ContentSTAlarmPage_Button2 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Button2 {	z-index: 7;
+}
+#ContentSTAlarmPage_MomentaryPushButton3 {	@include elemTop(230);
+}
+#ContentSTAlarmPage_MomentaryPushButton3 {	@include elemLeft(810);
+}
+#ContentSTAlarmPage_MomentaryPushButton3 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage_MomentaryPushButton3 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_MomentaryPushButton3 {	z-index: 8;
+}
+#ContentSTAlarmPage_Table2 {	@include elemTop(50);
+}
+#ContentSTAlarmPage_Table2 {	@include elemLeft(20);
+}
+#ContentSTAlarmPage_Table2 {	@include elemWidth(1200);
+}
+#ContentSTAlarmPage_Table2 {	@include elemHeight(130);
+}
+#ContentSTAlarmPage_Table2 {	z-index: 9;
+}
+#ContentSTAlarmPage_Table2 {	.tableCells tbody tr td:not(.override) {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage_Table2 {	.tableCells tbody tr td:not(.override) > img {
+		@include image-align('left center');
+	}
+}
+#ContentSTAlarmPage_Table2 {	.tableHeader > .headerElement:not(.override) {
+		@include flex-position('left center');
+	}
+}
+#ContentSTAlarmPage_Table2 {	.tableHeader > .headerElement:not(.override) > span {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage_TableItem3 {	z-index: 0;
+}
+#ContentSTAlarmPage_TableItem4 {	z-index: 1;
+}
+#ContentSTAlarmPage_Label9 {	@include elemTop(10);
+}
+#ContentSTAlarmPage_Label9 {	@include elemLeft(600);
+}
+#ContentSTAlarmPage_Label9 {	@include elemAutoWidth(80);
+}
+#ContentSTAlarmPage_Label9 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Label9 {	z-index: 10;
+}
+#ContentSTAlarmPage_Label9 {	@include font-weight-bold(true);
+}
+#ContentSTAlarmPage_Label1 {	@include elemTop(340);
+}
+#ContentSTAlarmPage_Label1 {	@include elemLeft(1030);
+}
+#ContentSTAlarmPage_Label1 {	@include elemAutoWidth(120);
+}
+#ContentSTAlarmPage_Label1 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Label1 {	z-index: 11;
+}
+#ContentSTAlarmPage_Label1 {	font-size: 24px;
+}
+#ContentSTAlarmPage_Label2 {	@include elemTop(390);
+}
+#ContentSTAlarmPage_Label2 {	@include elemLeft(1030);
+}
+#ContentSTAlarmPage_Label2 {	@include elemAutoWidth(120);
+}
+#ContentSTAlarmPage_Label2 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Label2 {	z-index: 12;
+}
+#ContentSTAlarmPage_Label2 {	font-size: 24px;
+}
+#ContentSTAlarmPage_Label3 {	@include elemTop(440);
+}
+#ContentSTAlarmPage_Label3 {	@include elemLeft(1030);
+}
+#ContentSTAlarmPage_Label3 {	@include elemAutoWidth(120);
+}
+#ContentSTAlarmPage_Label3 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Label3 {	z-index: 13;
+}
+#ContentSTAlarmPage_Label3 {	font-size: 24px;
+}
+#ContentSTAlarmPage_Label4 {	@include elemTop(490);
+}
+#ContentSTAlarmPage_Label4 {	@include elemLeft(1030);
+}
+#ContentSTAlarmPage_Label4 {	@include elemAutoWidth(120);
+}
+#ContentSTAlarmPage_Label4 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_Label4 {	z-index: 14;
+}
+#ContentSTAlarmPage_Label4 {	font-size: 24px;
+}
+#ContentSTAlarmPage_MomentaryPushButton4 {	@include elemTop(340);
+}
+#ContentSTAlarmPage_MomentaryPushButton4 {	@include elemLeft(1190);
+}
+#ContentSTAlarmPage_MomentaryPushButton4 {	@include elemAutoWidth(70);
+}
+#ContentSTAlarmPage_MomentaryPushButton4 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_MomentaryPushButton4 {	z-index: 15;
+}
+#ContentSTAlarmPage_MomentaryPushButton5 {	@include elemTop(390);
+}
+#ContentSTAlarmPage_MomentaryPushButton5 {	@include elemLeft(1190);
+}
+#ContentSTAlarmPage_MomentaryPushButton5 {	@include elemAutoWidth(70);
+}
+#ContentSTAlarmPage_MomentaryPushButton5 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_MomentaryPushButton5 {	z-index: 16;
+}
+#ContentSTAlarmPage_MomentaryPushButton6 {	@include elemTop(440);
+}
+#ContentSTAlarmPage_MomentaryPushButton6 {	@include elemLeft(1190);
+}
+#ContentSTAlarmPage_MomentaryPushButton6 {	@include elemAutoWidth(70);
+}
+#ContentSTAlarmPage_MomentaryPushButton6 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_MomentaryPushButton6 {	z-index: 17;
+}
+#ContentSTAlarmPage_MomentaryPushButton7 {	@include elemTop(490);
+}
+#ContentSTAlarmPage_MomentaryPushButton7 {	@include elemLeft(1190);
+}
+#ContentSTAlarmPage_MomentaryPushButton7 {	@include elemAutoWidth(70);
+}
+#ContentSTAlarmPage_MomentaryPushButton7 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage_MomentaryPushButton7 {	z-index: 18;
+}
+#ContentSTAlarmPage_Ellipse5 {	@include elemTop(340);
+}
+#ContentSTAlarmPage_Ellipse5 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse5 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse5 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse5 {	z-index: 19;
+}
+#ContentSTAlarmPage_Ellipse5 {	background-color: rgba(127, 255, 0, 1);
+}
+#ContentSTAlarmPage_Ellipse6 {	@include elemTop(390);
+}
+#ContentSTAlarmPage_Ellipse6 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse6 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse6 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse6 {	z-index: 20;
+}
+#ContentSTAlarmPage_Ellipse6 {	background-color: rgba(127, 255, 0, 1);
+}
+#ContentSTAlarmPage_Ellipse7 {	@include elemTop(440);
+}
+#ContentSTAlarmPage_Ellipse7 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse7 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse7 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse7 {	z-index: 21;
+}
+#ContentSTAlarmPage_Ellipse7 {	background-color: rgba(127, 255, 0, 1);
+}
+#ContentSTAlarmPage_Ellipse8 {	@include elemTop(490);
+}
+#ContentSTAlarmPage_Ellipse8 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse8 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse8 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse8 {	z-index: 22;
+}
+#ContentSTAlarmPage_Ellipse8 {	background-color: rgba(127, 255, 0, 1);
+}
+#ContentSTAlarmPage_Ellipse1 {	@include elemTop(340);
+}
+#ContentSTAlarmPage_Ellipse1 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse1 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse1 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse1 {	z-index: 23;
+}
+#ContentSTAlarmPage_Ellipse1 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage_Ellipse2 {	@include elemTop(390);
+}
+#ContentSTAlarmPage_Ellipse2 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse2 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse2 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse2 {	z-index: 24;
+}
+#ContentSTAlarmPage_Ellipse2 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage_Ellipse3 {	@include elemTop(440);
+}
+#ContentSTAlarmPage_Ellipse3 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse3 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse3 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse3 {	z-index: 25;
+}
+#ContentSTAlarmPage_Ellipse3 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage_Ellipse4 {	@include elemTop(490);
+}
+#ContentSTAlarmPage_Ellipse4 {	@include elemLeft(1150);
+}
+#ContentSTAlarmPage_Ellipse4 {	@include elemWidth(30);
+}
+#ContentSTAlarmPage_Ellipse4 {	@include elemHeight(30);
+}
+#ContentSTAlarmPage_Ellipse4 {	z-index: 26;
+}
+#ContentSTAlarmPage_Ellipse4 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage_NavigationButton2 {	@include elemTop(610);
+}
+#ContentSTAlarmPage_NavigationButton2 {	@include elemLeft(890);
+}
+#ContentSTAlarmPage_NavigationButton2 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage_NavigationButton2 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage_NavigationButton2 {	z-index: 27;
+}
+#ContentSTAlarmPage_NavigationButton2 {	span {
+		font-size: 32px;
+	}
+}

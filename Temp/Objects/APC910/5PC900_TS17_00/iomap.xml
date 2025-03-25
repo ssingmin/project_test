@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%IW.ModuleID_CPU" Type="UINT">
+<Prod Device="$root" DPName="ModuleID_CPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCPU" Type="UINT">
+<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureBoard" Type="UINT">
+<Prod Device="$root" DPName="TemperatureBoard" Kind="io"/>
+</LN>
+<LN ID="%ID.SystemTime" Type="DINT">
+<Prod Device="$root" DPName="SystemTime" Kind="io"/>
+</LN>
+<LN ID="%ID.SerialNumber" Type="UDINT">
+<Prod Device="$root" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.ModuleID" Type="UINT">
+<Prod Device="$root" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%ID.PowerOnCycles" Type="UDINT">
+<Prod Device="$root" DPName="PowerOnCycles" Kind="io"/>
+</LN>
+<LN ID="%ID.OperatingHours" Type="UDINT">
+<Prod Device="$root" DPName="OperatingHours" Kind="io"/>
+</LN>
+<LN ID="%IB.BatteryStatus" Type="USINT">
+<Prod Device="$root" DPName="BatteryStatus" Kind="io"/>
+</LN>
+<LN ID="%IB.MtcxVersionMajor" Type="USINT">
+<Prod Device="$root" DPName="MtcxVersionMajor" Kind="io"/>
+</LN>
+<LN ID="%IB.MtcxVersionMinor" Type="USINT">
+<Prod Device="$root" DPName="MtcxVersionMinor" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperaturePS" Type="UINT">
+<Prod Device="$root" DPName="TemperaturePS" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureHDD" Type="UINT">
+<Prod Device="$root" DPName="TemperatureHDD" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureRAM" Type="UINT">
+<Prod Device="$root" DPName="TemperatureRAM" Kind="io"/>
+</LN>
+<LN ID="%IW.StorageWear" Type="UINT">
+<Prod Device="$root" DPName="StorageWear" Kind="io"/>
+</LN>
+<LN ID="%IX.SL2.ModuleOk" Type="BOOL">
+<Prod Device="SL2" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.SerialNumber" Type="UDINT">
+<Prod Device="SL2" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.SL2.ModuleID" Type="UINT">
+<Prod Device="SL2" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%IW.SL2.HardwareVariant" Type="UINT">
+<Prod Device="SL2" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.SL2.FirmwareVersion" Type="UINT">
+<Prod Device="SL2" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IB.SL2.BatteryStatus" Type="USINT">
+<Prod Device="SL2" DPName="BatteryStatus" Kind="io"/>
+</LN>
+<LN ID="%QX.SL2.DigitalOutput01" Type="BOOL">
+<Cons Device="SL2" DPName="DigitalOutput01" Kind="io"/>
+</LN>
+<LN ID="%IB.SL2.IF1.NodeSwitch" Type="USINT">
+<Prod Device="SL2" DPName="IF1.NodeSwitch" Kind="io"/>
+</LN>
+<LN ID="%IX.SL2.IF1.LinkOk01" Type="BOOL">
+<Prod Device="SL2" DPName="IF1.LinkOk01" Kind="io"/>
+</LN>
+<LN ID="%IX.SL2.IF1.LinkOk02" Type="BOOL">
+<Prod Device="SL2" DPName="IF1.LinkOk02" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.OutputDMAMargin" Type="DINT">
+<Prod Device="SL2" DPName="IF1.OutputDMAMargin" Kind="io"/>
+</LN>
+<LN ID="%IB.SL2.IF1.NodeNumber" Type="USINT">
+<Prod Device="SL2" DPName="IF1.NodeNumber" Kind="io"/>
+</LN>
+<LN ID="%IX.SL2.IF1.CycleOk" Type="BOOL">
+<Prod Device="SL2" DPName="IF1.CycleOk" Kind="io"/>
+</LN>
+<LN ID="%IX.SL2.IF1.SyncOk" Type="BOOL">
+<Prod Device="SL2" DPName="IF1.SyncOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.TimeSeconds" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.TimeSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.TimeNanoseconds" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.TimeNanoseconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.NettimeSoC" Type="DINT">
+<Prod Device="SL2" DPName="IF1.NettimeSoC" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.NettimeOffset" Type="DINT">
+<Prod Device="SL2" DPName="IF1.NettimeOffset" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.CycleCount" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.CycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.FailedCycleCount" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.FailedCycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.CycleTimeViolationCount" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.CycleTimeViolationCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.CycleIdleTime" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.CycleIdleTime" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.CycleCongestionCount" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.CycleCongestionCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.MinimalLatencyInputMargin" Type="DINT">
+<Prod Device="SL2" DPName="IF1.MinimalLatencyInputMargin" Kind="io"/>
+</LN>
+<LN ID="%ID.SL2.IF1.FailedMinimalLatencyInputCount" Type="UDINT">
+<Prod Device="SL2" DPName="IF1.FailedMinimalLatencyInputCount" Kind="io"/>
+</LN>
+</Links></IO>

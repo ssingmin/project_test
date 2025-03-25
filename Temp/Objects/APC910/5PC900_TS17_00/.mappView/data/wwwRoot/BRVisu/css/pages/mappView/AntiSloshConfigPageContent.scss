@@ -1,0 +1,125 @@
+@import "mixins.scss";
+#AntiSloshConfigPageContent_Label_ButtonHeader {	@include elemTop(236);
+}
+#AntiSloshConfigPageContent_Label_ButtonHeader {	@include elemLeft(-172);
+}
+#AntiSloshConfigPageContent_Label_ButtonHeader {	@include elemAutoWidth(487);
+}
+#AntiSloshConfigPageContent_Label_ButtonHeader {	@include elemAutoHeight(114);
+}
+#AntiSloshConfigPageContent_Label_ButtonHeader {	z-index: 0;
+}
+#AntiSloshConfigPageContent_Label_ButtonHeader {	@include text-alignment-all('center');
+}
+#AntiSloshConfigPageContent_Label_ButtonHeader {	@include rotate(270deg);
+}
+#AntiSloshConfigPageContent_Label_ButtonHeader {	font-size: 48px;
+}
+#AntiSloshConfigPageContent_NavigationButton1 {	@include elemTop(610);
+}
+#AntiSloshConfigPageContent_NavigationButton1 {	@include elemLeft(1090);
+}
+#AntiSloshConfigPageContent_NavigationButton1 {	@include elemAutoWidth(170);
+}
+#AntiSloshConfigPageContent_NavigationButton1 {	@include elemAutoHeight(50);
+}
+#AntiSloshConfigPageContent_NavigationButton1 {	z-index: 1;
+}
+#AntiSloshConfigPageContent_NavigationButton1 {	span {
+		font-size: 32px;
+	}
+}
+#AntiSloshConfigPageContent_NavigationButton2 {	@include elemTop(610);
+}
+#AntiSloshConfigPageContent_NavigationButton2 {	@include elemLeft(890);
+}
+#AntiSloshConfigPageContent_NavigationButton2 {	@include elemAutoWidth(170);
+}
+#AntiSloshConfigPageContent_NavigationButton2 {	@include elemAutoHeight(50);
+}
+#AntiSloshConfigPageContent_NavigationButton2 {	z-index: 2;
+}
+#AntiSloshConfigPageContent_NavigationButton2 {	span {
+		font-size: 32px;
+	}
+}
+#AntiSloshConfigPageContent_GroupBox1 {	@include elemTop(190);
+}
+#AntiSloshConfigPageContent_GroupBox1 {	@include elemLeft(370);
+}
+#AntiSloshConfigPageContent_GroupBox1 {	@include elemWidth(560);
+}
+#AntiSloshConfigPageContent_GroupBox1 {	@include elemHeight(290);
+}
+#AntiSloshConfigPageContent_GroupBox1 {	z-index: 3;
+}
+#AntiSloshConfigPageContent_Label1 {	@include elemTop(33);
+}
+#AntiSloshConfigPageContent_Label1 {	@include elemLeft(29);
+}
+#AntiSloshConfigPageContent_Label1 {	@include elemAutoWidth(80);
+}
+#AntiSloshConfigPageContent_Label1 {	@include elemAutoHeight(30);
+}
+#AntiSloshConfigPageContent_Label1 {	z-index: 0;
+}
+#AntiSloshConfigPageContent_BtnRectangle {	@include elemTop(30);
+}
+#AntiSloshConfigPageContent_BtnRectangle {	@include elemLeft(209);
+}
+#AntiSloshConfigPageContent_BtnRectangle {	@include elemAutoWidth(121);
+}
+#AntiSloshConfigPageContent_BtnRectangle {	@include elemAutoHeight(37);
+}
+#AntiSloshConfigPageContent_BtnRectangle {	z-index: 1;
+}
+#AntiSloshConfigPageContent_BtnCylinder {	@include elemTop(30);
+}
+#AntiSloshConfigPageContent_BtnCylinder {	@include elemLeft(369);
+}
+#AntiSloshConfigPageContent_BtnCylinder {	@include elemAutoWidth(121);
+}
+#AntiSloshConfigPageContent_BtnCylinder {	@include elemAutoHeight(37);
+}
+#AntiSloshConfigPageContent_BtnCylinder {	z-index: 2;
+}
+#AntiSloshConfigPageContent_Label2 {	@include elemTop(113);
+}
+#AntiSloshConfigPageContent_Label2 {	@include elemLeft(29);
+}
+#AntiSloshConfigPageContent_Label2 {	@include elemAutoWidth(80);
+}
+#AntiSloshConfigPageContent_Label2 {	@include elemAutoHeight(30);
+}
+#AntiSloshConfigPageContent_Label2 {	z-index: 3;
+}
+#AntiSloshConfigPageContent_Label3 {	@include elemTop(193);
+}
+#AntiSloshConfigPageContent_Label3 {	@include elemLeft(29);
+}
+#AntiSloshConfigPageContent_Label3 {	@include elemAutoWidth(80);
+}
+#AntiSloshConfigPageContent_Label3 {	@include elemAutoHeight(30);
+}
+#AntiSloshConfigPageContent_Label3 {	z-index: 4;
+}
+#AntiSloshConfigPageContent_NumericInput1 {	@include elemTop(113);
+}
+#AntiSloshConfigPageContent_NumericInput1 {	@include elemLeft(219);
+}
+#AntiSloshConfigPageContent_NumericInput1 {	@include elemAutoWidth(261);
+}
+#AntiSloshConfigPageContent_NumericInput1 {	@include elemAutoHeight(30);
+}
+#AntiSloshConfigPageContent_NumericInput1 {	z-index: 5;
+}
+#AntiSloshConfigPageContent_NumericInput2 {	@include elemTop(193);
+}
+#AntiSloshConfigPageContent_NumericInput2 {	@include elemLeft(219);
+}
+#AntiSloshConfigPageContent_NumericInput2 {	@include elemAutoWidth(261);
+}
+#AntiSloshConfigPageContent_NumericInput2 {	@include elemAutoHeight(30);
+}
+#AntiSloshConfigPageContent_NumericInput2 {	z-index: 6;
+}

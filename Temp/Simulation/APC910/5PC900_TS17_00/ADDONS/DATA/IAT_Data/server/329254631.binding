@@ -1,0 +1,1447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+ 	
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[0]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[1]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput2" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[2]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput3" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[3]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput4" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[4]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput5" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[5]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput6" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[6]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput7" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[8]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput8" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[9]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput9" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[10]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput10" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[11]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput11" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[12]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput12" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[13]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput13" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Value[14]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput14" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[0]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle15" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[1]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle16" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[14]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle28" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[13]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle27" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[12]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle26" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[11]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle25" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[10]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle24" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[9]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle23" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[8]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle22" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[6]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle21" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[5]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle20" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[4]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle19" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[3]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle18" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Warning[2]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle17" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[2]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle3" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[1]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[0]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[14]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle14" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[13]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle13" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[12]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle12" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[11]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle11" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[10]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle10" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[9]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle9" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[8]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle8" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[6]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle7" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[5]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle6" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[4]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle5" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuTemp.Error[3]" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_Rectangle4" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentTemperatures"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuSection" attribute="value" />
+<Target xsi:type="brease" refId="ContentTemperatures_NumericOutput15" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeAll" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeAll" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SuperTrakControl.Command.EnableAllSections" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_ToggleSwitch1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SuperTrakControl.Command.EnableAllSections" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_ToggleSwitch1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SuperTrakControl.Status.PalletControl" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_Ellipse1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SuperTrakControl.Status.TrackingEnabled" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_Ellipse2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SuperTrakControl.Status.AntiSloshingEnabled" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_Ellipse3" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StartPalletControl" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_PushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StartPalletControl" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_PushButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StopPalletControl" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_PushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StopPalletControl" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_PushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StartTracking" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_PushButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StartTracking" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_PushButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StopTracking" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_PushButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StopTracking" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_PushButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StartAntiSloshing" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_PushButton6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StartAntiSloshing" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_PushButton6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StopAntiSloshing" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_PushButton5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:cmd_StopAntiSloshing" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_PushButton5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StControl_0.ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StControl_0.ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SuperTrakControl.Status.TrackingEnabled" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_GroupBox3" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gMpAxisBasic_0.JogNegative" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_MomentaryPushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gMpAxisBasic_0.JogNegative" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_MomentaryPushButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gMpAxisBasic_0.JogPositive" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_MomentaryPushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gMpAxisBasic_0.JogPositive" attribute="editable" />
+<Target xsi:type="brease" refId="ContentControl_MomentaryPushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StReadPnu_Region.ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StReadPnu_Region.ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StWritePnu_Region.ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StWritePnu_Region.ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StWritePnu_Region.Error" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_Rectangle2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StReadPnu_Region.Error" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_Rectangle1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeAll" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeAll" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StReadPnu_Region.ErrorText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_TextOutput7" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StWritePnu_Region.ErrorText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_TextOutput8" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StControl.WarningText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem4" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StControl.WarningText" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem4" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StControl.ErrorText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem3" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StControl.ErrorText" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem3" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuWarningSectionText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem2" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuWarningSectionText" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem2" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuAlarmSectionText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem1" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuAlarmSectionText" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_TableItem1" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuAlarmSection" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_NumericOutput15" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[3].ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[3].ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[2].ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[2].ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[1].ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[1].ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[0].ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[0].ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[3].Info.SuperTrak.SectionFaultActive" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_Ellipse4" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[2].Info.SuperTrak.SectionFaultActive" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_Ellipse3" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[1].Info.SuperTrak.SectionFaultActive" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_Ellipse2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:StSection_[0].Info.SuperTrak.SectionFaultActive" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_Ellipse1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeSelectedSection" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeSelectedSection" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage_MomentaryPushButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentControl"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:RegionDisabled" attribute="value" />
+<Target xsi:type="brease" refId="ContentControl_GroupBox2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentAlarmX"><Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXCore" attribute="link" />
+<Target xsi:type="brease" refId="ContentAlarmX_AlarmList1" attribute="mpLink" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.SectionID" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.SectionID" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.ParameterNumber" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.ParameterNumber" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.StartParameterIndex" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.StartParameterIndex" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.ParameterValueCount" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.ParameterValueCount" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.UDINTvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.UDINTvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.UINTvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.UINTvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.USINTvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.USINTvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.DINTvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput8" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.DINTvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput8" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.INTvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput9" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.INTvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput9" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.SINTvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput10" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.SINTvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput10" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.STRINGvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_TextInput1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.STRINGvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_TextInput1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.STRINGsize" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput11" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.STRINGsize" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput11" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.Error" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_Rectangle1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Error" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_Rectangle2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.ParameterValueCount" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput15" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.ParameterValueCount" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput15" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.StartParameterIndex" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput14" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.StartParameterIndex" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput14" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.ParameterNumber" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput13" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.ParameterNumber" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput13" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.SectionID" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput12" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.SectionID" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput12" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteSTRING" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteSTRING" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteSINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteSINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteDINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteDINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteUSINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteUSINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteUINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteUINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteUDINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteUDINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadSTRING" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton14" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadSTRING" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton14" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadSINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton13" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadSINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton13" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadDINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton11" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadDINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton11" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadUSINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton10" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadUSINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton10" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadUINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton9" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadUINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton9" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadUDINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton8" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadUDINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton8" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_UDINT" attribute="node" />
+<Target xsi:type="brease" refId="ParIDContent_NumericOutput1" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_UINT" attribute="node" />
+<Target xsi:type="brease" refId="ParIDContent_NumericOutput2" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_USINT" attribute="node" />
+<Target xsi:type="brease" refId="ParIDContent_NumericOutput3" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_DINT" attribute="node" />
+<Target xsi:type="brease" refId="ParIDContent_NumericOutput4" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_INT" attribute="node" />
+<Target xsi:type="brease" refId="ParIDContent_NumericOutput5" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_SINT" attribute="node" />
+<Target xsi:type="brease" refId="ParIDContent_NumericOutput6" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_STRING" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_TextOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.STRINGsize" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput22" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadPar.STRINGsize" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput22" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:VisuShuttle" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericOutput15" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_SetGain" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_PushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_SetGain" attribute="editable" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_PushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_SetPalletShelf" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_PushButton5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_SetPalletShelf" attribute="editable" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_PushButton5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_FilterWeightStationary" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_FilterWeightStationary" attribute="editable" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_FilterWeightMoving" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_FilterWeightMoving" attribute="editable" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_ControlGainSetIndex" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_ControlGainSetIndex" attribute="editable" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_OffsetFromCenter" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_OffsetFromCenter" attribute="editable" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ShuttleConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_ShelfWidth" attribute="value" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:Config_ShelfWidth" attribute="editable" />
+<Target xsi:type="brease" refId="ShuttleConfigPageContent_NumericInput3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_MomentaryPushButton5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.Error" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_Rectangle4" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Error" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_Rectangle3" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.HmiWriteParID.ErrorText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_TextOutput10" attribute="value" />
+</Binding></Content>
+
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StPallet.ErrorText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem2" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StPallet.ErrorText" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem2" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StPallet.ShuttleID" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StPallet.ShuttleID" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StTargetExt.ErrorText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem1" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StTargetExt.ErrorText" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem1" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StTargetExt.TargetID" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.StTargetExt.TargetID" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_TableItem3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeSelectedShuttle" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_MomentaryPushButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeSelectedShuttle" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_MomentaryPushButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeSelectedTarget" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_MomentaryPushButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeSelectedTarget" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_MomentaryPushButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage3"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ErrorInfo.HmiReadParID.ErrorText" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage3_TextOutput9" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadINT" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton12" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadINT" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton12" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeAll" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_MomentaryPushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:AcknowledgeAll" attribute="editable" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_MomentaryPushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.SaveParameters" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_MomentaryPushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.SaveParameters" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_MomentaryPushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.SystemLayout" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.SystemLayout" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.Targets" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.Targets" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.Regions" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.Regions" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.MoveConfig" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.MoveConfig" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.GlobalPar" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.GlobalPar" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.Offsets" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.Offsets" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.SectionPar" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.SectionPar" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.ControlGains" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox8" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.ControlGains" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox8" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.EncoderConfig" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox9" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.EncoderConfig" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox9" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.IRTagConfig" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox10" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.IRTagConfig" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox10" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.VirtualIO" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox11" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.VirtualIO" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox11" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.PosTrig" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox12" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.Save.PosTrig" attribute="editable" />
+<Target xsi:type="brease" refId="LogoParIDHeader_CheckBox12" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SaveSuccessful" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_Label1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LogoParIDHeader"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SaveFailed" attribute="value" />
+<Target xsi:type="brease" refId="LogoParIDHeader_Label2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton15" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton15" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ErrorReset" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton16" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ErrorReset" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton16" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.Out_REAL" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericOutput7" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadREAL" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton18" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiReadParID_0.ReadREAL" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton18" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.REALvalue" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput16" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWritePar.REALvalue" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_NumericInput16" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ParIDContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteREAL" attribute="value" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton17" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:HmiWriteParID_0.WriteREAL" attribute="editable" />
+<Target xsi:type="brease" refId="ParIDContent_PushButton17" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SelectedTarget" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_Table1" attribute="selectedRow" />
+</Binding></Content>
+
+
+
+<Content id="ContentSTAlarmPage2"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:SelectedShuttle" attribute="value" />
+<Target xsi:type="brease" refId="ContentSTAlarmPage2_Table2" attribute="selectedRow" />
+</Binding></Content>
+
+
+
+<Content id="AntiSloshConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ContainerLength" attribute="value" />
+<Target xsi:type="brease" refId="AntiSloshConfigPageContent_NumericInput1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ContainerLength" attribute="editable" />
+<Target xsi:type="brease" refId="AntiSloshConfigPageContent_NumericInput1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="AntiSloshConfigPageContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ContainerHeight" attribute="value" />
+<Target xsi:type="brease" refId="AntiSloshConfigPageContent_NumericInput2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ST_Logic:ContainerHeight" attribute="editable" />
+<Target xsi:type="brease" refId="AntiSloshConfigPageContent_NumericInput2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

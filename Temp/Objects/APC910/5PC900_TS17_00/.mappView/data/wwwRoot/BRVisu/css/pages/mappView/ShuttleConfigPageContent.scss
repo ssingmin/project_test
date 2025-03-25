@@ -1,0 +1,237 @@
+@import "mixins.scss";
+#ShuttleConfigPageContent_Label_ButtonHeader {	@include elemTop(266);
+}
+#ShuttleConfigPageContent_Label_ButtonHeader {	@include elemLeft(-177);
+}
+#ShuttleConfigPageContent_Label_ButtonHeader {	@include elemAutoWidth(487);
+}
+#ShuttleConfigPageContent_Label_ButtonHeader {	@include elemAutoHeight(114);
+}
+#ShuttleConfigPageContent_Label_ButtonHeader {	z-index: 0;
+}
+#ShuttleConfigPageContent_Label_ButtonHeader {	@include text-alignment-all('center');
+}
+#ShuttleConfigPageContent_Label_ButtonHeader {	@include rotate(270deg);
+}
+#ShuttleConfigPageContent_Label_ButtonHeader {	font-size: 48px;
+}
+#ShuttleConfigPageContent_NumericOutput15 {	@include elemTop(70);
+}
+#ShuttleConfigPageContent_NumericOutput15 {	@include elemLeft(610);
+}
+#ShuttleConfigPageContent_NumericOutput15 {	@include elemAutoWidth(70);
+}
+#ShuttleConfigPageContent_NumericOutput15 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_NumericOutput15 {	z-index: 1;
+}
+#ShuttleConfigPageContent_NumericOutput15 {	background-color: rgba(255, 255, 255, 0);
+}
+#ShuttleConfigPageContent_NumericOutput15 {	border-style: none;
+}
+#ShuttleConfigPageContent_NumericOutput15 {	input {
+		@include text-alignment(center);
+	}
+}
+#ShuttleConfigPageContent_Label9 {	@include elemTop(30);
+}
+#ShuttleConfigPageContent_Label9 {	@include elemLeft(610);
+}
+#ShuttleConfigPageContent_Label9 {	@include elemAutoWidth(80);
+}
+#ShuttleConfigPageContent_Label9 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Label9 {	z-index: 2;
+}
+#ShuttleConfigPageContent_Label9 {	@include font-weight-bold(true);
+}
+#ShuttleConfigPageContent_Button1 {	@include elemTop(70);
+}
+#ShuttleConfigPageContent_Button1 {	@include elemLeft(690);
+}
+#ShuttleConfigPageContent_Button1 {	@include elemAutoWidth(100);
+}
+#ShuttleConfigPageContent_Button1 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Button1 {	z-index: 3;
+}
+#ShuttleConfigPageContent_Button2 {	@include elemTop(70);
+}
+#ShuttleConfigPageContent_Button2 {	@include elemLeft(490);
+}
+#ShuttleConfigPageContent_Button2 {	@include elemAutoWidth(100);
+}
+#ShuttleConfigPageContent_Button2 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Button2 {	z-index: 4;
+}
+#ShuttleConfigPageContent_GroupBox2 {	@include elemTop(200);
+}
+#ShuttleConfigPageContent_GroupBox2 {	@include elemLeft(350);
+}
+#ShuttleConfigPageContent_GroupBox2 {	@include elemWidth(590);
+}
+#ShuttleConfigPageContent_GroupBox2 {	@include elemHeight(140);
+}
+#ShuttleConfigPageContent_GroupBox2 {	z-index: 5;
+}
+#ShuttleConfigPageContent_Label3 {	@include elemTop(12);
+}
+#ShuttleConfigPageContent_Label3 {	@include elemLeft(18);
+}
+#ShuttleConfigPageContent_Label3 {	@include elemAutoWidth(170);
+}
+#ShuttleConfigPageContent_Label3 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Label3 {	z-index: 0;
+}
+#ShuttleConfigPageContent_Label4 {	@include elemTop(52);
+}
+#ShuttleConfigPageContent_Label4 {	@include elemLeft(18);
+}
+#ShuttleConfigPageContent_Label4 {	@include elemAutoWidth(170);
+}
+#ShuttleConfigPageContent_Label4 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Label4 {	z-index: 1;
+}
+#ShuttleConfigPageContent_NumericInput3 {	@include elemTop(12);
+}
+#ShuttleConfigPageContent_NumericInput3 {	@include elemLeft(218);
+}
+#ShuttleConfigPageContent_NumericInput3 {	@include elemAutoWidth(200);
+}
+#ShuttleConfigPageContent_NumericInput3 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_NumericInput3 {	z-index: 2;
+}
+#ShuttleConfigPageContent_NumericInput4 {	@include elemTop(52);
+}
+#ShuttleConfigPageContent_NumericInput4 {	@include elemLeft(218);
+}
+#ShuttleConfigPageContent_NumericInput4 {	@include elemAutoWidth(200);
+}
+#ShuttleConfigPageContent_NumericInput4 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_NumericInput4 {	z-index: 3;
+}
+#ShuttleConfigPageContent_PushButton5 {	@include elemTop(32);
+}
+#ShuttleConfigPageContent_PushButton5 {	@include elemLeft(428);
+}
+#ShuttleConfigPageContent_PushButton5 {	@include elemAutoWidth(140);
+}
+#ShuttleConfigPageContent_PushButton5 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_PushButton5 {	z-index: 4;
+}
+#ShuttleConfigPageContent_GroupBox3 {	@include elemTop(360);
+}
+#ShuttleConfigPageContent_GroupBox3 {	@include elemLeft(350);
+}
+#ShuttleConfigPageContent_GroupBox3 {	@include elemWidth(590);
+}
+#ShuttleConfigPageContent_GroupBox3 {	@include elemHeight(180);
+}
+#ShuttleConfigPageContent_GroupBox3 {	z-index: 6;
+}
+#ShuttleConfigPageContent_Label6 {	@include elemTop(12);
+}
+#ShuttleConfigPageContent_Label6 {	@include elemLeft(18);
+}
+#ShuttleConfigPageContent_Label6 {	@include elemAutoWidth(170);
+}
+#ShuttleConfigPageContent_Label6 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Label6 {	z-index: 0;
+}
+#ShuttleConfigPageContent_Label6 {	@include text-alignment-all('left');
+}
+#ShuttleConfigPageContent_Label7 {	@include elemTop(52);
+}
+#ShuttleConfigPageContent_Label7 {	@include elemLeft(18);
+}
+#ShuttleConfigPageContent_Label7 {	@include elemAutoWidth(170);
+}
+#ShuttleConfigPageContent_Label7 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Label7 {	z-index: 1;
+}
+#ShuttleConfigPageContent_Label8 {	@include elemTop(92);
+}
+#ShuttleConfigPageContent_Label8 {	@include elemLeft(18);
+}
+#ShuttleConfigPageContent_Label8 {	@include elemAutoWidth(170);
+}
+#ShuttleConfigPageContent_Label8 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_Label8 {	z-index: 2;
+}
+#ShuttleConfigPageContent_NumericInput5 {	@include elemTop(12);
+}
+#ShuttleConfigPageContent_NumericInput5 {	@include elemLeft(218);
+}
+#ShuttleConfigPageContent_NumericInput5 {	@include elemAutoWidth(200);
+}
+#ShuttleConfigPageContent_NumericInput5 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_NumericInput5 {	z-index: 3;
+}
+#ShuttleConfigPageContent_NumericInput6 {	@include elemTop(52);
+}
+#ShuttleConfigPageContent_NumericInput6 {	@include elemLeft(218);
+}
+#ShuttleConfigPageContent_NumericInput6 {	@include elemAutoWidth(200);
+}
+#ShuttleConfigPageContent_NumericInput6 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_NumericInput6 {	z-index: 4;
+}
+#ShuttleConfigPageContent_NumericInput7 {	@include elemTop(92);
+}
+#ShuttleConfigPageContent_NumericInput7 {	@include elemLeft(218);
+}
+#ShuttleConfigPageContent_NumericInput7 {	@include elemAutoWidth(200);
+}
+#ShuttleConfigPageContent_NumericInput7 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_NumericInput7 {	z-index: 5;
+}
+#ShuttleConfigPageContent_PushButton1 {	@include elemTop(52);
+}
+#ShuttleConfigPageContent_PushButton1 {	@include elemLeft(428);
+}
+#ShuttleConfigPageContent_PushButton1 {	@include elemAutoWidth(140);
+}
+#ShuttleConfigPageContent_PushButton1 {	@include elemAutoHeight(30);
+}
+#ShuttleConfigPageContent_PushButton1 {	z-index: 6;
+}
+#ShuttleConfigPageContent_NavigationButton1 {	@include elemTop(610);
+}
+#ShuttleConfigPageContent_NavigationButton1 {	@include elemLeft(1090);
+}
+#ShuttleConfigPageContent_NavigationButton1 {	@include elemAutoWidth(170);
+}
+#ShuttleConfigPageContent_NavigationButton1 {	@include elemAutoHeight(50);
+}
+#ShuttleConfigPageContent_NavigationButton1 {	z-index: 7;
+}
+#ShuttleConfigPageContent_NavigationButton1 {	span {
+		font-size: 32px;
+	}
+}
+#ShuttleConfigPageContent_NavigationButton2 {	@include elemTop(610);
+}
+#ShuttleConfigPageContent_NavigationButton2 {	@include elemLeft(890);
+}
+#ShuttleConfigPageContent_NavigationButton2 {	@include elemAutoWidth(170);
+}
+#ShuttleConfigPageContent_NavigationButton2 {	@include elemAutoHeight(50);
+}
+#ShuttleConfigPageContent_NavigationButton2 {	z-index: 8;
+}
+#ShuttleConfigPageContent_NavigationButton2 {	span {
+		font-size: 32px;
+	}
+}

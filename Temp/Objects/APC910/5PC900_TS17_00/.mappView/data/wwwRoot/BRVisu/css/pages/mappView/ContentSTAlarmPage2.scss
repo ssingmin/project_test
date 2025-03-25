@@ -1,0 +1,157 @@
+@import "mixins.scss";
+#ContentSTAlarmPage2_MomentaryPushButton1 {	@include elemTop(30);
+}
+#ContentSTAlarmPage2_MomentaryPushButton1 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage2_MomentaryPushButton1 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage2_MomentaryPushButton1 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage2_MomentaryPushButton1 {	z-index: 0;
+}
+#ContentSTAlarmPage2_NavigationButton1 {	@include elemTop(610);
+}
+#ContentSTAlarmPage2_NavigationButton1 {	@include elemLeft(890);
+}
+#ContentSTAlarmPage2_NavigationButton1 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage2_NavigationButton1 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage2_NavigationButton1 {	z-index: 1;
+}
+#ContentSTAlarmPage2_NavigationButton1 {	span {
+		font-size: 32px;
+	}
+}
+#ContentSTAlarmPage2_NavigationButton2 {	@include elemTop(610);
+}
+#ContentSTAlarmPage2_NavigationButton2 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage2_NavigationButton2 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage2_NavigationButton2 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage2_NavigationButton2 {	z-index: 2;
+}
+#ContentSTAlarmPage2_NavigationButton2 {	span {
+		font-size: 32px;
+	}
+}
+#ContentSTAlarmPage2_NavigationButton3 {	@include elemTop(610);
+}
+#ContentSTAlarmPage2_NavigationButton3 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage2_NavigationButton3 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage2_NavigationButton3 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage2_NavigationButton3 {	z-index: 3;
+}
+#ContentSTAlarmPage2_NavigationButton3 {	span {
+		font-size: 32px;
+	}
+}
+#ContentSTAlarmPage2_Label1 {	@include elemTop(50);
+}
+#ContentSTAlarmPage2_Label1 {	@include elemLeft(580);
+}
+#ContentSTAlarmPage2_Label1 {	@include elemAutoWidth(100);
+}
+#ContentSTAlarmPage2_Label1 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage2_Label1 {	z-index: 4;
+}
+#ContentSTAlarmPage2_Label1 {	@include font-weight-bold(true);
+}
+#ContentSTAlarmPage2_Label2 {	@include elemTop(350);
+}
+#ContentSTAlarmPage2_Label2 {	@include elemLeft(600);
+}
+#ContentSTAlarmPage2_Label2 {	@include elemAutoWidth(70);
+}
+#ContentSTAlarmPage2_Label2 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage2_Label2 {	z-index: 5;
+}
+#ContentSTAlarmPage2_Label2 {	@include font-weight-bold(true);
+}
+#ContentSTAlarmPage2_MomentaryPushButton3 {	@include elemTop(50);
+}
+#ContentSTAlarmPage2_MomentaryPushButton3 {	@include elemLeft(710);
+}
+#ContentSTAlarmPage2_MomentaryPushButton3 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage2_MomentaryPushButton3 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage2_MomentaryPushButton3 {	z-index: 6;
+}
+#ContentSTAlarmPage2_MomentaryPushButton4 {	@include elemTop(350);
+}
+#ContentSTAlarmPage2_MomentaryPushButton4 {	@include elemLeft(710);
+}
+#ContentSTAlarmPage2_MomentaryPushButton4 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage2_MomentaryPushButton4 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage2_MomentaryPushButton4 {	z-index: 7;
+}
+#ContentSTAlarmPage2_Table1 {	@include elemTop(100);
+}
+#ContentSTAlarmPage2_Table1 {	@include elemLeft(40);
+}
+#ContentSTAlarmPage2_Table1 {	@include elemWidth(1200);
+}
+#ContentSTAlarmPage2_Table1 {	@include elemHeight(220);
+}
+#ContentSTAlarmPage2_Table1 {	z-index: 8;
+}
+#ContentSTAlarmPage2_Table1 {	.tableCells tbody tr td:not(.override) {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage2_Table1 {	.tableCells tbody tr td:not(.override) > img {
+		@include image-align('left center');
+	}
+}
+#ContentSTAlarmPage2_Table1 {	.tableHeader > .headerElement:not(.override) {
+		@include flex-position('left center');
+	}
+}
+#ContentSTAlarmPage2_Table1 {	.tableHeader > .headerElement:not(.override) > span {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage2_TableItem3 {	z-index: 0;
+}
+#ContentSTAlarmPage2_TableItem1 {	z-index: 1;
+}
+#ContentSTAlarmPage2_Table2 {	@include elemTop(400);
+}
+#ContentSTAlarmPage2_Table2 {	@include elemLeft(40);
+}
+#ContentSTAlarmPage2_Table2 {	@include elemWidth(1200);
+}
+#ContentSTAlarmPage2_Table2 {	@include elemHeight(200);
+}
+#ContentSTAlarmPage2_Table2 {	z-index: 9;
+}
+#ContentSTAlarmPage2_Table2 {	.tableCells tbody tr td:not(.override) {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage2_Table2 {	.tableCells tbody tr td:not(.override) > img {
+		@include image-align('left center');
+	}
+}
+#ContentSTAlarmPage2_Table2 {	.tableHeader > .headerElement:not(.override) {
+		@include flex-position('left center');
+	}
+}
+#ContentSTAlarmPage2_Table2 {	.tableHeader > .headerElement:not(.override) > span {
+		@include text-position('left center');
+	}
+}
+#ContentSTAlarmPage2_TableItem4 {	z-index: 0;
+}
+#ContentSTAlarmPage2_TableItem2 {	z-index: 1;
+}

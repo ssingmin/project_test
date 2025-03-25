@@ -1,0 +1,857 @@
+@import "mixins.scss";
+#ParIDContent_Label_ButtonHeader {	@include elemTop(266);
+}
+#ParIDContent_Label_ButtonHeader {	@include elemLeft(-177);
+}
+#ParIDContent_Label_ButtonHeader {	@include elemAutoWidth(487);
+}
+#ParIDContent_Label_ButtonHeader {	@include elemAutoHeight(114);
+}
+#ParIDContent_Label_ButtonHeader {	z-index: 0;
+}
+#ParIDContent_Label_ButtonHeader {	@include text-alignment-all('center');
+}
+#ParIDContent_Label_ButtonHeader {	@include rotate(270deg);
+}
+#ParIDContent_Label_ButtonHeader {	font-size: 48px;
+}
+#ParIDContent_GroupBox1 {	@include elemTop(30);
+}
+#ParIDContent_GroupBox1 {	@include elemLeft(130);
+}
+#ParIDContent_GroupBox1 {	@include elemWidth(540);
+}
+#ParIDContent_GroupBox1 {	@include elemHeight(620);
+}
+#ParIDContent_GroupBox1 {	z-index: 1;
+}
+#ParIDContent_Label1 {	@include elemTop(13);
+}
+#ParIDContent_Label1 {	@include elemLeft(29);
+}
+#ParIDContent_Label1 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label1 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label1 {	z-index: 0;
+}
+#ParIDContent_Label2 {	@include elemTop(53);
+}
+#ParIDContent_Label2 {	@include elemLeft(29);
+}
+#ParIDContent_Label2 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label2 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label2 {	z-index: 1;
+}
+#ParIDContent_Label3 {	@include elemTop(93);
+}
+#ParIDContent_Label3 {	@include elemLeft(30);
+}
+#ParIDContent_Label3 {	@include elemAutoWidth(90);
+}
+#ParIDContent_Label3 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label3 {	z-index: 2;
+}
+#ParIDContent_Label4 {	@include elemTop(133);
+}
+#ParIDContent_Label4 {	@include elemLeft(29);
+}
+#ParIDContent_Label4 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label4 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label4 {	z-index: 3;
+}
+#ParIDContent_Label5 {	@include elemTop(534);
+}
+#ParIDContent_Label5 {	@include elemLeft(28);
+}
+#ParIDContent_Label5 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label5 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label5 {	z-index: 4;
+}
+#ParIDContent_Label6 {	@include elemTop(173);
+}
+#ParIDContent_Label6 {	@include elemLeft(29);
+}
+#ParIDContent_Label6 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label6 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label6 {	z-index: 5;
+}
+#ParIDContent_Label7 {	@include elemTop(213);
+}
+#ParIDContent_Label7 {	@include elemLeft(29);
+}
+#ParIDContent_Label7 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label7 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label7 {	z-index: 6;
+}
+#ParIDContent_Label8 {	@include elemTop(253);
+}
+#ParIDContent_Label8 {	@include elemLeft(29);
+}
+#ParIDContent_Label8 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label8 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label8 {	z-index: 7;
+}
+#ParIDContent_Label9 {	@include elemTop(293);
+}
+#ParIDContent_Label9 {	@include elemLeft(29);
+}
+#ParIDContent_Label9 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label9 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label9 {	z-index: 8;
+}
+#ParIDContent_Label10 {	@include elemTop(333);
+}
+#ParIDContent_Label10 {	@include elemLeft(28);
+}
+#ParIDContent_Label10 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label10 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label10 {	z-index: 9;
+}
+#ParIDContent_Label11 {	@include elemTop(373);
+}
+#ParIDContent_Label11 {	@include elemLeft(29);
+}
+#ParIDContent_Label11 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label11 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label11 {	z-index: 10;
+}
+#ParIDContent_Label12 {	@include elemTop(454);
+}
+#ParIDContent_Label12 {	@include elemLeft(28);
+}
+#ParIDContent_Label12 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label12 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label12 {	z-index: 11;
+}
+#ParIDContent_Label13 {	@include elemTop(494);
+}
+#ParIDContent_Label13 {	@include elemLeft(28);
+}
+#ParIDContent_Label13 {	@include elemAutoWidth(112);
+}
+#ParIDContent_Label13 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label13 {	z-index: 12;
+}
+#ParIDContent_NumericInput1 {	@include elemTop(13);
+}
+#ParIDContent_NumericInput1 {	@include elemLeft(169);
+}
+#ParIDContent_NumericInput1 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput1 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput1 {	z-index: 13;
+}
+#ParIDContent_NumericInput2 {	@include elemTop(53);
+}
+#ParIDContent_NumericInput2 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput2 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput2 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput2 {	z-index: 14;
+}
+#ParIDContent_NumericInput3 {	@include elemTop(93);
+}
+#ParIDContent_NumericInput3 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput3 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput3 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput3 {	z-index: 15;
+}
+#ParIDContent_NumericInput4 {	@include elemTop(133);
+}
+#ParIDContent_NumericInput4 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput4 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput4 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput4 {	z-index: 16;
+}
+#ParIDContent_NumericInput5 {	@include elemTop(173);
+}
+#ParIDContent_NumericInput5 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput5 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput5 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput5 {	z-index: 17;
+}
+#ParIDContent_NumericInput6 {	@include elemTop(213);
+}
+#ParIDContent_NumericInput6 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput6 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput6 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput6 {	z-index: 18;
+}
+#ParIDContent_NumericInput7 {	@include elemTop(253);
+}
+#ParIDContent_NumericInput7 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput7 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput7 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput7 {	z-index: 19;
+}
+#ParIDContent_NumericInput8 {	@include elemTop(293);
+}
+#ParIDContent_NumericInput8 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput8 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput8 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput8 {	z-index: 20;
+}
+#ParIDContent_NumericInput9 {	@include elemTop(333);
+}
+#ParIDContent_NumericInput9 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput9 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput9 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput9 {	z-index: 21;
+}
+#ParIDContent_NumericInput10 {	@include elemTop(373);
+}
+#ParIDContent_NumericInput10 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput10 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput10 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput10 {	z-index: 22;
+}
+#ParIDContent_NumericInput11 {	@include elemTop(494);
+}
+#ParIDContent_NumericInput11 {	@include elemLeft(169);
+}
+#ParIDContent_NumericInput11 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput11 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput11 {	z-index: 23;
+}
+#ParIDContent_TextInput1 {	@include elemTop(454);
+}
+#ParIDContent_TextInput1 {	@include elemLeft(169);
+}
+#ParIDContent_TextInput1 {	@include elemAutoWidth(250);
+}
+#ParIDContent_TextInput1 {	@include elemAutoHeight(30);
+}
+#ParIDContent_TextInput1 {	z-index: 24;
+}
+#ParIDContent_Rectangle3 {	@include elemTop(534);
+}
+#ParIDContent_Rectangle3 {	@include elemLeft(169);
+}
+#ParIDContent_Rectangle3 {	@include elemWidth(251);
+}
+#ParIDContent_Rectangle3 {	@include elemHeight(34);
+}
+#ParIDContent_Rectangle3 {	z-index: 25;
+}
+#ParIDContent_Rectangle3 {	background-color: rgba(0, 255, 0, 1);
+}
+#ParIDContent_PushButton1 {	@include elemTop(174);
+}
+#ParIDContent_PushButton1 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton1 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton1 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton1 {	z-index: 26;
+}
+#ParIDContent_PushButton2 {	@include elemTop(214);
+}
+#ParIDContent_PushButton2 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton2 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton2 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton2 {	z-index: 27;
+}
+#ParIDContent_PushButton3 {	@include elemTop(254);
+}
+#ParIDContent_PushButton3 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton3 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton3 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton3 {	z-index: 28;
+}
+#ParIDContent_PushButton4 {	@include elemTop(294);
+}
+#ParIDContent_PushButton4 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton4 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton4 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton4 {	z-index: 29;
+}
+#ParIDContent_PushButton5 {	@include elemTop(334);
+}
+#ParIDContent_PushButton5 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton5 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton5 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton5 {	z-index: 30;
+}
+#ParIDContent_PushButton6 {	@include elemTop(374);
+}
+#ParIDContent_PushButton6 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton6 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton6 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton6 {	z-index: 31;
+}
+#ParIDContent_PushButton7 {	@include elemTop(454);
+}
+#ParIDContent_PushButton7 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton7 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton7 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton7 {	z-index: 32;
+}
+#ParIDContent_Rectangle1 {	@include elemTop(534);
+}
+#ParIDContent_Rectangle1 {	@include elemLeft(169);
+}
+#ParIDContent_Rectangle1 {	@include elemWidth(251);
+}
+#ParIDContent_Rectangle1 {	@include elemHeight(34);
+}
+#ParIDContent_Rectangle1 {	z-index: 33;
+}
+#ParIDContent_Rectangle1 {	background-color: rgba(255, 0, 0, 1);
+}
+#ParIDContent_PushButton15 {	@include elemTop(534);
+}
+#ParIDContent_PushButton15 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton15 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton15 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton15 {	z-index: 34;
+}
+#ParIDContent_Label27 {	@include elemTop(414);
+}
+#ParIDContent_Label27 {	@include elemLeft(29);
+}
+#ParIDContent_Label27 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label27 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label27 {	z-index: 35;
+}
+#ParIDContent_PushButton17 {	@include elemTop(414);
+}
+#ParIDContent_PushButton17 {	@include elemLeft(430);
+}
+#ParIDContent_PushButton17 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton17 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton17 {	z-index: 36;
+}
+#ParIDContent_NumericInput16 {	@include elemTop(414);
+}
+#ParIDContent_NumericInput16 {	@include elemLeft(170);
+}
+#ParIDContent_NumericInput16 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericInput16 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput16 {	z-index: 37;
+}
+#ParIDContent_GroupBox2 {	@include elemTop(30);
+}
+#ParIDContent_GroupBox2 {	@include elemLeft(700);
+}
+#ParIDContent_GroupBox2 {	@include elemWidth(540);
+}
+#ParIDContent_GroupBox2 {	@include elemHeight(620);
+}
+#ParIDContent_GroupBox2 {	z-index: 2;
+}
+#ParIDContent_Label14 {	@include elemTop(13);
+}
+#ParIDContent_Label14 {	@include elemLeft(29);
+}
+#ParIDContent_Label14 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label14 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label14 {	z-index: 0;
+}
+#ParIDContent_Label15 {	@include elemTop(53);
+}
+#ParIDContent_Label15 {	@include elemLeft(29);
+}
+#ParIDContent_Label15 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label15 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label15 {	z-index: 1;
+}
+#ParIDContent_Label16 {	@include elemTop(93);
+}
+#ParIDContent_Label16 {	@include elemLeft(30);
+}
+#ParIDContent_Label16 {	@include elemAutoWidth(90);
+}
+#ParIDContent_Label16 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label16 {	z-index: 2;
+}
+#ParIDContent_Label17 {	@include elemTop(133);
+}
+#ParIDContent_Label17 {	@include elemLeft(29);
+}
+#ParIDContent_Label17 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label17 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label17 {	z-index: 3;
+}
+#ParIDContent_Label18 {	@include elemTop(534);
+}
+#ParIDContent_Label18 {	@include elemLeft(28);
+}
+#ParIDContent_Label18 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label18 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label18 {	z-index: 4;
+}
+#ParIDContent_Label19 {	@include elemTop(173);
+}
+#ParIDContent_Label19 {	@include elemLeft(29);
+}
+#ParIDContent_Label19 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label19 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label19 {	z-index: 5;
+}
+#ParIDContent_Label20 {	@include elemTop(213);
+}
+#ParIDContent_Label20 {	@include elemLeft(29);
+}
+#ParIDContent_Label20 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label20 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label20 {	z-index: 6;
+}
+#ParIDContent_Label21 {	@include elemTop(253);
+}
+#ParIDContent_Label21 {	@include elemLeft(29);
+}
+#ParIDContent_Label21 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label21 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label21 {	z-index: 7;
+}
+#ParIDContent_Label22 {	@include elemTop(293);
+}
+#ParIDContent_Label22 {	@include elemLeft(29);
+}
+#ParIDContent_Label22 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label22 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label22 {	z-index: 8;
+}
+#ParIDContent_Label23 {	@include elemTop(333);
+}
+#ParIDContent_Label23 {	@include elemLeft(28);
+}
+#ParIDContent_Label23 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label23 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label23 {	z-index: 9;
+}
+#ParIDContent_Label24 {	@include elemTop(373);
+}
+#ParIDContent_Label24 {	@include elemLeft(29);
+}
+#ParIDContent_Label24 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label24 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label24 {	z-index: 10;
+}
+#ParIDContent_Label25 {	@include elemTop(454);
+}
+#ParIDContent_Label25 {	@include elemLeft(28);
+}
+#ParIDContent_Label25 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label25 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label25 {	z-index: 11;
+}
+#ParIDContent_Label26 {	@include elemTop(494);
+}
+#ParIDContent_Label26 {	@include elemLeft(28);
+}
+#ParIDContent_Label26 {	@include elemAutoWidth(112);
+}
+#ParIDContent_Label26 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label26 {	z-index: 12;
+}
+#ParIDContent_NumericInput12 {	@include elemTop(13);
+}
+#ParIDContent_NumericInput12 {	@include elemLeft(169);
+}
+#ParIDContent_NumericInput12 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput12 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput12 {	z-index: 13;
+}
+#ParIDContent_NumericInput13 {	@include elemTop(53);
+}
+#ParIDContent_NumericInput13 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput13 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput13 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput13 {	z-index: 14;
+}
+#ParIDContent_NumericInput14 {	@include elemTop(93);
+}
+#ParIDContent_NumericInput14 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput14 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput14 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput14 {	z-index: 15;
+}
+#ParIDContent_NumericInput15 {	@include elemTop(133);
+}
+#ParIDContent_NumericInput15 {	@include elemLeft(168);
+}
+#ParIDContent_NumericInput15 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput15 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput15 {	z-index: 16;
+}
+#ParIDContent_NumericInput22 {	@include elemTop(494);
+}
+#ParIDContent_NumericInput22 {	@include elemLeft(169);
+}
+#ParIDContent_NumericInput22 {	@include elemAutoWidth(250);
+}
+#ParIDContent_NumericInput22 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericInput22 {	z-index: 17;
+}
+#ParIDContent_NumericOutput1 {	@include elemTop(173);
+}
+#ParIDContent_NumericOutput1 {	@include elemLeft(169);
+}
+#ParIDContent_NumericOutput1 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericOutput1 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericOutput1 {	z-index: 18;
+}
+#ParIDContent_NumericOutput1 {	border-width: 2px;
+}
+#ParIDContent_NumericOutput1 {	border-style: solid;
+}
+#ParIDContent_NumericOutput2 {	@include elemTop(213);
+}
+#ParIDContent_NumericOutput2 {	@include elemLeft(169);
+}
+#ParIDContent_NumericOutput2 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericOutput2 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericOutput2 {	z-index: 19;
+}
+#ParIDContent_NumericOutput2 {	border-width: 2px;
+}
+#ParIDContent_NumericOutput2 {	border-style: solid;
+}
+#ParIDContent_NumericOutput3 {	@include elemTop(253);
+}
+#ParIDContent_NumericOutput3 {	@include elemLeft(169);
+}
+#ParIDContent_NumericOutput3 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericOutput3 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericOutput3 {	z-index: 20;
+}
+#ParIDContent_NumericOutput3 {	border-width: 2px;
+}
+#ParIDContent_NumericOutput3 {	border-style: solid;
+}
+#ParIDContent_NumericOutput4 {	@include elemTop(293);
+}
+#ParIDContent_NumericOutput4 {	@include elemLeft(169);
+}
+#ParIDContent_NumericOutput4 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericOutput4 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericOutput4 {	z-index: 21;
+}
+#ParIDContent_NumericOutput4 {	border-width: 2px;
+}
+#ParIDContent_NumericOutput4 {	border-style: solid;
+}
+#ParIDContent_NumericOutput5 {	@include elemTop(333);
+}
+#ParIDContent_NumericOutput5 {	@include elemLeft(169);
+}
+#ParIDContent_NumericOutput5 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericOutput5 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericOutput5 {	z-index: 22;
+}
+#ParIDContent_NumericOutput5 {	border-width: 2px;
+}
+#ParIDContent_NumericOutput5 {	border-style: solid;
+}
+#ParIDContent_NumericOutput6 {	@include elemTop(373);
+}
+#ParIDContent_NumericOutput6 {	@include elemLeft(169);
+}
+#ParIDContent_NumericOutput6 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericOutput6 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericOutput6 {	z-index: 23;
+}
+#ParIDContent_NumericOutput6 {	border-width: 2px;
+}
+#ParIDContent_NumericOutput6 {	border-style: solid;
+}
+#ParIDContent_TextOutput1 {	@include elemTop(454);
+}
+#ParIDContent_TextOutput1 {	@include elemLeft(169);
+}
+#ParIDContent_TextOutput1 {	@include elemAutoWidth(251);
+}
+#ParIDContent_TextOutput1 {	@include elemAutoHeight(30);
+}
+#ParIDContent_TextOutput1 {	z-index: 24;
+}
+#ParIDContent_TextOutput1 {	border-width: 2px;
+}
+#ParIDContent_TextOutput1 {	border-color: rgba(153, 153, 153, 1);
+}
+#ParIDContent_TextOutput1 {	&:before {
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#ParIDContent_TextOutput1 {	&:after {
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#ParIDContent_TextOutput1 {	border-style: solid;
+}
+#ParIDContent_TextOutput1 {	&:before {
+		border-style: solid;
+	}
+}
+#ParIDContent_TextOutput1 {	&:after {
+		border-style: solid;
+	}
+}
+#ParIDContent_TextOutput1 {	@include text-alignment-all('right');
+}
+#ParIDContent_Rectangle4 {	@include elemTop(534);
+}
+#ParIDContent_Rectangle4 {	@include elemLeft(169);
+}
+#ParIDContent_Rectangle4 {	@include elemWidth(251);
+}
+#ParIDContent_Rectangle4 {	@include elemHeight(34);
+}
+#ParIDContent_Rectangle4 {	z-index: 25;
+}
+#ParIDContent_Rectangle4 {	background-color: rgba(0, 255, 0, 1);
+}
+#ParIDContent_PushButton8 {	@include elemTop(174);
+}
+#ParIDContent_PushButton8 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton8 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton8 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton8 {	z-index: 26;
+}
+#ParIDContent_PushButton9 {	@include elemTop(214);
+}
+#ParIDContent_PushButton9 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton9 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton9 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton9 {	z-index: 27;
+}
+#ParIDContent_PushButton10 {	@include elemTop(254);
+}
+#ParIDContent_PushButton10 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton10 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton10 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton10 {	z-index: 28;
+}
+#ParIDContent_PushButton11 {	@include elemTop(294);
+}
+#ParIDContent_PushButton11 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton11 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton11 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton11 {	z-index: 29;
+}
+#ParIDContent_PushButton13 {	@include elemTop(374);
+}
+#ParIDContent_PushButton13 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton13 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton13 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton13 {	z-index: 30;
+}
+#ParIDContent_PushButton14 {	@include elemTop(454);
+}
+#ParIDContent_PushButton14 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton14 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton14 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton14 {	z-index: 31;
+}
+#ParIDContent_Rectangle2 {	@include elemTop(534);
+}
+#ParIDContent_Rectangle2 {	@include elemLeft(169);
+}
+#ParIDContent_Rectangle2 {	@include elemWidth(251);
+}
+#ParIDContent_Rectangle2 {	@include elemHeight(34);
+}
+#ParIDContent_Rectangle2 {	z-index: 32;
+}
+#ParIDContent_Rectangle2 {	background-color: rgba(255, 0, 0, 1);
+}
+#ParIDContent_PushButton16 {	@include elemTop(534);
+}
+#ParIDContent_PushButton16 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton16 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton16 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton16 {	z-index: 33;
+}
+#ParIDContent_Label28 {	@include elemTop(414);
+}
+#ParIDContent_Label28 {	@include elemLeft(29);
+}
+#ParIDContent_Label28 {	@include elemAutoWidth(80);
+}
+#ParIDContent_Label28 {	@include elemAutoHeight(30);
+}
+#ParIDContent_Label28 {	z-index: 34;
+}
+#ParIDContent_PushButton18 {	@include elemTop(415);
+}
+#ParIDContent_PushButton18 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton18 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton18 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton18 {	z-index: 35;
+}
+#ParIDContent_NumericOutput7 {	@include elemTop(414);
+}
+#ParIDContent_NumericOutput7 {	@include elemLeft(169);
+}
+#ParIDContent_NumericOutput7 {	@include elemAutoWidth(249);
+}
+#ParIDContent_NumericOutput7 {	@include elemAutoHeight(30);
+}
+#ParIDContent_NumericOutput7 {	z-index: 36;
+}
+#ParIDContent_NumericOutput7 {	border-width: 2px;
+}
+#ParIDContent_NumericOutput7 {	border-style: solid;
+}
+#ParIDContent_PushButton12 {	@include elemTop(333);
+}
+#ParIDContent_PushButton12 {	@include elemLeft(429);
+}
+#ParIDContent_PushButton12 {	@include elemAutoWidth(100);
+}
+#ParIDContent_PushButton12 {	@include elemAutoHeight(30);
+}
+#ParIDContent_PushButton12 {	z-index: 37;
+}

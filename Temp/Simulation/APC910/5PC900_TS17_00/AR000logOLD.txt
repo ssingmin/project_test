@@ -1,0 +1,21 @@
+Tue Mar 25 13:31:02 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Tue Mar 25 13:31:02 2025
+No ARsim registration found!
+
+Tue Mar 25 13:31:02 2025
+InstanceName: 00000018ef24829b
+
+Tue Mar 25 13:31:02 2025
+WorkingDirectory: C:\projects\project_test\Temp\Simulation\APC910\5PC900_TS17_00\
+
+Tue Mar 25 13:31:02 2025
+COMMAND_COLDSTART
+
+Tue Mar 25 13:31:05 2025
+Version: E4.91
+
+Tue Mar 25 13:37:13 2025
+COMMAND_TERMINATE
+

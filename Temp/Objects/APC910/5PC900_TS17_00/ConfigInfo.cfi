@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.5.95 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="ST_Main"
+      Disable="false"
+      Source="Source.SuperTrak.ST_Main"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Main\Main.st.var" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\SuperTrak\ST_Main\Types.typ" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\SuperTrak\ST_Main\Variables.var" />
+    </Task>
+    <Task
+      Name="ST_Logic"
+      Disable="false"
+      Source="Source.SuperTrak.ST_Logic"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\Main.st.var" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\SuperTrak\ST_Logic\Types.typ" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\SuperTrak\ST_Logic\Variables.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\AntiSloshing.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\PalletControl.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\ExpertMode.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\ReadErrorMessages.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\ReadTemp.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\SetPalletIDs.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\CheckStandstill.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\DisableRegion.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\EnableRegion.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\AlarmX.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\AlarmXInit.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\InitParID.st.var" />
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Logic\ShuttleConfig.st.var" />
+    </Task>
+    <Task
+      Name="ST_Visu"
+      Disable="false"
+      Source="Source.SuperTrak.ST_Visu"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\ST_Visu\Cyclic.st.var" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\SuperTrak\ST_Visu\Types.typ" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\SuperTrak\ST_Visu\Variables.var" />
+    </Task>
+    <Task
+      Name="AxisCtrl"
+      Disable="false"
+      Source="Source.Axis.AxisCtrl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\project_test\Temp\Objects\APC910\5PC900_TS17_00\AxisCtrl\Main.st.var" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\Axis\AxisCtrl\Types.typ" />
+      <File
+        Path="C:\projects\project_test\Logical\Source\Axis\AxisCtrl\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4" />
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

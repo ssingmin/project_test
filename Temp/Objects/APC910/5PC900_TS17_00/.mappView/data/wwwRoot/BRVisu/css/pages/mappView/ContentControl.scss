@@ -1,0 +1,249 @@
+@import "mixins.scss";
+#ContentControl_GroupBox1 {	@include elemTop(220);
+}
+#ContentControl_GroupBox1 {	@include elemLeft(240);
+}
+#ContentControl_GroupBox1 {	@include elemWidth(285);
+}
+#ContentControl_GroupBox1 {	@include elemHeight(200);
+}
+#ContentControl_GroupBox1 {	z-index: 0;
+}
+#ContentControl_ToggleSwitch1 {	@include elemTop(63);
+}
+#ContentControl_ToggleSwitch1 {	@include elemLeft(139);
+}
+#ContentControl_ToggleSwitch1 {	@include elemAutoWidth(131);
+}
+#ContentControl_ToggleSwitch1 {	@include elemAutoHeight(33);
+}
+#ContentControl_ToggleSwitch1 {	z-index: 0;
+}
+#ContentControl_Label1 {	@include elemTop(63);
+}
+#ContentControl_Label1 {	@include elemLeft(9);
+}
+#ContentControl_Label1 {	@include elemAutoWidth(142);
+}
+#ContentControl_Label1 {	@include elemAutoHeight(33);
+}
+#ContentControl_Label1 {	z-index: 1;
+}
+#ContentControl_Label1 {	font-size: 20px;
+}
+#ContentControl_Label1 {	@include font-weight-bold(true);
+}
+#ContentControl_GroupBox2 {	@include elemTop(40);
+}
+#ContentControl_GroupBox2 {	@include elemLeft(590);
+}
+#ContentControl_GroupBox2 {	@include elemWidth(360);
+}
+#ContentControl_GroupBox2 {	@include elemHeight(590);
+}
+#ContentControl_GroupBox2 {	z-index: 1;
+}
+#ContentControl_Label6 {	@include elemTop(43);
+}
+#ContentControl_Label6 {	@include elemLeft(29);
+}
+#ContentControl_Label6 {	@include elemAutoWidth(101);
+}
+#ContentControl_Label6 {	@include elemAutoHeight(77);
+}
+#ContentControl_Label6 {	z-index: 0;
+}
+#ContentControl_Label6 {	font-size: 20px;
+}
+#ContentControl_Label6 {	@include font-weight-bold(true);
+}
+#ContentControl_PushButton1 {	@include elemTop(123);
+}
+#ContentControl_PushButton1 {	@include elemLeft(149);
+}
+#ContentControl_PushButton1 {	@include elemAutoWidth(110);
+}
+#ContentControl_PushButton1 {	@include elemAutoHeight(33);
+}
+#ContentControl_PushButton1 {	z-index: 1;
+}
+#ContentControl_PushButton1 {	@include border-radius(8px);
+}
+#ContentControl_PushButton2 {	@include elemTop(53);
+}
+#ContentControl_PushButton2 {	@include elemLeft(149);
+}
+#ContentControl_PushButton2 {	@include elemAutoWidth(110);
+}
+#ContentControl_PushButton2 {	@include elemAutoHeight(33);
+}
+#ContentControl_PushButton2 {	z-index: 2;
+}
+#ContentControl_PushButton2 {	@include border-radius(8px);
+}
+#ContentControl_Label7 {	@include elemTop(233);
+}
+#ContentControl_Label7 {	@include elemLeft(29);
+}
+#ContentControl_Label7 {	@include elemAutoWidth(100);
+}
+#ContentControl_Label7 {	@include elemAutoHeight(33);
+}
+#ContentControl_Label7 {	z-index: 3;
+}
+#ContentControl_Label7 {	font-size: 20px;
+}
+#ContentControl_Label7 {	@include font-weight-bold(true);
+}
+#ContentControl_PushButton3 {	@include elemTop(303);
+}
+#ContentControl_PushButton3 {	@include elemLeft(149);
+}
+#ContentControl_PushButton3 {	@include elemAutoWidth(110);
+}
+#ContentControl_PushButton3 {	@include elemAutoHeight(33);
+}
+#ContentControl_PushButton3 {	z-index: 4;
+}
+#ContentControl_PushButton3 {	@include border-radius(8px);
+}
+#ContentControl_PushButton4 {	@include elemTop(233);
+}
+#ContentControl_PushButton4 {	@include elemLeft(149);
+}
+#ContentControl_PushButton4 {	@include elemAutoWidth(110);
+}
+#ContentControl_PushButton4 {	@include elemAutoHeight(33);
+}
+#ContentControl_PushButton4 {	z-index: 5;
+}
+#ContentControl_PushButton4 {	@include border-radius(8px);
+}
+#ContentControl_Label8 {	@include elemTop(413);
+}
+#ContentControl_Label8 {	@include elemLeft(39);
+}
+#ContentControl_Label8 {	@include elemAutoWidth(100);
+}
+#ContentControl_Label8 {	@include elemAutoHeight(77);
+}
+#ContentControl_Label8 {	z-index: 6;
+}
+#ContentControl_Label8 {	font-size: 20px;
+}
+#ContentControl_Label8 {	@include font-weight-bold(true);
+}
+#ContentControl_PushButton5 {	@include elemTop(483);
+}
+#ContentControl_PushButton5 {	@include elemLeft(149);
+}
+#ContentControl_PushButton5 {	@include elemAutoWidth(110);
+}
+#ContentControl_PushButton5 {	@include elemAutoHeight(33);
+}
+#ContentControl_PushButton5 {	z-index: 7;
+}
+#ContentControl_PushButton5 {	@include border-radius(8px);
+}
+#ContentControl_PushButton6 {	@include elemTop(413);
+}
+#ContentControl_PushButton6 {	@include elemLeft(149);
+}
+#ContentControl_PushButton6 {	@include elemAutoWidth(110);
+}
+#ContentControl_PushButton6 {	@include elemAutoHeight(33);
+}
+#ContentControl_PushButton6 {	z-index: 8;
+}
+#ContentControl_PushButton6 {	@include border-radius(8px);
+}
+#ContentControl_Ellipse1 {	@include elemTop(53);
+}
+#ContentControl_Ellipse1 {	@include elemLeft(289);
+}
+#ContentControl_Ellipse1 {	@include elemWidth(35);
+}
+#ContentControl_Ellipse1 {	@include elemHeight(35);
+}
+#ContentControl_Ellipse1 {	z-index: 9;
+}
+#ContentControl_Ellipse1 {	background-color: rgba(34, 139, 34, 1);
+}
+#ContentControl_Ellipse2 {	@include elemTop(233);
+}
+#ContentControl_Ellipse2 {	@include elemLeft(289);
+}
+#ContentControl_Ellipse2 {	@include elemWidth(35);
+}
+#ContentControl_Ellipse2 {	@include elemHeight(35);
+}
+#ContentControl_Ellipse2 {	z-index: 10;
+}
+#ContentControl_Ellipse2 {	background-color: rgba(34, 139, 34, 1);
+}
+#ContentControl_Ellipse3 {	@include elemTop(413);
+}
+#ContentControl_Ellipse3 {	@include elemLeft(299);
+}
+#ContentControl_Ellipse3 {	@include elemWidth(35);
+}
+#ContentControl_Ellipse3 {	@include elemHeight(35);
+}
+#ContentControl_Ellipse3 {	z-index: 11;
+}
+#ContentControl_Ellipse3 {	background-color: rgba(34, 139, 34, 1);
+}
+#ContentControl_Label4 {	@include elemTop(295);
+}
+#ContentControl_Label4 {	@include elemLeft(-155);
+}
+#ContentControl_Label4 {	@include elemAutoWidth(474);
+}
+#ContentControl_Label4 {	@include elemAutoHeight(83);
+}
+#ContentControl_Label4 {	z-index: 2;
+}
+#ContentControl_Label4 {	& span {
+		color: rgba(255, 138, 0, 1);
+	}
+}
+#ContentControl_Label4 {	@include text-alignment-all('center');
+}
+#ContentControl_Label4 {	@include rotate(270deg);
+}
+#ContentControl_Label4 {	font-size: 48px;
+}
+#ContentControl_GroupBox3 {	@include elemTop(270);
+}
+#ContentControl_GroupBox3 {	@include elemLeft(1020);
+}
+#ContentControl_GroupBox3 {	@include elemWidth(170);
+}
+#ContentControl_GroupBox3 {	@include elemHeight(180);
+}
+#ContentControl_GroupBox3 {	z-index: 3;
+}
+#ContentControl_MomentaryPushButton1 {	@include elemTop(23);
+}
+#ContentControl_MomentaryPushButton1 {	@include elemLeft(29);
+}
+#ContentControl_MomentaryPushButton1 {	@include elemAutoWidth(110);
+}
+#ContentControl_MomentaryPushButton1 {	@include elemAutoHeight(33);
+}
+#ContentControl_MomentaryPushButton1 {	z-index: 0;
+}
+#ContentControl_MomentaryPushButton1 {	@include border-radius(8px);
+}
+#ContentControl_MomentaryPushButton2 {	@include elemTop(83);
+}
+#ContentControl_MomentaryPushButton2 {	@include elemLeft(29);
+}
+#ContentControl_MomentaryPushButton2 {	@include elemAutoWidth(110);
+}
+#ContentControl_MomentaryPushButton2 {	@include elemAutoHeight(33);
+}
+#ContentControl_MomentaryPushButton2 {	z-index: 1;
+}
+#ContentControl_MomentaryPushButton2 {	@include border-radius(8px);
+}

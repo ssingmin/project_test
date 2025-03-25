@@ -1,0 +1,57 @@
+@import "mixins.scss";
+#LogoHeader_Image1 {	@include elemTop(0);
+}
+#LogoHeader_Image1 {	@include elemLeft(1160);
+}
+#LogoHeader_Image1 {	@include elemAutoWidth(110);
+}
+#LogoHeader_Image1 {	@include elemAutoHeight(60);
+}
+#LogoHeader_Image1 {	z-index: 0;
+}
+#LogoHeader_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#LogoHeader_LanguageSelector1 {	@include elemTop(8);
+}
+#LogoHeader_LanguageSelector1 {	@include elemLeft(15);
+}
+#LogoHeader_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemWidth(110);
+	}
+}
+#LogoHeader_LanguageSelector1 {	z-index: 1;
+}
+#LogoHeader_NavigationButton1 {	@include elemTop(0);
+}
+#LogoHeader_NavigationButton1 {	@include elemLeft(1080);
+}
+#LogoHeader_NavigationButton1 {	@include elemAutoWidth(70);
+}
+#LogoHeader_NavigationButton1 {	@include elemAutoHeight(60);
+}
+#LogoHeader_NavigationButton1 {	z-index: 2;
+}
+#LogoHeader_NavigationButton1 {	img {
+		@include imageHeight(60);
+	}
+}
+#LogoHeader_NavigationButton1 {	svg {
+		@include imageHeight(60);
+	}
+}
+#LogoHeader_NavigationButton1 {	img {
+		@include imageWidth(60);
+	}
+}
+#LogoHeader_NavigationButton1 {	svg {
+		@include imageWidth(60);
+	}
+}
+#LogoHeader_NavigationButton1 {	@include border-radius(0px);
+}
+#LogoHeader_NavigationButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}

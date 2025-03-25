@@ -1,0 +1,85 @@
+@import "mixins.scss";
+#ContentAlarmX_Label4 {	@include elemTop(275);
+}
+#ContentAlarmX_Label4 {	@include elemLeft(-177);
+}
+#ContentAlarmX_Label4 {	@include elemAutoWidth(474);
+}
+#ContentAlarmX_Label4 {	@include elemAutoHeight(83);
+}
+#ContentAlarmX_Label4 {	z-index: 0;
+}
+#ContentAlarmX_Label4 {	& span {
+		color: rgba(255, 138, 0, 1);
+	}
+}
+#ContentAlarmX_Label4 {	@include text-alignment-all('center');
+}
+#ContentAlarmX_Label4 {	@include rotate(270deg);
+}
+#ContentAlarmX_Label4 {	font-size: 48px;
+}
+#ContentAlarmX_AlarmList1 {	@include elemTop(60);
+}
+#ContentAlarmX_AlarmList1 {	@include elemLeft(220);
+}
+#ContentAlarmX_AlarmList1 {	@include elemWidth(900);
+}
+#ContentAlarmX_AlarmList1 {	@include elemHeight(470);
+}
+#ContentAlarmX_AlarmList1 {	z-index: 1;
+}
+#ContentAlarmX_AlarmList1 {	&.breaseTableWidget {
+		border-style: solid;
+	}
+}
+#ContentAlarmX_AlarmList1 {	&.breaseTableWidget {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentAlarmX_AlarmList1 {	&.breaseTableWidget {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentAlarmX_AlarmList1 {	&.breaseTableWidget .breaseTableColumnWidget:not(.disabled) {
+		background-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentAlarmX_AlarmList1 {	&.breaseTableWidget .breaseTableColumnWidget:not(.disabled) {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentAlarmX_AlarmList1 {	@include border-radius(0px);
+}
+#ContentAlarmX_AlarmListItem1 {	@include elemWidth(110);
+}
+#ContentAlarmX_AlarmListItem1 {	z-index: 0;
+}
+#ContentAlarmX_AlarmListItem2 {	@include elemWidth(170);
+}
+#ContentAlarmX_AlarmListItem2 {	z-index: 1;
+}
+#ContentAlarmX_AlarmListItem4 {	@include elemWidth(620);
+}
+#ContentAlarmX_AlarmListItem4 {	z-index: 2;
+}
+#ContentAlarmX_Button1 {	@include elemTop(560);
+}
+#ContentAlarmX_Button1 {	@include elemLeft(410);
+}
+#ContentAlarmX_Button1 {	@include elemAutoWidth(260);
+}
+#ContentAlarmX_Button1 {	@include elemAutoHeight(40);
+}
+#ContentAlarmX_Button1 {	z-index: 2;
+}
+#ContentAlarmX_Button2 {	@include elemTop(560);
+}
+#ContentAlarmX_Button2 {	@include elemLeft(760);
+}
+#ContentAlarmX_Button2 {	@include elemAutoWidth(180);
+}
+#ContentAlarmX_Button2 {	@include elemAutoHeight(40);
+}
+#ContentAlarmX_Button2 {	z-index: 3;
+}

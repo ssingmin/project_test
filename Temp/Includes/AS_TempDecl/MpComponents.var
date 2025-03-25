@@ -1,0 +1,4 @@
+VAR
+	gAlarmXCore : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\projects\project_test\Physical\APC910\5PC900_TS17_00\mappServices\Config.mpalarmxcore" #2"1" #3"1"*)
+	gAlarmXHistory : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\projects\project_test\Physical\APC910\5PC900_TS17_00\mappServices\Config_1.mpalarmxhistory" #2"1" #3"1"*)
+END_VAR

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\iat_media.job" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\dialog_sass._markerfile">
+    <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\0_visulist.json">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\0_visulist.json" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\source\supertrak\st_main\main.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\content_sass._markerfile">
+    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\type_sass._markerfile">
+    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_IntegrationBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\st_main.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main\st_main.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\apc910\5pc900_ts17_00\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\st_main.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

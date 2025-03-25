@@ -1,0 +1,263 @@
+@import "mixins.scss";
+#ContentSTAlarmPage3_Label5 {	@include elemTop(80);
+}
+#ContentSTAlarmPage3_Label5 {	@include elemLeft(540);
+}
+#ContentSTAlarmPage3_Label5 {	@include elemAutoWidth(100);
+}
+#ContentSTAlarmPage3_Label5 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_Label5 {	z-index: 0;
+}
+#ContentSTAlarmPage3_Label5 {	font-size: 32px;
+}
+#ContentSTAlarmPage3_Label5 {	margin: 0px;
+}
+#ContentSTAlarmPage3_Line10 {	z-index: 1;
+}
+#ContentSTAlarmPage3_Line11 {	z-index: 2;
+}
+#ContentSTAlarmPage3_Line14 {	z-index: 3;
+}
+#ContentSTAlarmPage3_MomentaryPushButton1 {	@include elemTop(30);
+}
+#ContentSTAlarmPage3_MomentaryPushButton1 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage3_MomentaryPushButton1 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage3_MomentaryPushButton1 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_MomentaryPushButton1 {	z-index: 4;
+}
+#ContentSTAlarmPage3_Label12 {	@include elemTop(80);
+}
+#ContentSTAlarmPage3_Label12 {	@include elemLeft(980);
+}
+#ContentSTAlarmPage3_Label12 {	@include elemAutoWidth(100);
+}
+#ContentSTAlarmPage3_Label12 {	@include elemAutoHeight(40);
+}
+#ContentSTAlarmPage3_Label12 {	z-index: 5;
+}
+#ContentSTAlarmPage3_Label12 {	font-size: 20px;
+}
+#ContentSTAlarmPage3_Label12 {	@include font-weight-bold(true);
+}
+#ContentSTAlarmPage3_Label12 {	margin: 0px;
+}
+#ContentSTAlarmPage3_Line4 {	z-index: 6;
+}
+#ContentSTAlarmPage3_Label2 {	@include elemTop(130);
+}
+#ContentSTAlarmPage3_Label2 {	@include elemLeft(10);
+}
+#ContentSTAlarmPage3_Label2 {	@include elemAutoWidth(200);
+}
+#ContentSTAlarmPage3_Label2 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_Label2 {	z-index: 7;
+}
+#ContentSTAlarmPage3_Label2 {	font-size: 20px;
+}
+#ContentSTAlarmPage3_Line7 {	z-index: 8;
+}
+#ContentSTAlarmPage3_TextOutput7 {	@include elemTop(130);
+}
+#ContentSTAlarmPage3_TextOutput7 {	@include elemLeft(210);
+}
+#ContentSTAlarmPage3_TextOutput7 {	@include elemAutoWidth(760);
+}
+#ContentSTAlarmPage3_TextOutput7 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_TextOutput7 {	z-index: 9;
+}
+#ContentSTAlarmPage3_TextOutput8 {	@include elemTop(190);
+}
+#ContentSTAlarmPage3_TextOutput8 {	@include elemLeft(210);
+}
+#ContentSTAlarmPage3_TextOutput8 {	@include elemAutoWidth(770);
+}
+#ContentSTAlarmPage3_TextOutput8 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_TextOutput8 {	z-index: 10;
+}
+#ContentSTAlarmPage3_Label3 {	@include elemTop(180);
+}
+#ContentSTAlarmPage3_Label3 {	@include elemLeft(10);
+}
+#ContentSTAlarmPage3_Label3 {	@include elemAutoWidth(180);
+}
+#ContentSTAlarmPage3_Label3 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage3_Label3 {	z-index: 11;
+}
+#ContentSTAlarmPage3_Label3 {	@include text-alignment-all('left');
+}
+#ContentSTAlarmPage3_Label3 {	font-size: 20px;
+}
+#ContentSTAlarmPage3_Line8 {	z-index: 12;
+}
+#ContentSTAlarmPage3_MomentaryPushButton3 {	@include elemTop(130);
+}
+#ContentSTAlarmPage3_MomentaryPushButton3 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage3_MomentaryPushButton3 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage3_MomentaryPushButton3 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_MomentaryPushButton3 {	z-index: 13;
+}
+#ContentSTAlarmPage3_MomentaryPushButton4 {	@include elemTop(190);
+}
+#ContentSTAlarmPage3_MomentaryPushButton4 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage3_MomentaryPushButton4 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage3_MomentaryPushButton4 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_MomentaryPushButton4 {	z-index: 14;
+}
+#ContentSTAlarmPage3_Rectangle1 {	@include elemTop(120);
+}
+#ContentSTAlarmPage3_Rectangle1 {	@include elemLeft(980);
+}
+#ContentSTAlarmPage3_Rectangle1 {	@include elemWidth(100);
+}
+#ContentSTAlarmPage3_Rectangle1 {	@include elemHeight(50);
+}
+#ContentSTAlarmPage3_Rectangle1 {	z-index: 15;
+}
+#ContentSTAlarmPage3_Rectangle1 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage3_Rectangle2 {	@include elemTop(170);
+}
+#ContentSTAlarmPage3_Rectangle2 {	@include elemLeft(980);
+}
+#ContentSTAlarmPage3_Rectangle2 {	@include elemWidth(100);
+}
+#ContentSTAlarmPage3_Rectangle2 {	@include elemHeight(70);
+}
+#ContentSTAlarmPage3_Rectangle2 {	z-index: 16;
+}
+#ContentSTAlarmPage3_Rectangle2 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage3_NavigationButton1 {	@include elemTop(610);
+}
+#ContentSTAlarmPage3_NavigationButton1 {	@include elemLeft(890);
+}
+#ContentSTAlarmPage3_NavigationButton1 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage3_NavigationButton1 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage3_NavigationButton1 {	z-index: 17;
+}
+#ContentSTAlarmPage3_NavigationButton1 {	span {
+		font-size: 32px;
+	}
+}
+#ContentSTAlarmPage3_Label4 {	@include elemTop(250);
+}
+#ContentSTAlarmPage3_Label4 {	@include elemLeft(10);
+}
+#ContentSTAlarmPage3_Label4 {	@include elemAutoWidth(200);
+}
+#ContentSTAlarmPage3_Label4 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_Label4 {	z-index: 18;
+}
+#ContentSTAlarmPage3_Label4 {	font-size: 20px;
+}
+#ContentSTAlarmPage3_TextOutput9 {	@include elemTop(250);
+}
+#ContentSTAlarmPage3_TextOutput9 {	@include elemLeft(210);
+}
+#ContentSTAlarmPage3_TextOutput9 {	@include elemAutoWidth(760);
+}
+#ContentSTAlarmPage3_TextOutput9 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_TextOutput9 {	z-index: 19;
+}
+#ContentSTAlarmPage3_TextOutput10 {	@include elemTop(300);
+}
+#ContentSTAlarmPage3_TextOutput10 {	@include elemLeft(210);
+}
+#ContentSTAlarmPage3_TextOutput10 {	@include elemAutoWidth(760);
+}
+#ContentSTAlarmPage3_TextOutput10 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_TextOutput10 {	z-index: 20;
+}
+#ContentSTAlarmPage3_Label7 {	@include elemTop(300);
+}
+#ContentSTAlarmPage3_Label7 {	@include elemLeft(10);
+}
+#ContentSTAlarmPage3_Label7 {	@include elemAutoWidth(180);
+}
+#ContentSTAlarmPage3_Label7 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_Label7 {	z-index: 21;
+}
+#ContentSTAlarmPage3_Label7 {	@include text-alignment-all('left');
+}
+#ContentSTAlarmPage3_Label7 {	font-size: 20px;
+}
+#ContentSTAlarmPage3_MomentaryPushButton5 {	@include elemTop(250);
+}
+#ContentSTAlarmPage3_MomentaryPushButton5 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage3_MomentaryPushButton5 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage3_MomentaryPushButton5 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_MomentaryPushButton5 {	z-index: 22;
+}
+#ContentSTAlarmPage3_MomentaryPushButton6 {	@include elemTop(300);
+}
+#ContentSTAlarmPage3_MomentaryPushButton6 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage3_MomentaryPushButton6 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage3_MomentaryPushButton6 {	@include elemAutoHeight(30);
+}
+#ContentSTAlarmPage3_MomentaryPushButton6 {	z-index: 23;
+}
+#ContentSTAlarmPage3_Rectangle3 {	@include elemTop(240);
+}
+#ContentSTAlarmPage3_Rectangle3 {	@include elemLeft(980);
+}
+#ContentSTAlarmPage3_Rectangle3 {	@include elemWidth(100);
+}
+#ContentSTAlarmPage3_Rectangle3 {	@include elemHeight(50);
+}
+#ContentSTAlarmPage3_Rectangle3 {	z-index: 24;
+}
+#ContentSTAlarmPage3_Rectangle3 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage3_Rectangle4 {	@include elemTop(290);
+}
+#ContentSTAlarmPage3_Rectangle4 {	@include elemLeft(980);
+}
+#ContentSTAlarmPage3_Rectangle4 {	@include elemWidth(100);
+}
+#ContentSTAlarmPage3_Rectangle4 {	@include elemHeight(50);
+}
+#ContentSTAlarmPage3_Rectangle4 {	z-index: 25;
+}
+#ContentSTAlarmPage3_Rectangle4 {	background-color: rgba(255, 0, 0, 1);
+}
+#ContentSTAlarmPage3_Line12 {	z-index: 26;
+}
+#ContentSTAlarmPage3_NavigationButton3 {	@include elemTop(610);
+}
+#ContentSTAlarmPage3_NavigationButton3 {	@include elemLeft(1090);
+}
+#ContentSTAlarmPage3_NavigationButton3 {	@include elemAutoWidth(170);
+}
+#ContentSTAlarmPage3_NavigationButton3 {	@include elemAutoHeight(50);
+}
+#ContentSTAlarmPage3_NavigationButton3 {	z-index: 27;
+}
+#ContentSTAlarmPage3_NavigationButton3 {	span {
+		font-size: 32px;
+	}
+}

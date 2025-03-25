@@ -1,0 +1,8 @@
+{
+  global:
+    HMIControl;
+    HMIReadParID;
+    HMIWriteParID;
+  local:
+    *;
+ };

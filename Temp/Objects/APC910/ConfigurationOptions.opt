@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.5.95 SP"?>
+<ConfigurationOptions
+  Name="APC910"
+  Target="SG4"
+  GccVersion="4.1.2"
+  SaveSourceOnTarget="false"
+  ActivateSdm="true"
+  WebServer="true"
+  ARMSimulation="False"
+  ArVersion="E4.91">
+  <ModuleMemoryData>
+    <Module
+      Name=""
+      Memory="0" />
+  </ModuleMemoryData>
+  <Memories
+    PermanentAnalogMemory="0"
+    PermanentDigitalMemory="0"
+    VolatileMemory="262144" />
+</ConfigurationOptions>

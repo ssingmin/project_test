@@ -1,0 +1,27 @@
+@import "mixins.scss";
+#SDMContent_WebViewer1 {	@include elemTop(0);
+}
+#SDMContent_WebViewer1 {	@include elemLeft(240);
+}
+#SDMContent_WebViewer1 {	@include elemWidth(870);
+}
+#SDMContent_WebViewer1 {	@include elemHeight(680);
+}
+#SDMContent_WebViewer1 {	z-index: 0;
+}
+#SDMContent_Label_ButtonHeader {	@include elemTop(266);
+}
+#SDMContent_Label_ButtonHeader {	@include elemLeft(-156);
+}
+#SDMContent_Label_ButtonHeader {	@include elemAutoWidth(487);
+}
+#SDMContent_Label_ButtonHeader {	@include elemAutoHeight(114);
+}
+#SDMContent_Label_ButtonHeader {	z-index: 1;
+}
+#SDMContent_Label_ButtonHeader {	@include text-alignment-all('center');
+}
+#SDMContent_Label_ButtonHeader {	@include rotate(270deg);
+}
+#SDMContent_Label_ButtonHeader {	font-size: 48px;
+}

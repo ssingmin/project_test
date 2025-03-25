@@ -154,12 +154,34 @@ TYPE
 		Used : McPVAJFUseType; (*Type mcPVAJF_USE settings*)
 		JerkLimited : McPVAJFJerkLimType; (*Type mcPVAJF_JERK_LIM settings*)
 	END_STRUCT;
+	McPVAZVFEnum :
+		( (*Zero vibration filter selector setting*)
+		mcPVAZVF_NOT_USE := 0, (*Not used - No zero vibration filter is applied*)
+		mcPVAZVF_USE := 1 (*Used - Zero vibration filter is applied*)
+		);
+	McPVAZVFUseType : STRUCT (*Type mcPVAZVF_USE settings*)
+		MaximumZeroVibrationFilterTime : REAL; (*Maximum configurable zero vibration filter time [s]*)
+		ZeroVibrationFilterCoefficient : REAL; (*Zero vibration filter coefficient*)
+		ZeroVibrationFilterTime : REAL; (*Zero vibration filter time ('Zero vibration filter time' <= 'Maximum zero vibration filter time') [s]*)
+	END_STRUCT;
+	McPVAZVFType : STRUCT (*Zero vibration filter*)
+		Type : McPVAZVFEnum; (*Zero vibration filter selector setting*)
+		Used : McPVAZVFUseType; (*Type mcPVAZVF_USE settings*)
+	END_STRUCT;
 	McPVAGPAIEnum :
 		( (*General purpose axis interface selector setting*)
 		mcPVAGPAI_NOT_USE := 0, (*Not used - No connection to a device used*)
 		mcPVAGPAI_USE := 1, (*Used - Interface provides output data to control a device and receives status information of a device*)
 		mcPVAGPAI_EXT_ENC := 2 (*External encoder - Interface to read an external encoder*)
 		);
+	McPVAMActModSimOnPLCEnum :
+		( (*Activates or deactivates the module simulation on the PLC*)
+		mcPVAMAMSOP_OFF := 0, (*Off - The module is not simulated on the PLC*)
+		mcPVAMAMSOP_ON := 1 (*On - The module is simulated on the PLC*)
+		);
+	McPVAMType : STRUCT (*Contains parameters which influence or are relevant just for the whole module*)
+		ActivateModuleSimulationOnPLC : McPVAMActModSimOnPLCEnum; (*Activates or deactivates the module simulation on the PLC*)
+	END_STRUCT;
 	McPVAMEType : STRUCT (*Parameter of hardware elements situated between motor encoder and load which influence the scaling*)
 		Gearbox : McCfgGearBoxType; (*Specifies a gearbox by defining the ratio between a gearbox input and output*)
 		RotaryToLinearTransformation : McCfgRotToLinTrfType; (*Specifies a transformation factor between the output of the gear and the actual load movement*)
@@ -315,7 +337,9 @@ TYPE
 		( (*Reference pulse selector setting*)
 		mcPVAELOEERP_NOT_USE := 0, (*Not used - Reference pulse is not used*)
 		mcPVAELOEERP_IO_CH := 1, (*I/O channel - Reference pulse is used with I/O channel*)
-		mcPVAELOEERP_VAR := 2 (*Variable - Reference pulse is used with variable*)
+		mcPVAELOEERP_VAR := 2, (*Variable - Reference pulse is used with variable*)
+		mcPVAELOEERP_IO_CH_DINT := 3, (*I/O channel DINT - Reference pulse is used with I/O channel*)
+		mcPVAELOEERP_VAR_DINT := 4 (*Variable DINT - Reference pulse is used with variable*)
 		);
 	McPVAELOEExtRefPIOChPosType : STRUCT (*Position of the reference pulse*)
 		ChannelMapping : STRING[250]; (*Input source for the reference pulse position*)
@@ -337,10 +361,32 @@ TYPE
 		Position : McPVAELOEExtRefPVarPosType; (*Position of the reference pulse*)
 		Count : McPVAELOEExtRefPVarCntType; (*Count of the reference pulse*)
 	END_STRUCT;
-	McPVAELOEExtRefPType : STRUCT (*Check if given position is valid*)
+	McPVAELOEExtRefPIOChDINTPosType : STRUCT (*Position of the reference pulse*)
+		ChannelMapping : STRING[250]; (*Input source for the reference pulse position*)
+	END_STRUCT;
+	McPVAELOEExtRefPIOChDINTCntType : STRUCT (*Count of the reference pulse*)
+		ChannelMapping : STRING[250]; (*Input source for the reference pulse count*)
+	END_STRUCT;
+	McPVAELOEExtRefPIOChDINTType : STRUCT (*Type mcPVAELOEERP_IO_CH_DINT settings*)
+		Position : McPVAELOEExtRefPIOChDINTPosType; (*Position of the reference pulse*)
+		Count : McPVAELOEExtRefPIOChDINTCntType; (*Count of the reference pulse*)
+	END_STRUCT;
+	McPVAELOEExtRefPVarDINTPosType : STRUCT (*Position of the reference pulse*)
+		PVMapping : STRING[250]; (*Input source for the reference pulse position*)
+	END_STRUCT;
+	McPVAELOEExtRefPVarDINTCntType : STRUCT (*Count of the reference pulse*)
+		PVMapping : STRING[250]; (*Input source for the reference pulse count*)
+	END_STRUCT;
+	McPVAELOEExtRefPVarDINTType : STRUCT (*Type mcPVAELOEERP_VAR_DINT settings*)
+		Position : McPVAELOEExtRefPVarDINTPosType; (*Position of the reference pulse*)
+		Count : McPVAELOEExtRefPVarDINTCntType; (*Count of the reference pulse*)
+	END_STRUCT;
+	McPVAELOEExtRefPType : STRUCT (*Usage and settings for the evaluation of the reference pulse of the encoder*)
 		Type : McPVAELOEExtRefPEnum; (*Reference pulse selector setting*)
 		IOChannel : McPVAELOEExtRefPIOChType; (*Type mcPVAELOEERP_IO_CH settings*)
 		Variable : McPVAELOEExtRefPVarType; (*Type mcPVAELOEERP_VAR settings*)
+		IOChannelDINT : McPVAELOEExtRefPIOChDINTType; (*Type mcPVAELOEERP_IO_CH_DINT settings*)
+		VariableDINT : McPVAELOEExtRefPVarDINTType; (*Type mcPVAELOEERP_VAR_DINT settings*)
 	END_STRUCT;
 	McPVAELOEEPosFltrEnum :
 		( (*Position filter selector setting*)
@@ -359,7 +405,7 @@ TYPE
 		PositionType : McPVAELOEExtPosTypType; (*Type of the encoder*)
 		PositionSource : McPVAELOEExtPosSrcType; (*Position source*)
 		ValidityCheck : McPVAELOEExtValCkType; (*Check if given position is valid*)
-		ReferencePulse : McPVAELOEExtRefPType; (*Check if given position is valid*)
+		ReferencePulse : McPVAELOEExtRefPType; (*Usage and settings for the evaluation of the reference pulse of the encoder*)
 		PositionFilter : McPVAELOEEPosFltrType; (*Filter for the encoder position*)
 	END_STRUCT;
 	McPVAELOEPosEncType : STRUCT (*Encoder which is used for this axis*)
@@ -422,7 +468,8 @@ TYPE
 		( (*Source selector setting*)
 		mcPVADIAS_NOT_USE := 0, (*Not used -*)
 		mcPVADIAS_VAR := 1, (*Variable - Get value from a PV*)
-		mcPVADIAS_IO_CH := 2 (*I/O channel - Get value from an I/O channel*)
+		mcPVADIAS_IO_CH := 2, (*I/O channel - Get value from an I/O channel*)
+		mcPVADIAS_FOR_BY_FUN_BLK := 3 (*Force by function block - Set logical value by function block*)
 		);
 	McPVADIAllSrcVarType : STRUCT (*Type mcPVADIAS_VAR settings*)
 		PVMapping : STRING[250];
@@ -456,7 +503,8 @@ TYPE
 		( (*Source selector setting*)
 		mcPVADIATS_NOT_USE := 0, (*Not used -*)
 		mcPVADIATS_VAR := 1, (*Variable -*)
-		mcPVADIATS_IO_CH := 2 (*I/O channel - Get value from an I/O channel*)
+		mcPVADIATS_IO_CH := 2, (*I/O channel - Get value from an I/O channel*)
+		mcPVADIATS_FOR_BY_FUN_BLK := 3 (*Force by function block - Set logical value by function block*)
 		);
 	McPVADIAllTrgSrcVarTSEnum :
 		( (*Time stamp selector setting*)
@@ -706,7 +754,19 @@ TYPE
 		BrakeControl : McPVACOBrkCtrlType; (*Parameter of the holding break*)
 		SetSpeed : McPVACOSetSpdType; (*Set speed value*)
 	END_STRUCT;
+	McPVAGPAIUseSimLdSimModEnum :
+		( (*Load simulation mode selector setting*)
+		mcPVAGPAIUSLSM_NOT_USE := 0, (*Not used - Load simulation is not switched on during the axis initialization*)
+		mcPVAGPAIUSLSM_SET_VAL_GEN := 1 (*Set value generation - Only set value generation is active, no controlled system is simulated*)
+		);
+	McPVAGPAIUseSimLdSimModType : STRUCT (*Mode for the motor and load simulation*)
+		Type : McPVAGPAIUseSimLdSimModEnum; (*Load simulation mode selector setting*)
+	END_STRUCT;
+	McPVAGPAIUseSimType : STRUCT (*Parameters which influence the simulation possibilities of this axis*)
+		LoadSimulationMode : McPVAGPAIUseSimLdSimModType; (*Mode for the motor and load simulation*)
+	END_STRUCT;
 	McPVAGPAIUseType : STRUCT (*Type mcPVAGPAI_USE settings*)
+		Module : McPVAMType; (*Contains parameters which influence or are relevant just for the whole module*)
 		MechanicalElements : McPVAMEType; (*Parameter of hardware elements situated between motor encoder and load which influence the scaling*)
 		EncoderLink : McPVAELType; (*Used position input*)
 		Controller : McPVACType; (*Axis controller parameters*)
@@ -715,6 +775,7 @@ TYPE
 		DigitalInputs : McPVADIType; (*Various digital input functionalities e.g. like homing switch or triggers*)
 		StatusInputs : McPVASIType; (*Various input functionalities to be linked to PVs or Channels*)
 		ControlOutputs : McPVACOType; (*Various output functionalities to be linked to PVs*)
+		Simulation : McPVAGPAIUseSimType; (*Parameters which influence the simulation possibilities of this axis*)
 	END_STRUCT;
 	McPVAGPAIExtEncType : STRUCT (*Type mcPVAGPAI_EXT_ENC settings*)
 		MechanicalElements : McPVAMEType; (*Parameter of hardware elements situated between motor encoder and load which influence the scaling*)
@@ -733,6 +794,7 @@ TYPE
 		AxisReference : McCfgReferenceType; (*Name of the referenced axis component*)
 		Homing : McPVAHType; (*Homing mode and parameters which can be used within the application program as preconfigured setting*)
 		JerkFilter : McPVAJFType; (*Jerk filter*)
+		ZeroVibrationFilter : McPVAZVFType; (*Zero vibration filter*)
 		GeneralPurposeAxisInterface : McPVAGPAIType; (*Connect a PureVAx to any kind of drive*)
 		AxisFeatures : McPVAFType; (*Features for an axis*)
 	END_STRUCT;
@@ -774,5 +836,25 @@ TYPE
 	END_STRUCT;
 	McCfgPureVAxCtrlOutType : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_PURE_V_AX_CTRL_OUT*)
 		ControlOutputs : McPVACOType; (*Various output functionalities to be linked to PVs*)
+	END_STRUCT;
+	McPVASSimLdSimModEnum :
+		( (*Load simulation mode selector setting*)
+		mcPVASSLSM_NOT_USE := 0, (*Not used - Load simulation is not switched on during the axis initialization*)
+		mcPVASSLSM_SET_VAL_GEN := 1 (*Set value generation - Only set value generation is active, no controlled system is simulated*)
+		);
+	McPVASSimLdSimModType : STRUCT (*Mode for the motor and load simulation*)
+		Type : McPVASSimLdSimModEnum; (*Load simulation mode selector setting*)
+	END_STRUCT;
+	McPVASSimType : STRUCT (*Parameters which influence the simulation possibilities of this axis*)
+		LoadSimulationMode : McPVASSimLdSimModType; (*Mode for the motor and load simulation*)
+	END_STRUCT;
+	McCfgPureVAxSimType : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_PURE_V_AX_SIM*)
+		Simulation : McPVASSimType; (*Parameters which influence the simulation possibilities of this axis*)
+	END_STRUCT;
+	McCfgPureVAxModType : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_PURE_V_AX_MOD*)
+		Module : McPVAMType; (*Contains parameters which influence or are relevant just for the whole module*)
+	END_STRUCT;
+	McCfgPureVAxZeroVibFltrType : STRUCT (*Main data type corresponding to McCfgTypeEnum mcCFG_PURE_V_AX_ZERO_VIB_FLTR*)
+		ZeroVibrationFilter : McPVAZVFType; (*Zero vibration filter*)
 	END_STRUCT;
 END_TYPE

@@ -149,7 +149,7 @@ Parameters left at default values disable the associated optional functions.*)
 		CamSequence : MpAxisCamSequenceDataType; (*Cam sequence parameters*)
 		ParLockCommand : McCamAutParLockCmdEnum := mcCAMAUT_NO_LOCK; (*ParLock parameters*)
 		Offset : MpAxisOffsetParType; (*Offset parameters*)
-		Phasing : MpAxisPhasingParType := (0); (*Phasing parameters*)
+		Phasing : MpAxisPhasingParType; (*Phasing parameters*)
 		CamList : ARRAY[0..13]OF MpAxisCamListType; (*List of cam to be send to drive. As alternative cam defined in axis cam list feature can be used*)
 		Recovery : MpAxisSequencerRecoveryParType; (*Recovery parameters*)
 	END_STRUCT;
@@ -168,11 +168,11 @@ Parameters left at default values disable the associated optional functions.*)
 		GetOnEnable : BOOL := FALSE; (*Get Sequence on Fb Enable*)
 	END_STRUCT;
 	MpAxisCouplingParType : 	STRUCT 
-		Gear : MpAxisGearParType := (0); (*Gear parameters*)
-		Cam : MpAxisCamParType := (0); (*Cam parameters*)
-		GearInPos : MpAxisGearInPosParType := (0); (*Gear parameters*)
+		Gear : MpAxisGearParType; (*Gear parameters*)
+		Cam : MpAxisCamParType; (*Cam parameters*)
+		GearInPos : MpAxisGearInPosParType; (*Gear parameters*)
 		Offset : MpAxisOffsetParType; (*Offset parameters*)
-		Phasing : MpAxisPhasingParType := (0); (*Phasing parameters*)
+		Phasing : MpAxisPhasingParType; (*Phasing parameters*)
 		GetCamPosition : MpAxisGetCamPositionParType; (*GetCamPosition parameters*)
 		CamList : ARRAY[0..13]OF MpAxisCamListType; (*List of cam to be send to drive. As alternative cam defined in axis cam list feature can be used*)
 		Recovery : MpAxisCouplingRecoveryParType;
@@ -245,18 +245,18 @@ Parameters left at default values disable the associated optional functions.*)
 	END_STRUCT;
 	MpAxisSequencerRecoveryParType : 	STRUCT 
 		Mode : McCamAutPrepRestartModeEnum; (* Mode of repositioning*)
-		Velocity : REAL; (* Maximum velocity [Measurement units/s]*)
-		Acceleration : REAL; (* Maximum acceleration [Measurement units/s²]*)
-		Deceleration : REAL; (* Maximum deceleration [Measurement units/s²]*)
+		Velocity : REAL := 10.0; (* Maximum velocity [Measurement units/s]*)
+		Acceleration : REAL := 50.0; (* Maximum acceleration [Measurement units/s²]*)
+		Deceleration : REAL := 50.0; (* Maximum deceleration [Measurement units/s²]*)
 		Jerk : REAL; (* Maximum jerk [Measurement units/s³]*)
 		Options : McAdvCamAutPrepRestartParType; (* Recovery optional parameters*)
 		MasterPositionOffset : LREAL; (*Master position offset used only for Recovery with no CamAutomat used in background*)
 	END_STRUCT;
 	MpAxisCouplingRecoveryParType : 	STRUCT 
 		Mode : McCamAutPrepRestartModeEnum; (* Mode of repositioning*)
-		Velocity : REAL; (* Maximum velocity [Measurement units/s]*)
-		Acceleration : REAL; (* Maximum acceleration [Measurement units/s²]*)
-		Deceleration : REAL; (* Maximum deceleration [Measurement units/s²]*)
+		Velocity : REAL := 10.0; (* Maximum velocity [Measurement units/s]*)
+		Acceleration : REAL := 50.0; (* Maximum acceleration [Measurement units/s²]*)
+		Deceleration : REAL := 50.0; (* Maximum deceleration [Measurement units/s²]*)
 		Jerk : REAL; (* Maximum jerk [Measurement units/s³]*)
 		Options : McAdvCamAutPrepRestartParType; (* Recovery optional parameters*)
 		MasterPositionOffset : LREAL; (*Master position offset used only for Recovery with no CamAutomat used in background*)
@@ -329,6 +329,7 @@ mcSWITCH_ON ... The direction of movement is not permitted to be changed during 
 		DriveSpecificHomingMode : SINT; (*Used for selecting the drive-specific homing method. McDS402Ax only*)
 		SensorOffset : LREAL; (*Sensor offset [measurement units]*)
 		SensorOffsetDirection : McDirectionEnum; (*Direction for sensor offset movement*)
+		DisableRestorePositionOnEnable : McSwitchEnum := mcSWITCH_OFF; (*Used for disabling RestorePosition homing regardless of other parametrization *)
 	END_STRUCT;
 	MpAxisStopAtPositionType : 	STRUCT 
 		Activate : BOOL; (*Option to move to defined position before stop*)
@@ -402,9 +403,9 @@ If this output is active, the torque setpoint on the motor is automatically adju
 	MpAxisMoveCyclicPositionParType : 	STRUCT 
 		InterpolationMode : McIplModeEnum; (*Interpolation mode for the received value*)
 		Velocity : REAL; (*Maximum velocity [measurement units/s]*)
-		Acceleration : REAL; (*Maximum acceleration [measurement units/s�]*)
-		Deceleration : REAL; (*Maximum deceleration [measurement units/s�]*)
-		Jerk : REAL; (*Maximum jerk [measurement units/s�]*)
+		Acceleration : REAL; (*Maximum acceleration [measurement units/s²]*)
+		Deceleration : REAL; (*Maximum deceleration [measurement units/s²]*)
+		Jerk : REAL; (*Maximum jerk [measurement units/s³]*)
 		DisableJoltLimitation : McSwitchEnum; (*mcSWITCH_OFF ... Jerk limitation on the drive is active.
 mcSWITCH_ON ... Jerk limitation on the drive is disabled.
 Note:
@@ -421,9 +422,9 @@ Axis feature Alternative value source must be used to use an alternative source.
 	MpAxisMoveCyclicVelocityParType : 	STRUCT 
 		Mode : MpAxisMoveCyclicVelocityModeEnum; (*Mode for MoveCyclicVelocity command*)
 		InterpolationMode : McIplModeEnum; (*Interpolation mode for the received value*)
-		Acceleration : REAL; (*Maximum acceleration [measurement units/s�]*)
-		Deceleration : REAL; (*Maximum deceleration [measurement units/s�]*)
-		Jerk : REAL; (*Maximum jerk [measurement units/s�]*)
+		Acceleration : REAL; (*Maximum acceleration [measurement units/s²]*)
+		Deceleration : REAL; (*Maximum deceleration [measurement units/s²]*)
+		Jerk : REAL; (*Maximum jerk [measurement units/s³]*)
 		DisableJoltLimitation : McSwitchEnum; (*mcSWITCH_OFF ... Jerk limitation on the drive is active.
 mcSWITCH_ON ... Jerk limitation on the drive is disabled.
 Note:
@@ -446,12 +447,12 @@ To disable, either set a high value or use "AdvancedParameters.VelocityLimitOff"
 Note: 
 This value can be negative, "0" or positive, but "MaximumVelocity" must always be greater than "MinimumVelocity".
 To disable, either set a low value (strongly negative) or use "AdvancedParameters.VelocityLimitOff". *)
-		Acceleration : REAL; (*Maximum acceleration [measurement units/s�]
-or maximum deceleration when changing "MaximumVelocity" or "MinimumVelocity" [measurement units/s�] 
+		Acceleration : REAL; (*Maximum acceleration [measurement units/s²]
+or maximum deceleration when changing "MaximumVelocity" or "MinimumVelocity" [measurement units/s²] 
 Note:
 The value is not necessarily reached during operation.
 If value "0", "<0" or ">Limit value" is specified on this input, the limit value of the axis (Movement limits - Acceleration) is used.*)
-		Jerk : REAL; (*Maximum jerk [measurement units/s�]
+		Jerk : REAL; (*Maximum jerk [measurement units/s³]
 Note:
 Jerk is currently not supported. Parameter "Jerk" must be 0.0.*)
 		Options : McAdvBrTorqueControlParType; (*Structure for using advanced functions

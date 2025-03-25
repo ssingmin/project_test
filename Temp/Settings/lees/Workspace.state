@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="C:\projects\project_test\Logical\Source\SuperTrak\ST_Main\Main.st" CaretLine="15" CaretColumn="46" FirstVisibleLine="19">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\projects\project_test\Logical\Source\SuperTrak\ST_Logic\PalletControl.st" CaretLine="31" CaretColumn="17" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+</State>

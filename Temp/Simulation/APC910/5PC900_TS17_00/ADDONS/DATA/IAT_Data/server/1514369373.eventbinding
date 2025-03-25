@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentTemperatures">
+    <EventBinding>
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentTemperatures_Button1" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::ST_Logic:CountUp">
+            <Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentTemperatures">
+    <EventBinding>
+		<Source type="widgets.brease.Button.Event" event="Click" refId="ContentTemperatures_Button2" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:CountDown">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="ContentSTAlarmPage">
+    <EventBinding>
+		<Source type="widgets.brease.Button.Event" event="Click" refId="ContentSTAlarmPage_Button1" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:CountUpAlarm">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="ContentSTAlarmPage">
+    <EventBinding>
+		<Source type="widgets.brease.Button.Event" event="Click" refId="ContentSTAlarmPage_Button2" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:CountDownAlarm">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="ShuttleConfigPageContent">
+    <EventBinding>
+		<Source type="widgets.brease.Button.Event" event="Click" refId="ShuttleConfigPageContent_Button1" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:CountUpShuttle">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="ShuttleConfigPageContent">
+    <EventBinding>
+		<Source type="widgets.brease.Button.Event" event="Click" refId="ShuttleConfigPageContent_Button2" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:CountDownShuttle">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="ContentAlarmX">
+    <EventBinding>
+		<Source type="widgets.brease.Button.Event" event="Click" refId="ContentAlarmX_Button1" />
+		<EventHandler>
+			<Action>
+				<Target type="widgets.brease.AlarmList.Action" refId="ContentAlarmX_AlarmList1">
+					<Method type="widgets.brease.AlarmList.Action.Acknowledge" />
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="ContentAlarmX">
+    <EventBinding>		
+		<Source type="widgets.brease.Button.Event" event="Click" refId="ContentAlarmX_Button2" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:SaveHistory">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="AntiSloshConfigPageContent">
+    <EventBinding>		
+		<Source type="widgets.brease.Button.Event" event="Click" refId="AntiSloshConfigPageContent_BtnRectangle" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:ContainerShape">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+  <Content id="AntiSloshConfigPageContent">
+    <EventBinding>		
+		<Source type="widgets.brease.Button.Event" event="Click" refId="AntiSloshConfigPageContent_BtnCylinder" />
+		<EventHandler>
+			<Action>
+				<Target type="opcUa.NodeAction" refId="::ST_Logic:ContainerShape">
+					<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  </Content>
+</EventBindingDefinition>

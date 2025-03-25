@@ -13,7 +13,7 @@ PROGRAM _INIT
 // SuperTrak initialization	
 	IF DiagCpuIsARsim() THEN
 		(* This path can be customized as needed *)
-		StoragePath := '/DEVICE=C:\Temp\SuperTrakUser';
+		StoragePath := '/DEVICE=.\UserFiles';
 	ELSE
 		(* CFast card USER partition *)
 		StoragePath := '/DEVICE=F:\';
