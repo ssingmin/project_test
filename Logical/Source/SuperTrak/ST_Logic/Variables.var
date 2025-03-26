@@ -4,7 +4,7 @@
 VAR CONSTANT
 	CONFIG_ST_MAX_COMMANDS : USINT := 48; (*Maximum number of commands*)
 	CONFIG_ST_MAX_PALLETS : USINT := 24; (*Maximum number of shuttles*)
-	CONFIG_ST_MAX_SECTIONS : USINT := 4; (*Maximum number of sections*)
+	CONFIG_ST_MAX_SECTIONS : USINT := 8; (*Maximum number of sections*)
 	CONFIG_ST_MAX_SECTIONS_MINUS_ONE : USINT := CONFIG_ST_MAX_SECTIONS-1; (*Maximum number of sections minus one*)
 	CONFIG_ST_MAX_TARGETS : USINT := 48; (*Maximum number of targets*)
 	CONFIG_USED_TARGETS : USINT := 6; (*Used targets on the system*)
@@ -74,7 +74,7 @@ VAR
 	Position : DINT; (*Position of the axis to calculate shuttle position*)
 END_VAR
 VAR CONSTANT
-	SectionLength : ARRAY[1..CONFIG_ST_MAX_SECTIONS] OF DINT := [1000000,1030000,1000000,1030000]; (*Length of every section*)
+	SectionLength : ARRAY[1..CONFIG_ST_MAX_SECTIONS] OF DINT := [1000,2(1009795),2(1000),2(1009795),1000]; (*Length of every section*)
 END_VAR
 VAR
 	CncUpdatePosition : DINT; (*Position of the shuttle on the section*)

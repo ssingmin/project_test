@@ -3130,12 +3130,12 @@
 					</Folder>
 				</Folder>
 			</Folder>
-			<Folder Name="OPCUA" ProjectDependent="1">
-				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
-					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="3976" HashValue="9EA8CB00E74BFB4114148AFFA1D534B9" ProjectDependent="1"/>
+			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
+				<Folder Name="NodeSet" ProjectDependent="1">
+					<Folder Name="Generated" ProjectDependent="1">
+						<File Name="OpcUaMap.uar.gz" Size="4394" HashValue="B0063F319F3D3EF92C81BAEE682F2A6B" ProjectDependent="1"/>
 					</Folder>
-					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
+					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>
 						<File Name="plc.br.pv.uanodeset" Size="7103" HashValue="682E7CDF6F09940F70D6CA1CC158D516" ProjectDependent="1"/>
 						<File Name="plc.plcopen.pv.uanodeset" Size="19824" HashValue="0ACC12204AA326E4FC509E697ACBB201" ProjectDependent="1"/>
